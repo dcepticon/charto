@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/org/charto/app">
+    <file alias="qmldir">/home/fibrely/charto-testing/charto/target/release/build/charto-app-8bff32652384edff/out/qt-build-utils/qml_modules/org/charto/app/qmldir</file>
+    <file alias="qml/main.qml">/home/fibrely/charto-testing/charto/crates/charto-app/qml/main.qml</file>
+  </qresource>
+</RCC>

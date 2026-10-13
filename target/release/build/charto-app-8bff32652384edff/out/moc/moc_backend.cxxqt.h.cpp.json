@@ -1,0 +1,644 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "ChartBackend"
+                }
+            ],
+            "className": "ChartBackend",
+            "lineNumber": 42,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 6,
+                    "isConst": true,
+                    "lineNumber": 63,
+                    "name": "paletteJson",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rows",
+                            "type": "::std::int32_t"
+                        },
+                        {
+                            "name": "cols",
+                            "type": "::std::int32_t"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 64,
+                    "name": "newChart",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 8,
+                    "lineNumber": 65,
+                    "name": "openFile",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 9,
+                    "lineNumber": 66,
+                    "name": "saveFile",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 10,
+                    "lineNumber": 67,
+                    "name": "setActiveSymbol",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "hex",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 11,
+                    "lineNumber": 68,
+                    "name": "setColor",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "hex",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 12,
+                    "lineNumber": 69,
+                    "name": "addColor",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "mode",
+                            "type": "::std::int32_t"
+                        }
+                    ],
+                    "index": 13,
+                    "lineNumber": 70,
+                    "name": "setMode",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "::std::int32_t"
+                        },
+                        {
+                            "name": "col",
+                            "type": "::std::int32_t"
+                        }
+                    ],
+                    "index": 14,
+                    "lineNumber": 71,
+                    "name": "clickCell",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "col",
+                            "type": "::std::int32_t"
+                        },
+                        {
+                            "name": "row",
+                            "type": "::std::int32_t"
+                        },
+                        {
+                            "name": "num_cols",
+                            "type": "::std::int32_t"
+                        },
+                        {
+                            "name": "num_rows",
+                            "type": "::std::int32_t"
+                        }
+                    ],
+                    "index": 15,
+                    "lineNumber": 72,
+                    "name": "selectRect",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "::std::int32_t"
+                        }
+                    ],
+                    "index": 16,
+                    "lineNumber": 73,
+                    "name": "selectRow",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "col",
+                            "type": "::std::int32_t"
+                        }
+                    ],
+                    "index": 17,
+                    "lineNumber": 74,
+                    "name": "selectColumn",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 18,
+                    "lineNumber": 75,
+                    "name": "clearSelection",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 19,
+                    "lineNumber": 76,
+                    "name": "applyColor",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 20,
+                    "lineNumber": 77,
+                    "name": "undo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 21,
+                    "lineNumber": 78,
+                    "name": "redo",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 22,
+                    "lineNumber": 79,
+                    "name": "copy",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "col",
+                            "type": "::std::int32_t"
+                        },
+                        {
+                            "name": "row",
+                            "type": "::std::int32_t"
+                        }
+                    ],
+                    "index": 23,
+                    "lineNumber": 80,
+                    "name": "paste",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "num",
+                            "type": "::std::int32_t"
+                        },
+                        {
+                            "name": "above",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 24,
+                    "lineNumber": 81,
+                    "name": "insertRows",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 25,
+                    "lineNumber": 82,
+                    "name": "deleteRows",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "num",
+                            "type": "::std::int32_t"
+                        },
+                        {
+                            "name": "left",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 26,
+                    "lineNumber": 83,
+                    "name": "insertColumns",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 27,
+                    "lineNumber": 84,
+                    "name": "deleteColumns",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "multiplicity",
+                            "type": "::std::int32_t"
+                        }
+                    ],
+                    "index": 28,
+                    "lineNumber": 85,
+                    "name": "addRowRepeat",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 29,
+                    "lineNumber": 86,
+                    "name": "deleteRowRepeat",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 30,
+                    "isConst": true,
+                    "lineNumber": 87,
+                    "name": "hasRecovery",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 31,
+                    "lineNumber": 88,
+                    "name": "openRecovery",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 32,
+                    "lineNumber": 89,
+                    "name": "autosave",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 33,
+                    "lineNumber": 90,
+                    "name": "endSession",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 34,
+                    "lineNumber": 91,
+                    "name": "clearRecentFiles",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "::std::int32_t"
+                        },
+                        {
+                            "name": "col",
+                            "type": "::std::int32_t"
+                        }
+                    ],
+                    "index": 35,
+                    "lineNumber": 92,
+                    "name": "selectSameColor",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "::std::int32_t"
+                        },
+                        {
+                            "name": "col",
+                            "type": "::std::int32_t"
+                        }
+                    ],
+                    "index": 36,
+                    "lineNumber": 93,
+                    "name": "selectSameSymbol",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "::std::int32_t"
+                        },
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 37,
+                    "lineNumber": 94,
+                    "name": "setRowLabel",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "col",
+                            "type": "::std::int32_t"
+                        },
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 38,
+                    "lineNumber": 95,
+                    "name": "setColumnLabel",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 39,
+                    "isConst": true,
+                    "lineNumber": 96,
+                    "name": "settingsJson",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "json",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 40,
+                    "lineNumber": 97,
+                    "name": "applySettings",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 41,
+                    "lineNumber": 98,
+                    "name": "exportSvg",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 42,
+                    "isConst": true,
+                    "lineNumber": 99,
+                    "name": "printTempPath",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "png_path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 43,
+                    "lineNumber": 100,
+                    "name": "printImage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "purpose",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "current",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 44,
+                    "lineNumber": 101,
+                    "name": "chooseFile",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 45,
+                    "lineNumber": 102,
+                    "name": "reportStatus",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 47,
+                    "name": "snapshot",
+                    "notify": "snapshotChanged",
+                    "read": "getSnapshot",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setSnapshot"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 48,
+                    "name": "status",
+                    "notify": "statusChanged",
+                    "read": "getStatus",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setStatus"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 49,
+                    "name": "picked",
+                    "notify": "pickedChanged",
+                    "read": "getPicked",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setPicked"
+                }
+            ],
+            "qualifiedClassName": "ChartBackend",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 60,
+                    "name": "snapshotChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 61,
+                    "name": "statusChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 62,
+                    "name": "pickedChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 55,
+                    "name": "setSnapshot",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 57,
+                    "name": "setStatus",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 59,
+                    "name": "setPicked",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "private",
+                    "name": "::rust::cxxqt1::CxxQtType<ChartBackendRust>"
+                },
+                {
+                    "access": "private",
+                    "name": "::rust::cxxqt1::CxxQtThreading<ChartBackend>"
+                }
+            ]
+        }
+    ],
+    "inputFile": "backend.cxxqt.h",
+    "outputRevision": 69
+}
