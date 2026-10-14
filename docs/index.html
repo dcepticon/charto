@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Charto – knitting chart designer for Linux</title>
+<meta name="description" content="Charto designs knitting charts: place stitch symbols on a grid, colour cells, number rows, then print or export. Free, and opens sconcho .spf files.">
+<style>
+:root {
+  --paper: #eef3f7; --grid: #c6d6e3; --ink: #1b2a3a; --muted: #4a5d70;
+  --accent: #b8325a; --accent-ink: #fff; --tint: #cfe6e8; --panel: #ffffff;
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #14202b; --grid: #243a50; --ink: #e8eef3; --muted: #9fb2c4;
+    --accent: #e0709a; --accent-ink: #14202b; --tint: #1f4a52; --panel: #1b2b3a;
+  }
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); }
+body {
+  margin: 0; color: var(--ink); font: 1.0625rem/1.6 var(--sans);
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 24px 24px; background-position: -1px -1px;
+}
+a { color: inherit; text-underline-offset: 3px; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.wrap { max-width: 62rem; margin: 0 auto; padding: 0 1.25rem; }
+.band { background: var(--paper); }
+h1, h2 { font-family: var(--serif); line-height: 1.15; margin: 0 0 .6rem; font-weight: 700; }
+h1 { font-size: clamp(3rem, 9vw, 5.5rem); letter-spacing: -.02em; }
+h2 { font-size: 1.9rem; }
+p { margin: 0 0 1rem; max-width: 40rem; }
+
+.hero { display: grid; gap: 2rem; align-items: center; padding: 3.5rem 0 3rem; grid-template-columns: 1fr; }
+@media (min-width: 52rem) { .hero { grid-template-columns: 1.1fr 1fr; } }
+.hero .lede { font-family: var(--serif); font-size: 1.35rem; line-height: 1.45; color: var(--ink); }
+.chart { width: 100%; max-width: 26rem; justify-self: center; background: var(--paper); border: 2px solid var(--ink); }
+.chart .cell { fill: var(--paper); stroke: var(--grid); stroke-width: 1; }
+.chart .tint { fill: var(--tint); }
+.chart .sym { stroke: var(--ink); stroke-width: 2; fill: none; stroke-linecap: round; }
+.chart .dot { fill: var(--ink); }
+
+.button {
+  display: inline-block; background: var(--accent); color: var(--accent-ink); text-decoration: none;
+  font-weight: 700; padding: .75rem 1.4rem; border-radius: 6px; border: 2px solid var(--accent);
+}
+.button:hover { filter: brightness(1.08); }
+.button.quiet { background: transparent; color: var(--ink); border-color: var(--ink); }
+
+section { padding: 2.5rem 0; }
+.panel { background: var(--panel); border: 2px solid var(--ink); padding: 1.5rem; }
+#status { color: var(--muted); }
+.files { list-style: none; margin: 1rem 0 0; padding: 0; }
+.files li {
+  display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: center; justify-content: space-between;
+  padding: .9rem 0; border-top: 1px solid var(--grid);
+}
+.files .name { font-weight: 700; }
+.files .meta { display: block; color: var(--muted); font-size: .9rem; overflow-wrap: anywhere; }
+details { border-top: 1px solid var(--grid); padding: .75rem 0; }
+details:last-child { border-bottom: 1px solid var(--grid); }
+summary { cursor: pointer; font-weight: 700; }
+code, pre { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: .92rem; }
+pre { background: var(--paper); border: 1px solid var(--grid); padding: .75rem 1rem; overflow-x: auto; margin: .75rem 0 .25rem; }
+.features { columns: 2 18rem; column-gap: 2rem; padding-left: 1.1rem; margin: 0; max-width: 46rem; }
+.features li { margin-bottom: .6rem; break-inside: avoid; }
+footer { padding: 2rem 0 3rem; color: var(--muted); font-size: .95rem; }
+footer p { max-width: 46rem; }
+</style>
+</head>
+<body>
+<header class="band">
+  <div class="wrap hero">
+    <div>
+      <h1>Charto</h1>
+      <p class="lede">Design knitting charts on your computer. Place stitch symbols on a grid, colour the cells, number the rows, then print the chart or export it as an image.</p>
+      <p><a class="button" href="#download">Download Charto</a></p>
+    </div>
+    <svg class="chart" id="chart" viewBox="0 0 288 144" role="img" aria-label="A small lace knitting chart drawn with Charto's stitch symbols"></svg>
+  </div>
+</header>
+
+<main>
+  <div class="band"><div class="wrap"><section id="download">
+    <h2>Download</h2>
+    <div class="panel">
+      <p id="status">Looking for the latest version…</p>
+      <ul class="files" id="files"></ul>
+      <p id="fallback" hidden>The download list could not be loaded. <a href="https://github.com/dcepticon/charto/releases/latest">Open the releases page</a> and pick a file there.</p>
+    </div>
+  </section></div></div>
+
+  <div class="band"><div class="wrap"><section>
+    <h2>How to install</h2>
+    <p>Download the file for your system above, then open a terminal in the folder where it was saved (usually Downloads).</p>
+    <details open>
+      <summary>Ubuntu</summary>
+      <p>Each Ubuntu release needs its own file, because Charto is built against that release's Qt. Pick the one that names your version.</p>
+      <pre>sudo apt install ./charto_*.deb</pre>
+    </details>
+    <details>
+      <summary>Fedora</summary>
+      <pre>sudo dnf install ./charto-*.rpm</pre>
+    </details>
+    <details>
+      <summary>Any Linux (Flatpak)</summary>
+      <p>Works on every distribution and does not depend on your Qt version.</p>
+      <pre>flatpak install --user charto.flatpak
+flatpak run org.charto.Charto</pre>
+    </details>
+    <p style="margin-top:1rem">Afterwards Charto appears in your application menu, and double-clicking a <code>.spf</code> pattern file opens it.</p>
+  </section></div></div>
+
+  <div class="band"><div class="wrap"><section>
+    <h2>What it does</h2>
+    <ul class="features">
+      <li>88 stitch symbols, including cables, grouped by kind, with a row of recently used ones.</li>
+      <li>Colour any cell, select by rubber band, row or column, and hide cells you do not need.</li>
+      <li>Row and column numbers, row repeats, and tinted alternate rows.</li>
+      <li>Unlimited undo and redo, copy and paste, insert and delete rows and columns.</li>
+      <li>Print through your desktop's own print dialog, or export as a PNG image or an SVG drawing.</li>
+      <li>Opens and saves sconcho <code>.spf</code> pattern files, so your old patterns keep working.</li>
+    </ul>
+  </section></div></div>
+</main>
+
+<footer class="band">
+  <div class="wrap">
+    <p>Charto is free software under the GNU General Public License, version 3 or later. It is a port of <a href="https://github.com/craftoid/sconcho">sconcho</a>, the knitting chart designer by Markus Dittrich, and uses its symbol library.</p>
+    <p>Made by Claude and Fibrely Designs. Questions: <a href="mailto:info@fibrely.com">info@fibrely.com</a>. <a href="https://github.com/dcepticon/charto">Source code on GitHub</a>.</p>
+  </div>
+</footer>
+
+<script>
+// ---- the chart in the header: . knit, p purl, o yarn over, / and \ decreases
+(function () {
+  var rows = [".o/......\\o.", "pppppppppppp", "o/......\\o..", "pppppppppppp", ".o/......\\o.", "pppppppppppp"];
+  var ns = "http://www.w3.org/2000/svg", size = 24, svg = document.getElementById("chart");
+  function el(name, attrs, cls) {
+    var e = document.createElementNS(ns, name);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (cls) e.setAttribute("class", cls);
+    svg.appendChild(e);
+  }
+  rows.forEach(function (row, r) {
+    row.split("").forEach(function (ch, c) {
+      var x = c * size, y = r * size;
+      el("rect", { x: x, y: y, width: size, height: size }, "cell" + (r % 2 === 0 && c > 3 && c < 8 ? " tint" : ""));
+      if (ch === "o") el("circle", { cx: x + 12, cy: y + 12, r: 6 }, "sym");
+      else if (ch === "p") el("circle", { cx: x + 12, cy: y + 12, r: 2.2 }, "dot");
+      else if (ch === "/") el("line", { x1: x + 5, y1: y + 19, x2: x + 19, y2: y + 5 }, "sym");
+      else if (ch === "\\") el("line", { x1: x + 5, y1: y + 5, x2: x + 19, y2: y + 19 }, "sym");
+    });
+  });
+})();
+
+// ---- the download list: whatever files are attached to the newest GitHub release
+(function () {
+  var status = document.getElementById("status"), list = document.getElementById("files");
+  var fallback = document.getElementById("fallback");
+  function fail() { status.textContent = ""; fallback.hidden = false; }
+  function describe(name) {
+    var ubuntu = name.match(/~ubuntu(\d+\.\d+)/);
+    if (/\.deb$/.test(name)) return ubuntu ? "Ubuntu " + ubuntu[1] : "Debian and Ubuntu";
+    if (/\.rpm$/.test(name)) return "Fedora";
+    if (/\.flatpak$/.test(name)) return "Any Linux (Flatpak)";
+    return null;
+  }
+  fetch("https://api.github.com/repos/dcepticon/charto/releases/latest", { headers: { Accept: "application/vnd.github+json" } })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (rel) {
+      var found = 0;
+      (rel.assets || []).forEach(function (a) {
+        var label = describe(a.name);
+        if (!label) return;
+        found++;
+        var li = document.createElement("li"), text = document.createElement("div");
+        var name = document.createElement("span"), meta = document.createElement("span");
+        name.className = "name"; name.textContent = label;
+        meta.className = "meta"; meta.textContent = a.name + " (" + (a.size / 1048576).toFixed(1) + " MB)";
+        text.appendChild(name); text.appendChild(meta);
+        var link = document.createElement("a");
+        link.className = "button quiet"; link.href = a.browser_download_url;
+        link.textContent = "Download"; link.setAttribute("aria-label", "Download " + label);
+        li.appendChild(text); li.appendChild(link); list.appendChild(li);
+      });
+      if (!found) return fail();
+      var date = rel.published_at ? new Date(rel.published_at).toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" }) : "";
+      status.textContent = "Latest version: " + (rel.name || rel.tag_name) + (date ? ", released " + date : "") + ".";
+    })
+    .catch(fail);
+})();
+</script>
+</body>
+</html>
