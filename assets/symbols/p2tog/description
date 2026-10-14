@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sconcho>
+  <knittingSymbol>
+    <svgName>p2tog</svgName>  
+    <category>decreases:3</category>
+    <symbolName>p2tog</symbolName>
+    <symbolDescription>Purl 2 together</symbolDescription>
+    <symbolWidth>1</symbolWidth>
+  </knittingSymbol>
+</sconcho>
+

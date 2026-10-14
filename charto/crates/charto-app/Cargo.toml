@@ -1,0 +1,24 @@
+[package]
+name = "charto-app"
+description = "Charto: knitting chart designer (Rust + Qt 6), a port of sconcho"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "charto"
+path = "src/main.rs"
+
+[dependencies]
+cxx = "1.0.95"
+cxx-qt = "0.10"
+cxx-qt-lib = { version = "0.10", features = ["qt_full"] }
+charto-core = { path = "../charto-core" }
+# freedesktop portals: Print (org.freedesktop.portal.Print) and FileChooser (open/save/export dialogs);
+# async-io so no tokio runtime is needed
+ashpd = { version = "0.13", default-features = false, features = ["async-io", "print", "file_chooser"] }
+pollster = "0.4"
+
+[build-dependencies]
+# link_qt_object_files is needed for statically linked Qt; harmless otherwise
+cxx-qt-build = { version = "0.10", features = ["link_qt_object_files"] }

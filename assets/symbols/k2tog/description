@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sconcho>
+  <knittingSymbol>
+    <svgName>k2tog</svgName>
+    <category>decreases:1</category>
+    <symbolName>k2tog</symbolName>
+    <symbolDescription>Knit 2 together</symbolDescription>
+    <symbolWidth>1</symbolWidth>
+  </knittingSymbol>
+</sconcho>
