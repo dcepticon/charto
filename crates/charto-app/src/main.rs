@@ -3,6 +3,7 @@
 pub mod backend;
 pub mod filedialog;
 pub mod print;
+pub mod translations;
 
 use cxx_qt_lib::{QGuiApplication, QQmlApplicationEngine, QUrl};
 

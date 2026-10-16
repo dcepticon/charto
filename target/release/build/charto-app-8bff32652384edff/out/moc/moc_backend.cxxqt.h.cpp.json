@@ -463,6 +463,28 @@
                     "access": "public",
                     "arguments": [
                         {
+                            "name": "text",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 43,
+                    "isConst": true,
+                    "lineNumber": 100,
+                    "name": "translate",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 44,
+                    "isConst": true,
+                    "lineNumber": 101,
+                    "name": "startupFile",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
                             "name": "png_path",
                             "type": "QString"
                         },
@@ -471,8 +493,8 @@
                             "type": "QString"
                         }
                     ],
-                    "index": 43,
-                    "lineNumber": 100,
+                    "index": 45,
+                    "lineNumber": 102,
                     "name": "printImage",
                     "returnType": "void"
                 },
@@ -488,8 +510,8 @@
                             "type": "QString"
                         }
                     ],
-                    "index": 44,
-                    "lineNumber": 101,
+                    "index": 46,
+                    "lineNumber": 103,
                     "name": "chooseFile",
                     "returnType": "void"
                 },
@@ -501,8 +523,8 @@
                             "type": "QString"
                         }
                     ],
-                    "index": 45,
-                    "lineNumber": 102,
+                    "index": 47,
+                    "lineNumber": 104,
                     "name": "reportStatus",
                     "returnType": "void"
                 }

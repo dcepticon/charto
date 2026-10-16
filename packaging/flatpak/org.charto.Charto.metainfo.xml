@@ -5,10 +5,13 @@
   <project_license>GPL-3.0-or-later</project_license>
   <name>Charto</name>
   <summary>Design knitting charts and patterns</summary>
+  <developer id="org.charto">
+    <name>Claude and Fibrely Designs</name>
+  </developer>
   <description>
     <p>
       Charto is a knitting chart designer. Place stitch symbols on a grid, colour cells,
-      repeat rows, number rows and columns, and print or export the finished chart as an
+      repeat rows, number rows and stitches, and print or export the finished chart as an
       image or a vector drawing.
     </p>
     <p>
@@ -16,6 +19,9 @@
       in Rust with a Qt 6 interface.
     </p>
   </description>
+  <url type="homepage">https://dcepticon.github.io/charto/</url>
+  <url type="vcs-browser">https://github.com/dcepticon/charto</url>
+  <url type="bugtracker">https://github.com/dcepticon/charto/issues</url>
   <launchable type="desktop-id">org.charto.Charto.desktop</launchable>
   <provides>
     <binary>charto</binary>

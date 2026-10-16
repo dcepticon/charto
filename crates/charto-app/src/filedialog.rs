@@ -11,6 +11,7 @@ use std::path::Path;
 use std::sync::atomic::{AtomicU32, Ordering};
 
 use ashpd::desktop::file_chooser::{FileFilter, SelectedFiles};
+use crate::translations::translate as tr;
 use charto_core::fileuri::{
     existing_folder_of, file_uri_to_path, outcome_json, suggested_name, DialogOutcome,
 };
@@ -20,7 +21,7 @@ static SEQUENCE: AtomicU32 = AtomicU32::new(1);
 const PATTERN_MIME: &str = "application/x-charto-pattern";
 
 fn pattern_filter() -> FileFilter {
-    FileFilter::new("Charto patterns (*.spf)")
+    FileFilter::new(&tr("Charto patterns (*.spf)"))
         .mimetype(PATTERN_MIME)
         .glob("*.spf")
         .glob("*.SPF")
@@ -43,12 +44,14 @@ fn not_answered(error: ashpd::Error) -> DialogOutcome {
 }
 
 async fn open_dialog(folder: Option<&Path>) -> Result<SelectedFiles, DialogOutcome> {
+    let title = tr("Open pattern");
+    let accept_label = tr("Open");
     let mut request = SelectedFiles::open_file()
-        .title("Open pattern")
-        .accept_label("Open")
+        .title(title.as_str())
+        .accept_label(accept_label.as_str())
         .modal(true)
         .filter(pattern_filter())
-        .filter(FileFilter::new("All files").glob("*"));
+        .filter(FileFilter::new(&tr("All files (*)")).glob("*"));
     if let Some(dir) = folder {
         request = request.current_folder(dir).map_err(unavailable)?;
     }
@@ -86,15 +89,15 @@ async fn choose(purpose: &str, current: &str) -> DialogOutcome {
     let answer = match purpose {
         "open" => open_dialog(folder).await,
         "save" => {
-            save_dialog("Save pattern", "Save", &suggested_name(current, "spf"), pattern_filter(), folder).await
+            save_dialog(&tr("Save pattern"), &tr("Save"), &suggested_name(current, "spf"), pattern_filter(), folder).await
         }
         "exportPng" => {
-            let filter = FileFilter::new("PNG images (*.png)").mimetype("image/png").glob("*.png");
-            save_dialog("Export as PNG image", "Export", &suggested_name(current, "png"), filter, folder).await
+            let filter = FileFilter::new(&tr("PNG images (*.png)")).mimetype("image/png").glob("*.png");
+            save_dialog(&tr("Export as PNG image"), &tr("Export"), &suggested_name(current, "png"), filter, folder).await
         }
         "exportSvg" => {
-            let filter = FileFilter::new("SVG drawings (*.svg)").mimetype("image/svg+xml").glob("*.svg");
-            save_dialog("Export as SVG drawing", "Export", &suggested_name(current, "svg"), filter, folder).await
+            let filter = FileFilter::new(&tr("SVG drawings (*.svg)")).mimetype("image/svg+xml").glob("*.svg");
+            save_dialog(&tr("Export as SVG drawing"), &tr("Export"), &suggested_name(current, "svg"), filter, folder).await
         }
         other => return DialogOutcome::Unavailable(format!("unknown dialog \"{other}\"")),
     };

@@ -9,6 +9,7 @@
 //! * [`labels`]      – row/column numbering and row highlighting.
 //! * [`config`]      – per-user files following the XDG base directory spec.
 //! * [`fileuri`]     – helpers for the desktop file dialogs (`file://` URIs, suggested names).
+//! * [`i18n`]        – translations from gettext `.po` files.
 //! * [`svg`]         – vector (SVG) export of a chart.
 //! * [`chart`]       – the editable chart: cells, selection, painting, copy/paste,
 //!                     row/column insert/delete, labels, row repeats.
@@ -20,6 +21,7 @@ pub mod chart;
 pub mod config;
 pub mod document;
 pub mod fileuri;
+pub mod i18n;
 pub mod geometry;
 pub mod labels;
 pub mod pdf;

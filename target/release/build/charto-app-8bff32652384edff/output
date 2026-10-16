@@ -1,18 +1,10 @@
 cargo::rerun-if-changed=src/backend.rs
-cxx-qt-build: Discovered dependency `cxx-qt` at: /home/fibrely/charto-testing/charto/target/release/build/cxx-qt-339a44c637ef68f5/out/cxxqtbuild/manifest.json
-cxx-qt-build: Discovered dependency `cxx-qt-lib` at: /home/fibrely/charto-testing/charto/target/release/build/cxx-qt-lib-147da1dd2515d659/out/cxxqtbuild/manifest.json
+cxx-qt-build: Discovered dependency `cxx-qt` at: /home/fibrely/charto/target/release/build/cxx-qt-339a44c637ef68f5/out/cxxqtbuild/manifest.json
+cxx-qt-build: Discovered dependency `cxx-qt-lib` at: /home/fibrely/charto/target/release/build/cxx-qt-lib-147da1dd2515d659/out/cxxqtbuild/manifest.json
 cargo::rustc-link-arg=-fuse-ld=lld
 cargo::rerun-if-env-changed=QMAKE
 cargo::rerun-if-env-changed=QT_VERSION_MAJOR
 cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
-cargo::rustc-link-lib=Qt6Network
-cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
-cargo::rustc-link-lib=Qt6Core
-cargo::rustc-link-lib=Qt6Qml
-cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
-cargo::rustc-link-lib=Qt6Network
-cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
-cargo::rustc-link-lib=Qt6Core
 cargo::rustc-link-lib=Qt6QuickControls2
 cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
 cargo::rustc-link-lib=Qt6Quick
@@ -30,6 +22,10 @@ cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
 cargo::rustc-link-lib=Qt6Network
 cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
 cargo::rustc-link-lib=Qt6Core
+cargo::rustc-link-lib=Qt6Core
+cargo::rustc-link-lib=Qt6Network
+cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
+cargo::rustc-link-lib=Qt6Core
 cargo::rustc-link-lib=Qt6Gui
 cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
 cargo::rustc-link-lib=Qt6Core
@@ -37,6 +33,10 @@ cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
 cargo::rustc-link-lib=GLX
 cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
 cargo::rustc-link-lib=OpenGL
+cargo::rustc-link-lib=Qt6Qml
+cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
+cargo::rustc-link-lib=Qt6Network
+cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
 cargo::rustc-link-lib=Qt6Core
 cargo::rustc-check-cfg=cfg(cxxqt_qt_version_major, values("5", "6", "7"))
 cargo::rustc-cfg=cxxqt_qt_version_major="6"
@@ -356,19 +356,12 @@ cargo::rustc-cfg=cxxqt_qt_version_at_least_6_7
 cargo::rustc-cfg=cxxqt_qt_version_at_least_6_8
 cargo::rustc-cfg=cxxqt_qt_version_at_least_6_9
 cargo::rustc-cfg=cxxqt_qt_version_at_least_6_10
-cargo::rerun-if-changed=/home/fibrely/charto-testing/charto/crates/charto-app/
-cargo::rerun-if-changed=/home/fibrely/charto-testing/charto/crates/charto-app/qml
-cargo::rerun-if-changed=/home/fibrely/charto-testing/charto/crates/charto-app/src
-cargo::rerun-if-changed=/home/fibrely/charto-testing/charto/crates/charto-app/src/backend.rs
+cargo::rerun-if-changed=/home/fibrely/charto/crates/charto-app/
+cargo::rerun-if-changed=/home/fibrely/charto/crates/charto-app/qml
+cargo::rerun-if-changed=/home/fibrely/charto/crates/charto-app/po
+cargo::rerun-if-changed=/home/fibrely/charto/crates/charto-app/src
+cargo::rerun-if-changed=/home/fibrely/charto/crates/charto-app/src/backend.rs
 cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
-cargo::rustc-link-lib=Qt6Network
-cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
-cargo::rustc-link-lib=Qt6Core
-cargo::rustc-link-lib=Qt6Qml
-cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
-cargo::rustc-link-lib=Qt6Network
-cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
-cargo::rustc-link-lib=Qt6Core
 cargo::rustc-link-lib=Qt6QuickControls2
 cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
 cargo::rustc-link-lib=Qt6Quick
@@ -386,6 +379,10 @@ cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
 cargo::rustc-link-lib=Qt6Network
 cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
 cargo::rustc-link-lib=Qt6Core
+cargo::rustc-link-lib=Qt6Core
+cargo::rustc-link-lib=Qt6Network
+cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
+cargo::rustc-link-lib=Qt6Core
 cargo::rustc-link-lib=Qt6Gui
 cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
 cargo::rustc-link-lib=Qt6Core
@@ -393,6 +390,10 @@ cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
 cargo::rustc-link-lib=GLX
 cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
 cargo::rustc-link-lib=OpenGL
+cargo::rustc-link-lib=Qt6Qml
+cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
+cargo::rustc-link-lib=Qt6Network
+cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
 cargo::rustc-link-lib=Qt6Core
 cargo::rerun-if-changed=qml/main.qml
 cargo:rerun-if-env-changed=CC_FORCE_DISABLE
@@ -511,7 +512,7 @@ ARFLAGS_x86_64_unknown_linux_gnu = None
 cargo:rerun-if-env-changed=ARFLAGS_x86_64-unknown-linux-gnu
 ARFLAGS_x86_64-unknown-linux-gnu = None
 cargo:rustc-link-lib=static:+whole-archive=cxx-qt-call-init-qml_module_org_charto_app
-cargo:rustc-link-search=native=/home/fibrely/charto-testing/charto/target/release/build/charto-app-8bff32652384edff/out
+cargo:rustc-link-search=native=/home/fibrely/charto/target/release/build/charto-app-8bff32652384edff/out
 cargo:rerun-if-env-changed=CXXSTDLIB_x86_64-unknown-linux-gnu
 CXXSTDLIB_x86_64-unknown-linux-gnu = None
 cargo:rerun-if-env-changed=CXXSTDLIB_x86_64_unknown_linux_gnu
@@ -625,7 +626,7 @@ ARFLAGS_x86_64_unknown_linux_gnu = None
 cargo:rerun-if-env-changed=ARFLAGS_x86_64-unknown-linux-gnu
 ARFLAGS_x86_64-unknown-linux-gnu = None
 cargo:rustc-link-lib=static:+whole-archive=cxx-qt-call-init-crate_charto_app
-cargo:rustc-link-search=native=/home/fibrely/charto-testing/charto/target/release/build/charto-app-8bff32652384edff/out
+cargo:rustc-link-search=native=/home/fibrely/charto/target/release/build/charto-app-8bff32652384edff/out
 cargo:rerun-if-env-changed=CXXSTDLIB_x86_64-unknown-linux-gnu
 CXXSTDLIB_x86_64-unknown-linux-gnu = None
 cargo:rerun-if-env-changed=CXXSTDLIB_x86_64_unknown_linux_gnu
@@ -749,7 +750,7 @@ ARFLAGS_x86_64_unknown_linux_gnu = None
 cargo:rerun-if-env-changed=ARFLAGS_x86_64-unknown-linux-gnu
 ARFLAGS_x86_64-unknown-linux-gnu = None
 cargo:rustc-link-lib=static=charto-app-cxxqt-generated
-cargo:rustc-link-search=native=/home/fibrely/charto-testing/charto/target/release/build/charto-app-8bff32652384edff/out
+cargo:rustc-link-search=native=/home/fibrely/charto/target/release/build/charto-app-8bff32652384edff/out
 cargo:rerun-if-env-changed=CXXSTDLIB_x86_64-unknown-linux-gnu
 CXXSTDLIB_x86_64-unknown-linux-gnu = None
 cargo:rerun-if-env-changed=CXXSTDLIB_x86_64_unknown_linux_gnu

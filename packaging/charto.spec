@@ -7,7 +7,8 @@ Version:        3.1.0
 Release:        1%{?dist}
 Summary:        Knitting chart designer
 License:        GPL-3.0-or-later
-URL:            https://github.com/craftoid/sconcho
+URL:            https://dcepticon.github.io/charto/
+Packager:       Claude and Fibrely Designs <info@fibrely.com>
 Source0:        charto-%{version}.tar.gz
 Source1:        charto-%{version}-vendor.tar.gz
 
@@ -26,7 +27,7 @@ Recommends:     xdg-desktop-portal
 
 %description
 Charto designs knitting charts and patterns: place stitch symbols on a grid,
-colour cells, repeat rows, number rows and columns, and export or print the
+colour cells, repeat rows, number rows and stitches, and export or print the
 chart. It opens and saves sconcho (.spf) pattern files.
 
 Open, save and print use the desktop's own dialogs through the freedesktop
@@ -53,6 +54,9 @@ cp -a assets/symbols %{buildroot}%{_datadir}/charto/symbols
 install -Dm644 packaging/charto.desktop %{buildroot}%{_datadir}/applications/charto.desktop
 install -Dm644 packaging/charto.svg %{buildroot}%{_datadir}/icons/hicolor/scalable/apps/charto.svg
 install -Dm644 packaging/charto-mime.xml %{buildroot}%{_datadir}/mime/packages/charto.xml
+sed 's,<launchable type="desktop-id">org.charto.Charto.desktop</launchable>,<launchable type="desktop-id">charto.desktop</launchable>,' \
+  packaging/flatpak/org.charto.Charto.metainfo.xml > org.charto.Charto.metainfo.xml
+install -Dm644 org.charto.Charto.metainfo.xml %{buildroot}%{_datadir}/metainfo/org.charto.Charto.metainfo.xml
 
 %check
 desktop-file-validate %{buildroot}%{_datadir}/applications/charto.desktop
@@ -65,7 +69,8 @@ desktop-file-validate %{buildroot}%{_datadir}/applications/charto.desktop
 %{_datadir}/applications/charto.desktop
 %{_datadir}/icons/hicolor/scalable/apps/charto.svg
 %{_datadir}/mime/packages/charto.xml
+%{_datadir}/metainfo/org.charto.Charto.metainfo.xml
 
 %changelog
-* Tue Oct 13 2026 Charto packager <charto@localhost> - 3.1.0-1
+* Tue Oct 13 2026 Claude and Fibrely Designs <info@fibrely.com> - 3.1.0-1
 - Packaged with packaging/build-rpm.sh

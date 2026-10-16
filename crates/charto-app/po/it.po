@@ -1,0 +1,939 @@
+# Italian translation of the Charto interface.
+# Translated by Claude (an AI) and not yet reviewed by a native speaker: corrections are welcome.
+msgid ""
+msgstr ""
+"Project-Id-Version: Charto\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Charto pattern"
+msgstr "Schema Charto"
+
+msgid "Could not render the chart for printing"
+msgstr "Impossibile preparare lo schema per la stampa"
+
+msgid "Exported %1"
+msgstr "Esportato: %1"
+
+msgid "Could not write %1"
+msgstr "Impossibile scrivere %1"
+
+msgid "&File"
+msgstr "&File"
+
+msgid "&New…"
+msgstr "&Nuovo…"
+
+msgid "&Open…"
+msgstr "&Apri…"
+
+msgid "Open &Recent"
+msgstr "Apri &recenti"
+
+msgid "&Clear list"
+msgstr "&Svuota elenco"
+
+msgid "&Save"
+msgstr "&Salva"
+
+msgid "Save &As…"
+msgstr "Salva &come…"
+
+msgid "Export as &PNG…"
+msgstr "Esporta come &PNG…"
+
+msgid "Export as S&VG…"
+msgstr "Esporta come S&VG…"
+
+msgid "&Print…"
+msgstr "S&tampa…"
+
+msgid "&Quit"
+msgstr "&Esci"
+
+msgid "&Edit"
+msgstr "&Modifica"
+
+msgid "&Undo %1"
+msgstr "&Annulla: %1"
+
+msgid "&Undo"
+msgstr "&Annulla"
+
+msgid "&Redo %1"
+msgstr "&Ripeti: %1"
+
+msgid "&Redo"
+msgstr "&Ripeti"
+
+msgid "&Copy"
+msgstr "&Copia"
+
+msgid "&Paste into selection"
+msgstr "&Incolla nella selezione"
+
+msgid "Clear &selection"
+msgstr "Cancella &selezione"
+
+msgid "Apply colour to selection"
+msgstr "Applica il colore alla selezione"
+
+msgid "&Preferences…"
+msgstr "&Preferenze…"
+
+msgid "&Chart"
+msgstr "&Schema"
+
+msgid "Insert rows above…"
+msgstr "Inserisci righe sopra…"
+
+msgid "Insert rows below…"
+msgstr "Inserisci righe sotto…"
+
+msgid "Delete selected rows"
+msgstr "Elimina le righe selezionate"
+
+msgid "Insert stitches left…"
+msgstr "Inserisci maglie a sinistra…"
+
+msgid "Insert stitches right…"
+msgstr "Inserisci maglie a destra…"
+
+msgid "Delete selected stitches"
+msgstr "Elimina le maglie selezionate"
+
+msgid "Make selected rows a row repeat…"
+msgstr "Trasforma le righe selezionate in ripetizione…"
+
+msgid "Delete row repeat"
+msgstr "Elimina ripetizione di righe"
+
+msgid "&View"
+msgstr "&Visualizza"
+
+msgid "Zoom &in"
+msgstr "Zoom &avanti"
+
+msgid "Zoom &out"
+msgstr "Zoom &indietro"
+
+msgid "&Reset zoom"
+msgstr "&Reimposta zoom"
+
+msgid "Open pattern"
+msgstr "Apri schema"
+
+msgid "Charto patterns (*.spf)"
+msgstr "Schemi Charto (*.spf)"
+
+msgid "All files (*)"
+msgstr "Tutti i file (*)"
+
+msgid "Save pattern"
+msgstr "Salva schema"
+
+msgid "Choose a colour"
+msgstr "Scegli un colore"
+
+msgid "Export as PNG image"
+msgstr "Esporta come immagine PNG"
+
+msgid "PNG images (*.png)"
+msgstr "Immagini PNG (*.png)"
+
+msgid "Export as SVG drawing"
+msgstr "Esporta come disegno SVG"
+
+msgid "SVG drawings (*.svg)"
+msgstr "Disegni SVG (*.svg)"
+
+msgid "Unsaved changes"
+msgstr "Modifiche non salvate"
+
+msgid "The pattern has unsaved changes. Save them first?"
+msgstr "Lo schema ha modifiche non salvate. Salvarle prima?"
+
+msgid "Recovered changes"
+msgstr "Modifiche recuperate"
+
+msgid "Charto found unsaved changes to this pattern from an earlier session. Open the recovered version?"
+msgstr "Charto ha trovato modifiche non salvate di questo schema da una sessione precedente. Aprire la versione recuperata?"
+
+msgid "Row label"
+msgstr "Etichetta della riga"
+
+msgid "Stitch label"
+msgstr "Etichetta della maglia"
+
+msgid "Row highlight colour"
+msgstr "Colore di evidenziazione delle righe"
+
+msgid "Preferences"
+msgstr "Preferenze"
+
+msgid "Chart"
+msgstr "Schema"
+
+msgid "Cell width (pixels)"
+msgstr "Larghezza cella (pixel)"
+
+msgid "Cell height (pixels)"
+msgstr "Altezza cella (pixel)"
+
+msgid "Row labels"
+msgstr "Etichette delle righe"
+
+msgid "Show"
+msgstr "Mostra"
+
+msgid "All rows"
+msgstr "Tutte le righe"
+
+msgid "Every n-th row"
+msgstr "Una riga ogni n"
+
+msgid "Odd rows"
+msgstr "Righe dispari"
+
+msgid "Even rows"
+msgstr "Righe pari"
+
+msgid "Number of the bottom row"
+msgstr "Numero della riga inferiore"
+
+msgid "Interval (n)"
+msgstr "Intervallo (n)"
+
+msgid "First numbered row of the interval"
+msgstr "Prima riga numerata dell’intervallo"
+
+msgid "Odd rows are labelled on the"
+msgstr "Le righe dispari sono etichettate a"
+
+msgid "left"
+msgstr "sinistra"
+
+msgid "right"
+msgstr "destra"
+
+msgid "Even rows are labelled on the"
+msgstr "Le righe pari sono etichettate a"
+
+msgid "Row labels can be edited (double-click)"
+msgstr "Le etichette delle righe sono modificabili (doppio clic)"
+
+msgid "Stitch labels"
+msgstr "Etichette delle maglie"
+
+msgid "All stitches"
+msgstr "Tutte le maglie"
+
+msgid "Every n-th stitch"
+msgstr "Una maglia ogni n"
+
+msgid "First numbered stitch of the interval"
+msgstr "Prima maglia numerata dell’intervallo"
+
+msgid "Stitch labels can be edited (double-click)"
+msgstr "Le etichette delle maglie sono modificabili (doppio clic)"
+
+msgid "Row highlighting"
+msgstr "Evidenziazione delle righe"
+
+msgid "Highlight every other row"
+msgstr "Evidenzia una riga su due"
+
+msgid "Highlight"
+msgstr "Evidenzia"
+
+msgid "odd rows (1, 3, 5, …)"
+msgstr "righe dispari (1, 3, 5, …)"
+
+msgid "even rows (2, 4, 6, …)"
+msgstr "righe pari (2, 4, 6, …)"
+
+msgid "Strength (%)"
+msgstr "Intensità (%)"
+
+msgid "Colour"
+msgstr "Colore"
+
+msgid "Fonts"
+msgstr "Caratteri"
+
+msgid "Label font"
+msgstr "Carattere delle etichette"
+
+msgid "Label size"
+msgstr "Dimensione delle etichette"
+
+msgid "Legend font"
+msgstr "Carattere della legenda"
+
+msgid "Legend size"
+msgstr "Dimensione della legenda"
+
+msgid "New pattern"
+msgstr "Nuovo schema"
+
+msgid "Rows"
+msgstr "Righe"
+
+msgid "Stitches"
+msgstr "Maglie"
+
+msgid "Paste here"
+msgstr "Incolla qui"
+
+msgid "Select row"
+msgstr "Seleziona riga"
+
+msgid "Select stitch column"
+msgstr "Seleziona colonna di maglie"
+
+msgid "Select all cells with this colour"
+msgstr "Seleziona tutte le celle di questo colore"
+
+msgid "Select all cells with this symbol"
+msgstr "Seleziona tutte le celle con questo simbolo"
+
+msgid "Mode"
+msgstr "Modalità"
+
+msgid "Select"
+msgstr "Seleziona"
+
+msgid "Hide"
+msgstr "Nascondi"
+
+msgid "Unhide"
+msgstr "Mostra"
+
+msgid "Recently used"
+msgstr "Usati di recente"
+
+msgid "Symbols (none active)"
+msgstr "Simboli (nessuno attivo)"
+
+msgid "Symbols – active: %1"
+msgstr "Simboli – attivo: %1"
+
+msgid "%1 × %2 cells   selected: %3"
+msgstr "%1 × %2 celle   selezionate: %3"
+
+msgid "Open"
+msgstr "Apri"
+
+msgid "Save"
+msgstr "Salva"
+
+msgid "Export"
+msgstr "Esporta"
+
+msgid "paint cells"
+msgstr "posizionamento simboli"
+
+msgid "clear selection"
+msgstr "cancellazione selezione"
+
+msgid "color selected cells"
+msgstr "colorazione celle selezionate"
+
+msgid "hide cells"
+msgstr "nascondi celle"
+
+msgid "unhide cells"
+msgstr "mostra celle"
+
+msgid "copy selection"
+msgstr "copia selezione"
+
+msgid "paste cells"
+msgstr "incolla celle"
+
+msgid "insert rows"
+msgstr "inserimento righe"
+
+msgid "delete rows"
+msgstr "eliminazione righe"
+
+msgid "insert stitches"
+msgstr "inserimento maglie"
+
+msgid "delete stitches"
+msgstr "eliminazione maglie"
+
+msgid "select cells"
+msgstr "selezione celle"
+
+msgid "edit row label"
+msgstr "modifica etichetta riga"
+
+msgid "edit stitch label"
+msgstr "modifica etichetta maglia"
+
+msgid "add row repeat"
+msgstr "aggiunta ripetizione di righe"
+
+msgid "delete row repeat"
+msgstr "eliminazione ripetizione di righe"
+
+msgid "3 stitch cables"
+msgstr "trecce da 3 maglie"
+
+msgid "4 stitch cables"
+msgstr "trecce da 4 maglie"
+
+msgid "5 stitch cables"
+msgstr "trecce da 5 maglie"
+
+msgid "6 stitch cables"
+msgstr "trecce da 6 maglie"
+
+msgid "increases"
+msgstr "aumenti"
+
+msgid "decreases"
+msgstr "diminuzioni"
+
+msgid "7 stitch cables"
+msgstr "trecce da 7 maglie"
+
+msgid "special"
+msgstr "speciali"
+
+msgid "basic"
+msgstr "di base"
+
+msgid "2 stitch cables"
+msgstr "trecce da 2 maglie"
+
+msgid "1 over 2 left"
+msgstr "1 su 2 a sinistra"
+
+msgid "1 over 2 left-purl"
+msgstr "1 su 2 a sinistra (rovescio)"
+
+msgid "1 over 2 right"
+msgstr "1 su 2 a destra"
+
+msgid "1 over 2 right-purl"
+msgstr "1 su 2 a destra (rovescio)"
+
+msgid "1 over 3 left"
+msgstr "1 su 3 a sinistra"
+
+msgid "1 over 3 left-purl"
+msgstr "1 su 3 a sinistra (rovescio)"
+
+msgid "1 over 3 right"
+msgstr "1 su 3 a destra"
+
+msgid "1 over 3 right-purl"
+msgstr "1 su 3 a destra (rovescio)"
+
+msgid "1overKPKleft"
+msgstr "1 su KPK a sinistra"
+
+msgid "1overKPKright"
+msgstr "1 su KPK a destra"
+
+msgid "1overPKPleft"
+msgstr "1 su PKP a sinistra"
+
+msgid "1overPKPright"
+msgstr "1 su PKP a destra"
+
+msgid "2 over 1 left"
+msgstr "2 su 1 a sinistra"
+
+msgid "2 over 1 left-purl"
+msgstr "2 su 1 a sinistra (rovescio)"
+
+msgid "2 over 1 right"
+msgstr "2 su 1 a destra"
+
+msgid "2 over 1 right-purl"
+msgstr "2 su 1 a destra (rovescio)"
+
+msgid "2 over 2 left"
+msgstr "2 su 2 a sinistra"
+
+msgid "2 over 2 left-purl"
+msgstr "2 su 2 a sinistra (rovescio)"
+
+msgid "2 over 2 right"
+msgstr "2 su 2 a destra"
+
+msgid "2 over 2 right-purl"
+msgstr "2 su 2 a destra (rovescio)"
+
+msgid "2 over 3 left"
+msgstr "2 su 3 a sinistra"
+
+msgid "2 over 3 left-purl"
+msgstr "2 su 3 a sinistra (rovescio)"
+
+msgid "2 over 3 right"
+msgstr "2 su 3 a destra"
+
+msgid "2 over 3 right-purl"
+msgstr "2 su 3 a destra (rovescio)"
+
+msgid "2 over KPK left"
+msgstr "2 su KPK a sinistra"
+
+msgid "2 over KPK right"
+msgstr "2 su KPK a destra"
+
+msgid "2overP2Kleft"
+msgstr "2 su P2K a sinistra"
+
+msgid "2overP2Kright"
+msgstr "2 su P2K a destra"
+
+msgid "2 over PKP left"
+msgstr "2 su PKP a sinistra"
+
+msgid "2 over PKP right"
+msgstr "2 su PKP a destra"
+
+msgid "3 over 1 left"
+msgstr "3 su 1 a sinistra"
+
+msgid "3 over 1 left-purl"
+msgstr "3 su 1 a sinistra (rovescio)"
+
+msgid "3 over 1 right"
+msgstr "3 su 1 a destra"
+
+msgid "3 over 1 right-purl"
+msgstr "3 su 1 a destra (rovescio)"
+
+msgid "3 over 2 left"
+msgstr "3 su 2 a sinistra"
+
+msgid "3 over 2 left-purl"
+msgstr "3 su 2 a sinistra (rovescio)"
+
+msgid "3 over 2 right"
+msgstr "3 su 2 a destra"
+
+msgid "3 over 2 right-purl"
+msgstr "3 su 2 a destra (rovescio)"
+
+msgid "3 over 3 left"
+msgstr "3 su 3 a sinistra"
+
+msgid "3 over 3 left-purl"
+msgstr "3 su 3 a sinistra (rovescio)"
+
+msgid "3 over 3 right"
+msgstr "3 su 3 a destra"
+
+msgid "3 over 3 right-purl"
+msgstr "3 su 3 a destra (rovescio)"
+
+msgid "4 increase"
+msgstr "aumento a 4 maglie"
+
+msgid "4over1left"
+msgstr "4 su 1 a sinistra"
+
+msgid "4over1left-purl"
+msgstr "4 su 1 a sinistra (rovescio)"
+
+msgid "4over1right"
+msgstr "4 su 1 a destra"
+
+msgid "4over1right-purl"
+msgstr "4 su 1 a destra (rovescio)"
+
+msgid "4tog decrease"
+msgstr "diminuzione di 4 maglie"
+
+msgid "5 increase"
+msgstr "aumento a 5 maglie"
+
+msgid "5tog decrease"
+msgstr "diminuzione di 5 maglie"
+
+msgid "C7left"
+msgstr "C7 a sinistra"
+
+msgid "C7right"
+msgstr "C7 a destra"
+
+msgid "bind 2 knit"
+msgstr "chiusura di 2 maglie al diritto"
+
+msgid "bind 2 purl"
+msgstr "chiusura di 2 maglie al rovescio"
+
+msgid "bobble"
+msgstr "bobble"
+
+msgid "centered double decrease"
+msgstr "doppia diminuzione centrata"
+
+msgid "centered double increase"
+msgstr "doppio aumento centrato"
+
+msgid "closed ring"
+msgstr "anello chiuso"
+
+msgid "double decrease"
+msgstr "doppia diminuzione"
+
+msgid "elongated"
+msgstr "maglia allungata"
+
+msgid "elongated twice"
+msgstr "maglia molto allungata"
+
+msgid "k1, p1, k1 increase"
+msgstr "aumento: dir., rov., dir."
+
+msgid "k1, yo, k1 increase"
+msgstr "aumento: dir., gettato, dir."
+
+msgid "k2tog"
+msgstr "2 maglie insieme al diritto"
+
+msgid "k3tog"
+msgstr "3 maglie insieme al diritto"
+
+msgid "kfb"
+msgstr "diritto davanti e dietro"
+
+msgid "knit"
+msgstr "maglia al diritto"
+
+msgid "ktbl"
+msgstr "diritto ritorto"
+
+msgid "LT"
+msgstr "incrocio a sinistra (1 maglia)"
+
+msgid "lt_yo"
+msgstr "incrocio a sinistra con gettato"
+
+msgid "LTp"
+msgstr "incrocio a sinistra con rovescio"
+
+msgid "M1"
+msgstr "aumento"
+
+msgid "M1-p"
+msgstr "aumento al rovescio"
+
+msgid "make 1 left"
+msgstr "aumento inclinato a sinistra"
+
+msgid "make 1 right"
+msgstr "aumento inclinato a destra"
+
+msgid "nostitch"
+msgstr "nessuna maglia"
+
+msgid "nupp"
+msgstr "nupp"
+
+msgid "p2tog"
+msgstr "2 maglie insieme al rovescio"
+
+msgid "p2tog tbl"
+msgstr "2 maglie insieme al rovescio ritorte"
+
+msgid "ptbl"
+msgstr "rovescio ritorto"
+
+msgid "purl"
+msgstr "maglia al rovescio"
+
+msgid "RT"
+msgstr "incrocio a destra (1 maglia)"
+
+msgid "rt_yo"
+msgstr "incrocio a destra con gettato"
+
+msgid "RTp"
+msgstr "incrocio a destra con rovescio"
+
+msgid "sl1wyib"
+msgstr "maglia scivolata, filo dietro"
+
+msgid "sl1wyif"
+msgstr "maglia scivolata, filo davanti"
+
+msgid "ssk"
+msgstr "diminuzione inclinata a sinistra (ssk)"
+
+msgid "yo"
+msgstr "gettato"
+
+msgid "slip 1 st to cn and hold in front, k2 sts from left needle, k1 st from cn"
+msgstr "trasferire 1 maglia sul ferro per trecce e lasciare in attesa davanti al lavoro, 2 maglie al diritto dal ferro sinistro, 1 maglia al diritto dal ferro per trecce"
+
+msgid "slip 1 st to cn and hold in front, p2 sts from left needle, k1 st from cn"
+msgstr "trasferire 1 maglia sul ferro per trecce e lasciare in attesa davanti al lavoro, 2 maglie al rovescio dal ferro sinistro, 1 maglia al diritto dal ferro per trecce"
+
+msgid "slip 2 sts to cn and hold in back, k1 st from left needle, k2 sts from cn"
+msgstr "trasferire 2 maglie sul ferro per trecce e lasciare in attesa dietro al lavoro, 1 maglia al diritto dal ferro sinistro, 2 maglie al diritto dal ferro per trecce"
+
+msgid "slip 2 sts to cn and hold in back, k1 st from left needle, p2 sts from cn"
+msgstr "trasferire 2 maglie sul ferro per trecce e lasciare in attesa dietro al lavoro, 1 maglia al diritto dal ferro sinistro, 2 maglie al rovescio dal ferro per trecce"
+
+msgid "slip 1 st to cn and hold in front, k3 sts from left needle, k1 st from cn"
+msgstr "trasferire 1 maglia sul ferro per trecce e lasciare in attesa davanti al lavoro, 3 maglie al diritto dal ferro sinistro, 1 maglia al diritto dal ferro per trecce"
+
+msgid "slip 1 st to cn and hold in front, p3 sts from left needle, k1 st from cn"
+msgstr "trasferire 1 maglia sul ferro per trecce e lasciare in attesa davanti al lavoro, 3 maglie al rovescio dal ferro sinistro, 1 maglia al diritto dal ferro per trecce"
+
+msgid "slip 3 sts to cn and hold in back, k1 st from left needle, k3 sts from cn"
+msgstr "trasferire 3 maglie sul ferro per trecce e lasciare in attesa dietro al lavoro, 1 maglia al diritto dal ferro sinistro, 3 maglie al diritto dal ferro per trecce"
+
+msgid "slip 3 sts to cn and hold in back, k1 st from left needle, p3 sts from cn"
+msgstr "trasferire 3 maglie sul ferro per trecce e lasciare in attesa dietro al lavoro, 1 maglia al diritto dal ferro sinistro, 3 maglie al rovescio dal ferro per trecce"
+
+msgid "slip 1 st to cn and hold in front, k1, p1, k1, then k1 from cn"
+msgstr "trasferire 1 maglia sul ferro per trecce e lasciare in attesa davanti al lavoro, 1 maglia al diritto, 1 maglia al rovescio, 1 maglia al diritto, poi 1 maglia al diritto dal ferro per trecce"
+
+msgid "slip 3 sts to cn and hold in back, k1, then k1, p1, k1 from cn"
+msgstr "trasferire 3 maglie sul ferro per trecce e lasciare in attesa dietro al lavoro, 1 maglia al diritto, poi 1 maglia al diritto, 1 maglia al rovescio, 1 maglia al diritto dal ferro per trecce"
+
+msgid "slip 1 st to cn and hold in front, p1, k1, p1, then k1 from cn"
+msgstr "trasferire 1 maglia sul ferro per trecce e lasciare in attesa davanti al lavoro, 1 maglia al rovescio, 1 maglia al diritto, 1 maglia al rovescio, poi 1 maglia al diritto dal ferro per trecce"
+
+msgid "slip 3 sts to cn and hold in back, k1, then p1, k1, p1 from cn"
+msgstr "trasferire 3 maglie sul ferro per trecce e lasciare in attesa dietro al lavoro, 1 maglia al diritto, poi 1 maglia al rovescio, 1 maglia al diritto, 1 maglia al rovescio dal ferro per trecce"
+
+msgid "slip 2 sts to cn and hold in front, k1 sts from left needle, k2 sts from cn"
+msgstr "trasferire 2 maglie sul ferro per trecce e lasciare in attesa davanti al lavoro, 1 maglia al diritto dal ferro sinistro, 2 maglie al diritto dal ferro per trecce"
+
+msgid "slip 2 sts to cn and hold in front, p1 sts from left needle, k2 sts from cn"
+msgstr "trasferire 2 maglie sul ferro per trecce e lasciare in attesa davanti al lavoro, 1 maglia al rovescio dal ferro sinistro, 2 maglie al diritto dal ferro per trecce"
+
+msgid "slip 1 st to cn and hold in back, k2 sts from left needle, k1 st from cn"
+msgstr "trasferire 1 maglia sul ferro per trecce e lasciare in attesa dietro al lavoro, 2 maglie al diritto dal ferro sinistro, 1 maglia al diritto dal ferro per trecce"
+
+msgid "slip 1 st to cn and hold in back, k2 sts from left needle, p1 st from cn"
+msgstr "trasferire 1 maglia sul ferro per trecce e lasciare in attesa dietro al lavoro, 2 maglie al diritto dal ferro sinistro, 1 maglia al rovescio dal ferro per trecce"
+
+msgid "slip 2 sts to cn and hold in front, k2 sts from left needle, k2 sts from cn"
+msgstr "trasferire 2 maglie sul ferro per trecce e lasciare in attesa davanti al lavoro, 2 maglie al diritto dal ferro sinistro, 2 maglie al diritto dal ferro per trecce"
+
+msgid "slip 2 sts to cn and hold in front, p2 sts from left needle, k2 sts from cn"
+msgstr "trasferire 2 maglie sul ferro per trecce e lasciare in attesa davanti al lavoro, 2 maglie al rovescio dal ferro sinistro, 2 maglie al diritto dal ferro per trecce"
+
+msgid "slip 2 sts to cn and hold in back, k2 sts from left needle, k2 sts from cn"
+msgstr "trasferire 2 maglie sul ferro per trecce e lasciare in attesa dietro al lavoro, 2 maglie al diritto dal ferro sinistro, 2 maglie al diritto dal ferro per trecce"
+
+msgid "slip 2 sts to cn and hold in back, k2 sts from left needle, p2 sts from cn"
+msgstr "trasferire 2 maglie sul ferro per trecce e lasciare in attesa dietro al lavoro, 2 maglie al diritto dal ferro sinistro, 2 maglie al rovescio dal ferro per trecce"
+
+msgid "slip 2 sts to cn and hold in front, k3 sts from left needle, k2 sts from cn"
+msgstr "trasferire 2 maglie sul ferro per trecce e lasciare in attesa davanti al lavoro, 3 maglie al diritto dal ferro sinistro, 2 maglie al diritto dal ferro per trecce"
+
+msgid "slip 2 sts to cn and hold in front, p3 sts from left needle, k2 sts from cn"
+msgstr "trasferire 2 maglie sul ferro per trecce e lasciare in attesa davanti al lavoro, 3 maglie al rovescio dal ferro sinistro, 2 maglie al diritto dal ferro per trecce"
+
+msgid "slip 3 sts to cn and hold in back, k2 sts from left needle, k3 sts from cn"
+msgstr "trasferire 3 maglie sul ferro per trecce e lasciare in attesa dietro al lavoro, 2 maglie al diritto dal ferro sinistro, 3 maglie al diritto dal ferro per trecce"
+
+msgid "slip 3 sts to cn and hold in back, k2 sts from left needle, p3 sts from cn"
+msgstr "trasferire 3 maglie sul ferro per trecce e lasciare in attesa dietro al lavoro, 2 maglie al diritto dal ferro sinistro, 3 maglie al rovescio dal ferro per trecce"
+
+msgid "slip 2 sts to cn and hold in front, k1, p1, k1, then k2 from cn"
+msgstr "trasferire 2 maglie sul ferro per trecce e lasciare in attesa davanti al lavoro, 1 maglia al diritto, 1 maglia al rovescio, 1 maglia al diritto, poi 2 maglie al diritto dal ferro per trecce"
+
+msgid "slip 3 sts to cn and hold in back, k2, then k1, p1, k1 from cn"
+msgstr "trasferire 3 maglie sul ferro per trecce e lasciare in attesa dietro al lavoro, 2 maglie al diritto, poi 1 maglia al diritto, 1 maglia al rovescio, 1 maglia al diritto dal ferro per trecce"
+
+msgid "slip 3 sts to cn and hold in front, k2, slip last st from cn to needle, p1, then k2 from cn"
+msgstr "trasferire 3 maglie sul ferro per trecce e lasciare in attesa davanti al lavoro, 2 maglie al diritto, trasferire l’ultima maglia dal ferro per trecce al ferro, 1 maglia al rovescio, poi 2 maglie al diritto dal ferro per trecce"
+
+msgid "slip 3 sts to cn and hold in back, k2, slip last st from cn to needle, p1, then k2 from cn"
+msgstr "trasferire 3 maglie sul ferro per trecce e lasciare in attesa dietro al lavoro, 2 maglie al diritto, trasferire l’ultima maglia dal ferro per trecce al ferro, 1 maglia al rovescio, poi 2 maglie al diritto dal ferro per trecce"
+
+msgid "slip 2 sts to cn and hold in front, p1, k1, p1, then k2 from cn"
+msgstr "trasferire 2 maglie sul ferro per trecce e lasciare in attesa davanti al lavoro, 1 maglia al rovescio, 1 maglia al diritto, 1 maglia al rovescio, poi 2 maglie al diritto dal ferro per trecce"
+
+msgid "slip 3 sts to cn and hold in back, k2, then p1, k1, p1 from cn"
+msgstr "trasferire 3 maglie sul ferro per trecce e lasciare in attesa dietro al lavoro, 2 maglie al diritto, poi 1 maglia al rovescio, 1 maglia al diritto, 1 maglia al rovescio dal ferro per trecce"
+
+msgid "slip 3 sts to cn and hold in front, k1 st from left needle, k3 sts from cn"
+msgstr "trasferire 3 maglie sul ferro per trecce e lasciare in attesa davanti al lavoro, 1 maglia al diritto dal ferro sinistro, 3 maglie al diritto dal ferro per trecce"
+
+msgid "slip 3 sts to cn and hold in front, p1 st from left needle, k3 sts from cn"
+msgstr "trasferire 3 maglie sul ferro per trecce e lasciare in attesa davanti al lavoro, 1 maglia al rovescio dal ferro sinistro, 3 maglie al diritto dal ferro per trecce"
+
+msgid "slip 1 st to cn and hold in back, k3 sts from left needle, k1 st from cn"
+msgstr "trasferire 1 maglia sul ferro per trecce e lasciare in attesa dietro al lavoro, 3 maglie al diritto dal ferro sinistro, 1 maglia al diritto dal ferro per trecce"
+
+msgid "slip 1 st to cn and hold in back, k3 sts from left needle, p1 st from cn"
+msgstr "trasferire 1 maglia sul ferro per trecce e lasciare in attesa dietro al lavoro, 3 maglie al diritto dal ferro sinistro, 1 maglia al rovescio dal ferro per trecce"
+
+msgid "slip 3 sts to cn and hold in front, k2 sts from left needle, k3 sts from cn"
+msgstr "trasferire 3 maglie sul ferro per trecce e lasciare in attesa davanti al lavoro, 2 maglie al diritto dal ferro sinistro, 3 maglie al diritto dal ferro per trecce"
+
+msgid "slip 3 sts to cn and hold in front, p2 sts from left needle, k3 sts from cn"
+msgstr "trasferire 3 maglie sul ferro per trecce e lasciare in attesa davanti al lavoro, 2 maglie al rovescio dal ferro sinistro, 3 maglie al diritto dal ferro per trecce"
+
+msgid "slip 2 sts to cn and hold in back, k3 sts from left needle, k2 sts from cn"
+msgstr "trasferire 2 maglie sul ferro per trecce e lasciare in attesa dietro al lavoro, 3 maglie al diritto dal ferro sinistro, 2 maglie al diritto dal ferro per trecce"
+
+msgid "slip 2 sts to cn and hold in back, k3 sts from left needle, p2 sts from cn"
+msgstr "trasferire 2 maglie sul ferro per trecce e lasciare in attesa dietro al lavoro, 3 maglie al diritto dal ferro sinistro, 2 maglie al rovescio dal ferro per trecce"
+
+msgid "slip 3 sts to cn and hold in front, k3 sts from left needle, k3 sts from cn"
+msgstr "trasferire 3 maglie sul ferro per trecce e lasciare in attesa davanti al lavoro, 3 maglie al diritto dal ferro sinistro, 3 maglie al diritto dal ferro per trecce"
+
+msgid "slip 3 sts to cn and hold in front, p3 sts from left needle, k3 sts from cn"
+msgstr "trasferire 3 maglie sul ferro per trecce e lasciare in attesa davanti al lavoro, 3 maglie al rovescio dal ferro sinistro, 3 maglie al diritto dal ferro per trecce"
+
+msgid "slip 3 sts to cn and hold in back, k3 sts from left needle, k3 sts from cn"
+msgstr "trasferire 3 maglie sul ferro per trecce e lasciare in attesa dietro al lavoro, 3 maglie al diritto dal ferro sinistro, 3 maglie al diritto dal ferro per trecce"
+
+msgid "slip 3 sts to cn and hold in back, k3 sts from left needle, p3 sts from cn"
+msgstr "trasferire 3 maglie sul ferro per trecce e lasciare in attesa dietro al lavoro, 3 maglie al diritto dal ferro sinistro, 3 maglie al rovescio dal ferro per trecce"
+
+msgid "k1, p1, k1, p1 into same stitch"
+msgstr "1 dir., 1 rov., 1 dir., 1 rov. nella stessa maglia"
+
+msgid "slip 4 sts to cn and hold in front, k1 st from left needle, k4 sts from cn"
+msgstr "trasferire 4 maglie sul ferro per trecce e lasciare in attesa davanti al lavoro, 1 maglia al diritto dal ferro sinistro, 4 maglie al diritto dal ferro per trecce"
+
+msgid "slip 4 sts to cn and hold in front, p1 st from left needle, k4 sts from cn"
+msgstr "trasferire 4 maglie sul ferro per trecce e lasciare in attesa davanti al lavoro, 1 maglia al rovescio dal ferro sinistro, 4 maglie al diritto dal ferro per trecce"
+
+msgid "slip 1 st to cn and hold in back, k4 sts from left needle, k1 st from cn"
+msgstr "trasferire 1 maglia sul ferro per trecce e lasciare in attesa dietro al lavoro, 4 maglie al diritto dal ferro sinistro, 1 maglia al diritto dal ferro per trecce"
+
+msgid "slip 1 st to cn and hold in back, k4 sts from left needle, p1 st from cn"
+msgstr "trasferire 1 maglia sul ferro per trecce e lasciare in attesa dietro al lavoro, 4 maglie al diritto dal ferro sinistro, 1 maglia al rovescio dal ferro per trecce"
+
+msgid "Ssk, k2tog, then pass the ssk over the k2tog"
+msgstr "ssk, 2 maglie insieme al diritto, poi passare la ssk sopra"
+
+msgid "k1 ,yo, k1, yo, k1 into same stitch"
+msgstr "1 dir., gettato, 1 dir., gettato, 1 dir. nella stessa maglia"
+
+msgid "Sl next 3 sts to right hand needle.  *Pass 2nd st on right hand needle over 1st st, sl 1st st to left hand needle.  Then pass 2nd st on left hand needle over same 1st st, and sl 1st st back to right hand needle.*  Rep from * to * once more. Then purl 1st st."
+msgstr "Trasferire le 3 maglie successive sul ferro destro. *Passare la 2ª maglia del ferro destro sopra la 1ª, trasferire la 1ª maglia sul ferro sinistro. Poi passare la 2ª maglia del ferro sinistro sopra la stessa 1ª maglia e trasferire la 1ª maglia sul ferro destro.* Ripetere da * a * ancora una volta. Poi lavorare la 1ª maglia al rovescio."
+
+msgid "slip 3 sts to cn and hold in front, k3 sts from left needle, p1, k3 sts from cn"
+msgstr "trasferire 3 maglie sul ferro per trecce e lasciare in attesa davanti al lavoro, 3 maglie al diritto dal ferro sinistro, 1 maglia al rovescio, 3 maglie al diritto dal ferro per trecce"
+
+msgid "slip 4 sts to cn and hold in back, k3 sts from left needle, p1, k3 sts from cn"
+msgstr "trasferire 4 maglie sul ferro per trecce e lasciare in attesa dietro al lavoro, 3 maglie al diritto dal ferro sinistro, 1 maglia al rovescio, 3 maglie al diritto dal ferro per trecce"
+
+msgid "yo, k2, pass yo over 2 knit stitches"
+msgstr "gettato, 2 dir., passare il gettato sopra le 2 maglie al diritto"
+
+msgid "yo, p2, pass yo over 2 purl stitches"
+msgstr "gettato, 2 rov., passare il gettato sopra le 2 maglie al rovescio"
+
+msgid "(k1, yo, k1, yo, k1) into next st, turn, p5 sts, turn, ssk, k1, k2tog, turn, p3, turn, sl 2 sts knitwise, k1, pass 2 slipped sts over"
+msgstr "(1 dir., gettato, 1 dir., gettato, 1 dir.) nella maglia successiva, girare, 5 maglie al rovescio, girare, ssk, 1 dir., 2 maglie insieme al diritto, girare, 3 al rovescio, girare, scivolare 2 maglie come per lavorare al diritto, 1 dir., passare le 2 maglie scivolate sopra"
+
+msgid "slip 2 sts knitwise, k1 st from left needle, pass 2 slipped sts over"
+msgstr "scivolare 2 maglie come per lavorare al diritto, 1 maglia al diritto dal ferro sinistro, passare le 2 maglie scivolate sopra"
+
+msgid "knit in back and front of same st, then pick up vertical strand that runs between those 2 sts and knit it through the back"
+msgstr "lavorare al diritto nel filo dietro e davanti della stessa maglia, poi raccogliere il filo verticale tra queste 2 maglie e lavorarlo al diritto ritorto"
+
+msgid "Insert right needle into third st on left needle and pass this st over first 2 sts on left needle; k1, yo, k1."
+msgstr "inserire il ferro destro nella 3ª maglia del ferro sinistro e passarla sopra le prime 2; 1 dir., gettato, 1 dir."
+
+msgid "slip 1 st knitwise, k2 sts together from left needle, pass slipped stitch over"
+msgstr "scivolare 1 maglia come per lavorare al diritto, 2 maglie insieme al diritto dal ferro sinistro, passare la maglia scivolata sopra"
+
+msgid "Knit 1 stitch wrapping yarn twice, then on next row drop extra wrap from needle"
+msgstr "lavorare 1 maglia avvolgendo il filo due volte, poi nel ferro successivo lasciar cadere l’avvolgimento in più"
+
+msgid "Knit 1 stitch wrapping yarn 3 times, then on next row drop extra wraps from needle"
+msgstr "lavorare 1 maglia avvolgendo il filo 3 volte, poi nel ferro successivo lasciar cadere gli avvolgimenti in più"
+
+msgid "k1, p1, k1 into same stitch"
+msgstr "1 dir., 1 rov., 1 dir. nella stessa maglia"
+
+msgid "k1, leaving stitch on left hand needle, yo, k1 into same stitch"
+msgstr "1 dir. lasciando la maglia sul ferro sinistro, gettato, 1 dir. nella stessa maglia"
+
+msgid "Knit 2 together"
+msgstr "lavorare 2 maglie insieme al diritto"
+
+msgid "Knit 3 together"
+msgstr "lavorare 3 maglie insieme al diritto"
+
+msgid "knit front and back of same st"
+msgstr "lavorare al diritto davanti e dietro nella stessa maglia"
+
+msgid "knit on RS; purl on WS"
+msgstr "diritto sul dritto del lavoro; rovescio sul rovescio"
+
+msgid "knit through back loop"
+msgstr "lavorare al diritto nel filo dietro"
+
+msgid "slip 1 st to cn and hold in front, k1 from left needle, k1 st from cn"
+msgstr "trasferire 1 maglia sul ferro per trecce e lasciare in attesa davanti al lavoro, 1 maglia al diritto dal ferro sinistro, 1 maglia al diritto dal ferro per trecce"
+
+msgid "slip 1 st to cn and hold in front, k1 from left needle, yo, k1 st from cn"
+msgstr "trasferire 1 maglia sul ferro per trecce e lasciare in attesa davanti al lavoro, 1 maglia al diritto dal ferro sinistro, gettato, 1 maglia al diritto dal ferro per trecce"
+
+msgid "slip 1 st to cn and hold in front, p1 from left needle, k1 st from cn"
+msgstr "trasferire 1 maglia sul ferro per trecce e lasciare in attesa davanti al lavoro, 1 maglia al rovescio dal ferro sinistro, 1 maglia al diritto dal ferro per trecce"
+
+msgid "make 1"
+msgstr "fare 1 aumento"
+
+msgid "make 1 purl"
+msgstr "fare 1 aumento al rovescio"
+
+msgid "With left needle, lift strand between sts from the front and knit through the back loop"
+msgstr "con il ferro sinistro, sollevare da davanti il filo tra le maglie e lavorarlo al diritto ritorto"
+
+msgid "With left needle, lift strand between sts from the back and knit through the front loop"
+msgstr "con il ferro sinistro, sollevare da dietro il filo tra le maglie e lavorarlo al diritto nel filo davanti"
+
+msgid "no stitch (ignore this space)"
+msgstr "nessuna maglia (ignorare questa cella)"
+
+msgid "Nupp: knit into stitch, leaving it on left hand needle, * YO, knit into stitch again, rep from * until there are 7 sts from 1 st.  On next row, work 7 sts together back to 1 st."
+msgstr "Nupp: lavorare la maglia al diritto lasciandola sul ferro sinistro, * gettato, lavorare di nuovo la stessa maglia al diritto, ripetere da * fino ad avere 7 maglie da 1. Nel ferro successivo, lavorare le 7 maglie insieme fino a tornare a 1."
+
+msgid "Purl 2 together"
+msgstr "lavorare 2 maglie insieme al rovescio"
+
+msgid "Purl 2 together through the back loop"
+msgstr "lavorare 2 maglie insieme al rovescio ritorte"
+
+msgid "purl through back loop"
+msgstr "lavorare al rovescio nel filo dietro"
+
+msgid "purl on RS; knit on WS"
+msgstr "rovescio sul dritto del lavoro; diritto sul rovescio"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, k1 st from cn"
+msgstr "trasferire 1 maglia sul ferro per trecce e lasciare in attesa dietro al lavoro, 1 maglia al diritto dal ferro sinistro, 1 maglia al diritto dal ferro per trecce"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, yo, k1 st from cn"
+msgstr "trasferire 1 maglia sul ferro per trecce e lasciare in attesa dietro al lavoro, 1 maglia al diritto dal ferro sinistro, gettato, 1 maglia al diritto dal ferro per trecce"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, p1 st from cn"
+msgstr "trasferire 1 maglia sul ferro per trecce e lasciare in attesa dietro al lavoro, 1 maglia al diritto dal ferro sinistro, 1 maglia al rovescio dal ferro per trecce"
+
+msgid "Slip 1 stitch purlwise with yarn in back"
+msgstr "scivolare 1 maglia come per lavorare al rovescio, con il filo dietro"
+
+msgid "Slip 1 stitch purlwise with yarn in front"
+msgstr "scivolare 1 maglia come per lavorare al rovescio, con il filo davanti"
+
+msgid "Slip, slip, knit"
+msgstr "scivolare 2 maglie una alla volta, poi lavorarle insieme al diritto"
+
+msgid "yarn over"
+msgstr "gettato"

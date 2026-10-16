@@ -55,7 +55,7 @@ ARFLAGS_x86_64_unknown_linux_gnu = None
 cargo:rerun-if-env-changed=ARFLAGS_x86_64-unknown-linux-gnu
 ARFLAGS_x86_64-unknown-linux-gnu = None
 cargo:rustc-link-lib=static=link-cplusplus
-cargo:rustc-link-search=native=/home/fibrely/charto-testing/charto/target/release/build/link-cplusplus-57b10f5c460fe8bb/out
+cargo:rustc-link-search=native=/home/fibrely/charto/target/release/build/link-cplusplus-57b10f5c460fe8bb/out
 cargo:rerun-if-env-changed=CXXSTDLIB_x86_64-unknown-linux-gnu
 CXXSTDLIB_x86_64-unknown-linux-gnu = None
 cargo:rerun-if-env-changed=CXXSTDLIB_x86_64_unknown_linux_gnu

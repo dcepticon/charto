@@ -1,0 +1,939 @@
+# Russian translation of the Charto interface.
+# Translated by Claude (an AI) and not yet reviewed by a native speaker: corrections are welcome.
+msgid ""
+msgstr ""
+"Project-Id-Version: Charto\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Charto pattern"
+msgstr "Узор Charto"
+
+msgid "Could not render the chart for printing"
+msgstr "Не удалось подготовить схему к печати"
+
+msgid "Exported %1"
+msgstr "Экспортировано: %1"
+
+msgid "Could not write %1"
+msgstr "Не удалось записать %1"
+
+msgid "&File"
+msgstr "&Файл"
+
+msgid "&New…"
+msgstr "&Новый…"
+
+msgid "&Open…"
+msgstr "&Открыть…"
+
+msgid "Open &Recent"
+msgstr "Открыть &недавние"
+
+msgid "&Clear list"
+msgstr "&Очистить список"
+
+msgid "&Save"
+msgstr "&Сохранить"
+
+msgid "Save &As…"
+msgstr "Сохранить &как…"
+
+msgid "Export as &PNG…"
+msgstr "Экспорт в &PNG…"
+
+msgid "Export as S&VG…"
+msgstr "Экспорт в S&VG…"
+
+msgid "&Print…"
+msgstr "&Печать…"
+
+msgid "&Quit"
+msgstr "&Выход"
+
+msgid "&Edit"
+msgstr "&Правка"
+
+msgid "&Undo %1"
+msgstr "&Отменить: %1"
+
+msgid "&Undo"
+msgstr "&Отменить"
+
+msgid "&Redo %1"
+msgstr "&Повторить: %1"
+
+msgid "&Redo"
+msgstr "&Повторить"
+
+msgid "&Copy"
+msgstr "&Копировать"
+
+msgid "&Paste into selection"
+msgstr "&Вставить в выделение"
+
+msgid "Clear &selection"
+msgstr "Снять &выделение"
+
+msgid "Apply colour to selection"
+msgstr "Применить цвет к выделению"
+
+msgid "&Preferences…"
+msgstr "&Настройки…"
+
+msgid "&Chart"
+msgstr "&Схема"
+
+msgid "Insert rows above…"
+msgstr "Вставить ряды выше…"
+
+msgid "Insert rows below…"
+msgstr "Вставить ряды ниже…"
+
+msgid "Delete selected rows"
+msgstr "Удалить выбранные ряды"
+
+msgid "Insert stitches left…"
+msgstr "Вставить петли слева…"
+
+msgid "Insert stitches right…"
+msgstr "Вставить петли справа…"
+
+msgid "Delete selected stitches"
+msgstr "Удалить выбранные петли"
+
+msgid "Make selected rows a row repeat…"
+msgstr "Сделать выбранные ряды повтором…"
+
+msgid "Delete row repeat"
+msgstr "Удалить повтор рядов"
+
+msgid "&View"
+msgstr "&Вид"
+
+msgid "Zoom &in"
+msgstr "&Увеличить"
+
+msgid "Zoom &out"
+msgstr "У&меньшить"
+
+msgid "&Reset zoom"
+msgstr "&Сбросить масштаб"
+
+msgid "Open pattern"
+msgstr "Открыть узор"
+
+msgid "Charto patterns (*.spf)"
+msgstr "Узоры Charto (*.spf)"
+
+msgid "All files (*)"
+msgstr "Все файлы (*)"
+
+msgid "Save pattern"
+msgstr "Сохранить узор"
+
+msgid "Choose a colour"
+msgstr "Выберите цвет"
+
+msgid "Export as PNG image"
+msgstr "Экспорт в изображение PNG"
+
+msgid "PNG images (*.png)"
+msgstr "Изображения PNG (*.png)"
+
+msgid "Export as SVG drawing"
+msgstr "Экспорт в рисунок SVG"
+
+msgid "SVG drawings (*.svg)"
+msgstr "Рисунки SVG (*.svg)"
+
+msgid "Unsaved changes"
+msgstr "Несохранённые изменения"
+
+msgid "The pattern has unsaved changes. Save them first?"
+msgstr "В узоре есть несохранённые изменения. Сохранить их?"
+
+msgid "Recovered changes"
+msgstr "Восстановленные изменения"
+
+msgid "Charto found unsaved changes to this pattern from an earlier session. Open the recovered version?"
+msgstr "Charto нашёл несохранённые изменения этого узора с предыдущего сеанса. Открыть восстановленную версию?"
+
+msgid "Row label"
+msgstr "Номер ряда"
+
+msgid "Stitch label"
+msgstr "Номер петли"
+
+msgid "Row highlight colour"
+msgstr "Цвет подсветки рядов"
+
+msgid "Preferences"
+msgstr "Настройки"
+
+msgid "Chart"
+msgstr "Схема"
+
+msgid "Cell width (pixels)"
+msgstr "Ширина ячейки (пикселей)"
+
+msgid "Cell height (pixels)"
+msgstr "Высота ячейки (пикселей)"
+
+msgid "Row labels"
+msgstr "Номера рядов"
+
+msgid "Show"
+msgstr "Показать"
+
+msgid "All rows"
+msgstr "Все ряды"
+
+msgid "Every n-th row"
+msgstr "Каждый n-й ряд"
+
+msgid "Odd rows"
+msgstr "Нечётные ряды"
+
+msgid "Even rows"
+msgstr "Чётные ряды"
+
+msgid "Number of the bottom row"
+msgstr "Номер нижнего ряда"
+
+msgid "Interval (n)"
+msgstr "Интервал (n)"
+
+msgid "First numbered row of the interval"
+msgstr "Первый нумеруемый ряд интервала"
+
+msgid "Odd rows are labelled on the"
+msgstr "Нечётные ряды нумеруются"
+
+msgid "left"
+msgstr "слева"
+
+msgid "right"
+msgstr "справа"
+
+msgid "Even rows are labelled on the"
+msgstr "Чётные ряды нумеруются"
+
+msgid "Row labels can be edited (double-click)"
+msgstr "Номера рядов можно изменить (двойной щелчок)"
+
+msgid "Stitch labels"
+msgstr "Номера петель"
+
+msgid "All stitches"
+msgstr "Все петли"
+
+msgid "Every n-th stitch"
+msgstr "Каждая n-я петля"
+
+msgid "First numbered stitch of the interval"
+msgstr "Первая нумеруемая петля интервала"
+
+msgid "Stitch labels can be edited (double-click)"
+msgstr "Номера петель можно изменить (двойной щелчок)"
+
+msgid "Row highlighting"
+msgstr "Подсветка рядов"
+
+msgid "Highlight every other row"
+msgstr "Подсвечивать каждый второй ряд"
+
+msgid "Highlight"
+msgstr "Подсвечивать"
+
+msgid "odd rows (1, 3, 5, …)"
+msgstr "нечётные ряды (1, 3, 5, …)"
+
+msgid "even rows (2, 4, 6, …)"
+msgstr "чётные ряды (2, 4, 6, …)"
+
+msgid "Strength (%)"
+msgstr "Интенсивность (%)"
+
+msgid "Colour"
+msgstr "Цвет"
+
+msgid "Fonts"
+msgstr "Шрифты"
+
+msgid "Label font"
+msgstr "Шрифт номеров"
+
+msgid "Label size"
+msgstr "Размер номеров"
+
+msgid "Legend font"
+msgstr "Шрифт легенды"
+
+msgid "Legend size"
+msgstr "Размер легенды"
+
+msgid "New pattern"
+msgstr "Новый узор"
+
+msgid "Rows"
+msgstr "Ряды"
+
+msgid "Stitches"
+msgstr "Петли"
+
+msgid "Paste here"
+msgstr "Вставить сюда"
+
+msgid "Select row"
+msgstr "Выделить ряд"
+
+msgid "Select stitch column"
+msgstr "Выделить столбец петель"
+
+msgid "Select all cells with this colour"
+msgstr "Выделить все ячейки этого цвета"
+
+msgid "Select all cells with this symbol"
+msgstr "Выделить все ячейки с этим символом"
+
+msgid "Mode"
+msgstr "Режим"
+
+msgid "Select"
+msgstr "Выделение"
+
+msgid "Hide"
+msgstr "Скрыть"
+
+msgid "Unhide"
+msgstr "Показать"
+
+msgid "Recently used"
+msgstr "Недавно использованные"
+
+msgid "Symbols (none active)"
+msgstr "Символы (не выбран)"
+
+msgid "Symbols – active: %1"
+msgstr "Символы – активен: %1"
+
+msgid "%1 × %2 cells   selected: %3"
+msgstr "%1 × %2 ячеек   выделено: %3"
+
+msgid "Open"
+msgstr "Открыть"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Export"
+msgstr "Экспортировать"
+
+msgid "paint cells"
+msgstr "расстановка символов"
+
+msgid "clear selection"
+msgstr "снятие выделения"
+
+msgid "color selected cells"
+msgstr "окрашивание выбранных ячеек"
+
+msgid "hide cells"
+msgstr "скрытие ячеек"
+
+msgid "unhide cells"
+msgstr "показ ячеек"
+
+msgid "copy selection"
+msgstr "копирование выделения"
+
+msgid "paste cells"
+msgstr "вставка ячеек"
+
+msgid "insert rows"
+msgstr "вставка рядов"
+
+msgid "delete rows"
+msgstr "удаление рядов"
+
+msgid "insert stitches"
+msgstr "вставка петель"
+
+msgid "delete stitches"
+msgstr "удаление петель"
+
+msgid "select cells"
+msgstr "выделение ячеек"
+
+msgid "edit row label"
+msgstr "изменение номера ряда"
+
+msgid "edit stitch label"
+msgstr "изменение номера петли"
+
+msgid "add row repeat"
+msgstr "добавление повтора рядов"
+
+msgid "delete row repeat"
+msgstr "удаление повтора рядов"
+
+msgid "3 stitch cables"
+msgstr "косы из 3 петель"
+
+msgid "4 stitch cables"
+msgstr "косы из 4 петель"
+
+msgid "5 stitch cables"
+msgstr "косы из 5 петель"
+
+msgid "6 stitch cables"
+msgstr "косы из 6 петель"
+
+msgid "increases"
+msgstr "прибавки"
+
+msgid "decreases"
+msgstr "убавки"
+
+msgid "7 stitch cables"
+msgstr "косы из 7 петель"
+
+msgid "special"
+msgstr "особые"
+
+msgid "basic"
+msgstr "основные"
+
+msgid "2 stitch cables"
+msgstr "косы из 2 петель"
+
+msgid "1 over 2 left"
+msgstr "1 над 2 влево"
+
+msgid "1 over 2 left-purl"
+msgstr "1 над 2 влево (изнаночные)"
+
+msgid "1 over 2 right"
+msgstr "1 над 2 вправо"
+
+msgid "1 over 2 right-purl"
+msgstr "1 над 2 вправо (изнаночные)"
+
+msgid "1 over 3 left"
+msgstr "1 над 3 влево"
+
+msgid "1 over 3 left-purl"
+msgstr "1 над 3 влево (изнаночные)"
+
+msgid "1 over 3 right"
+msgstr "1 над 3 вправо"
+
+msgid "1 over 3 right-purl"
+msgstr "1 над 3 вправо (изнаночные)"
+
+msgid "1overKPKleft"
+msgstr "1 над KPK влево"
+
+msgid "1overKPKright"
+msgstr "1 над KPK вправо"
+
+msgid "1overPKPleft"
+msgstr "1 над PKP влево"
+
+msgid "1overPKPright"
+msgstr "1 над PKP вправо"
+
+msgid "2 over 1 left"
+msgstr "2 над 1 влево"
+
+msgid "2 over 1 left-purl"
+msgstr "2 над 1 влево (изнаночные)"
+
+msgid "2 over 1 right"
+msgstr "2 над 1 вправо"
+
+msgid "2 over 1 right-purl"
+msgstr "2 над 1 вправо (изнаночные)"
+
+msgid "2 over 2 left"
+msgstr "2 над 2 влево"
+
+msgid "2 over 2 left-purl"
+msgstr "2 над 2 влево (изнаночные)"
+
+msgid "2 over 2 right"
+msgstr "2 над 2 вправо"
+
+msgid "2 over 2 right-purl"
+msgstr "2 над 2 вправо (изнаночные)"
+
+msgid "2 over 3 left"
+msgstr "2 над 3 влево"
+
+msgid "2 over 3 left-purl"
+msgstr "2 над 3 влево (изнаночные)"
+
+msgid "2 over 3 right"
+msgstr "2 над 3 вправо"
+
+msgid "2 over 3 right-purl"
+msgstr "2 над 3 вправо (изнаночные)"
+
+msgid "2 over KPK left"
+msgstr "2 над KPK влево"
+
+msgid "2 over KPK right"
+msgstr "2 над KPK вправо"
+
+msgid "2overP2Kleft"
+msgstr "2 над P2K влево"
+
+msgid "2overP2Kright"
+msgstr "2 над P2K вправо"
+
+msgid "2 over PKP left"
+msgstr "2 над PKP влево"
+
+msgid "2 over PKP right"
+msgstr "2 над PKP вправо"
+
+msgid "3 over 1 left"
+msgstr "3 над 1 влево"
+
+msgid "3 over 1 left-purl"
+msgstr "3 над 1 влево (изнаночные)"
+
+msgid "3 over 1 right"
+msgstr "3 над 1 вправо"
+
+msgid "3 over 1 right-purl"
+msgstr "3 над 1 вправо (изнаночные)"
+
+msgid "3 over 2 left"
+msgstr "3 над 2 влево"
+
+msgid "3 over 2 left-purl"
+msgstr "3 над 2 влево (изнаночные)"
+
+msgid "3 over 2 right"
+msgstr "3 над 2 вправо"
+
+msgid "3 over 2 right-purl"
+msgstr "3 над 2 вправо (изнаночные)"
+
+msgid "3 over 3 left"
+msgstr "3 над 3 влево"
+
+msgid "3 over 3 left-purl"
+msgstr "3 над 3 влево (изнаночные)"
+
+msgid "3 over 3 right"
+msgstr "3 над 3 вправо"
+
+msgid "3 over 3 right-purl"
+msgstr "3 над 3 вправо (изнаночные)"
+
+msgid "4 increase"
+msgstr "прибавка в 4 петли"
+
+msgid "4over1left"
+msgstr "4 над 1 влево"
+
+msgid "4over1left-purl"
+msgstr "4 над 1 влево (изнаночные)"
+
+msgid "4over1right"
+msgstr "4 над 1 вправо"
+
+msgid "4over1right-purl"
+msgstr "4 над 1 вправо (изнаночные)"
+
+msgid "4tog decrease"
+msgstr "убавка из 4 петель"
+
+msgid "5 increase"
+msgstr "прибавка в 5 петель"
+
+msgid "5tog decrease"
+msgstr "убавка из 5 петель"
+
+msgid "C7left"
+msgstr "C7 влево"
+
+msgid "C7right"
+msgstr "C7 вправо"
+
+msgid "bind 2 knit"
+msgstr "закрытие 2 лицевых"
+
+msgid "bind 2 purl"
+msgstr "закрытие 2 изнаночных"
+
+msgid "bobble"
+msgstr "шишечка"
+
+msgid "centered double decrease"
+msgstr "центральная двойная убавка"
+
+msgid "centered double increase"
+msgstr "центральная двойная прибавка"
+
+msgid "closed ring"
+msgstr "закрытое кольцо"
+
+msgid "double decrease"
+msgstr "двойная убавка"
+
+msgid "elongated"
+msgstr "вытянутая петля"
+
+msgid "elongated twice"
+msgstr "вытянутая петля (3 оборота)"
+
+msgid "k1, p1, k1 increase"
+msgstr "прибавка: лиц., изн., лиц."
+
+msgid "k1, yo, k1 increase"
+msgstr "прибавка: лиц., накид, лиц."
+
+msgid "k2tog"
+msgstr "2 лицевых вместе"
+
+msgid "k3tog"
+msgstr "3 лицевых вместе"
+
+msgid "kfb"
+msgstr "лицевая в переднюю и заднюю стенку"
+
+msgid "knit"
+msgstr "лицевая"
+
+msgid "ktbl"
+msgstr "лицевая за заднюю стенку"
+
+msgid "LT"
+msgstr "перекрест влево, 1 петля"
+
+msgid "lt_yo"
+msgstr "перекрест влево с накидом"
+
+msgid "LTp"
+msgstr "перекрест влево с изнаночной"
+
+msgid "M1"
+msgstr "прибавка"
+
+msgid "M1-p"
+msgstr "прибавка изнаночная"
+
+msgid "make 1 left"
+msgstr "прибавка с наклоном влево"
+
+msgid "make 1 right"
+msgstr "прибавка с наклоном вправо"
+
+msgid "nostitch"
+msgstr "нет петли"
+
+msgid "nupp"
+msgstr "нупп"
+
+msgid "p2tog"
+msgstr "2 изнаночных вместе"
+
+msgid "p2tog tbl"
+msgstr "2 изнаночных вместе за заднюю стенку"
+
+msgid "ptbl"
+msgstr "изнаночная за заднюю стенку"
+
+msgid "purl"
+msgstr "изнаночная"
+
+msgid "RT"
+msgstr "перекрест вправо, 1 петля"
+
+msgid "rt_yo"
+msgstr "перекрест вправо с накидом"
+
+msgid "RTp"
+msgstr "перекрест вправо с изнаночной"
+
+msgid "sl1wyib"
+msgstr "снять 1 петлю, нить сзади"
+
+msgid "sl1wyif"
+msgstr "снять 1 петлю, нить спереди"
+
+msgid "ssk"
+msgstr "левая убавка (ssk)"
+
+msgid "yo"
+msgstr "накид"
+
+msgid "slip 1 st to cn and hold in front, k2 sts from left needle, k1 st from cn"
+msgstr "снять 1 петлю на вспомогательную спицу и оставить перед работой, 2 лиц. с левой спицы, 1 лиц. со вспомогательной спицы"
+
+msgid "slip 1 st to cn and hold in front, p2 sts from left needle, k1 st from cn"
+msgstr "снять 1 петлю на вспомогательную спицу и оставить перед работой, 2 изн. с левой спицы, 1 лиц. со вспомогательной спицы"
+
+msgid "slip 2 sts to cn and hold in back, k1 st from left needle, k2 sts from cn"
+msgstr "снять 2 петли на вспомогательную спицу и оставить за работой, 1 лиц. с левой спицы, 2 лиц. со вспомогательной спицы"
+
+msgid "slip 2 sts to cn and hold in back, k1 st from left needle, p2 sts from cn"
+msgstr "снять 2 петли на вспомогательную спицу и оставить за работой, 1 лиц. с левой спицы, 2 изн. со вспомогательной спицы"
+
+msgid "slip 1 st to cn and hold in front, k3 sts from left needle, k1 st from cn"
+msgstr "снять 1 петлю на вспомогательную спицу и оставить перед работой, 3 лиц. с левой спицы, 1 лиц. со вспомогательной спицы"
+
+msgid "slip 1 st to cn and hold in front, p3 sts from left needle, k1 st from cn"
+msgstr "снять 1 петлю на вспомогательную спицу и оставить перед работой, 3 изн. с левой спицы, 1 лиц. со вспомогательной спицы"
+
+msgid "slip 3 sts to cn and hold in back, k1 st from left needle, k3 sts from cn"
+msgstr "снять 3 петли на вспомогательную спицу и оставить за работой, 1 лиц. с левой спицы, 3 лиц. со вспомогательной спицы"
+
+msgid "slip 3 sts to cn and hold in back, k1 st from left needle, p3 sts from cn"
+msgstr "снять 3 петли на вспомогательную спицу и оставить за работой, 1 лиц. с левой спицы, 3 изн. со вспомогательной спицы"
+
+msgid "slip 1 st to cn and hold in front, k1, p1, k1, then k1 from cn"
+msgstr "снять 1 петлю на вспомогательную спицу и оставить перед работой, 1 лиц., 1 изн., 1 лиц., затем 1 лиц. со вспомогательной спицы"
+
+msgid "slip 3 sts to cn and hold in back, k1, then k1, p1, k1 from cn"
+msgstr "снять 3 петли на вспомогательную спицу и оставить за работой, 1 лиц., затем 1 лиц., 1 изн., 1 лиц. со вспомогательной спицы"
+
+msgid "slip 1 st to cn and hold in front, p1, k1, p1, then k1 from cn"
+msgstr "снять 1 петлю на вспомогательную спицу и оставить перед работой, 1 изн., 1 лиц., 1 изн., затем 1 лиц. со вспомогательной спицы"
+
+msgid "slip 3 sts to cn and hold in back, k1, then p1, k1, p1 from cn"
+msgstr "снять 3 петли на вспомогательную спицу и оставить за работой, 1 лиц., затем 1 изн., 1 лиц., 1 изн. со вспомогательной спицы"
+
+msgid "slip 2 sts to cn and hold in front, k1 sts from left needle, k2 sts from cn"
+msgstr "снять 2 петли на вспомогательную спицу и оставить перед работой, 1 лиц. с левой спицы, 2 лиц. со вспомогательной спицы"
+
+msgid "slip 2 sts to cn and hold in front, p1 sts from left needle, k2 sts from cn"
+msgstr "снять 2 петли на вспомогательную спицу и оставить перед работой, 1 изн. с левой спицы, 2 лиц. со вспомогательной спицы"
+
+msgid "slip 1 st to cn and hold in back, k2 sts from left needle, k1 st from cn"
+msgstr "снять 1 петлю на вспомогательную спицу и оставить за работой, 2 лиц. с левой спицы, 1 лиц. со вспомогательной спицы"
+
+msgid "slip 1 st to cn and hold in back, k2 sts from left needle, p1 st from cn"
+msgstr "снять 1 петлю на вспомогательную спицу и оставить за работой, 2 лиц. с левой спицы, 1 изн. со вспомогательной спицы"
+
+msgid "slip 2 sts to cn and hold in front, k2 sts from left needle, k2 sts from cn"
+msgstr "снять 2 петли на вспомогательную спицу и оставить перед работой, 2 лиц. с левой спицы, 2 лиц. со вспомогательной спицы"
+
+msgid "slip 2 sts to cn and hold in front, p2 sts from left needle, k2 sts from cn"
+msgstr "снять 2 петли на вспомогательную спицу и оставить перед работой, 2 изн. с левой спицы, 2 лиц. со вспомогательной спицы"
+
+msgid "slip 2 sts to cn and hold in back, k2 sts from left needle, k2 sts from cn"
+msgstr "снять 2 петли на вспомогательную спицу и оставить за работой, 2 лиц. с левой спицы, 2 лиц. со вспомогательной спицы"
+
+msgid "slip 2 sts to cn and hold in back, k2 sts from left needle, p2 sts from cn"
+msgstr "снять 2 петли на вспомогательную спицу и оставить за работой, 2 лиц. с левой спицы, 2 изн. со вспомогательной спицы"
+
+msgid "slip 2 sts to cn and hold in front, k3 sts from left needle, k2 sts from cn"
+msgstr "снять 2 петли на вспомогательную спицу и оставить перед работой, 3 лиц. с левой спицы, 2 лиц. со вспомогательной спицы"
+
+msgid "slip 2 sts to cn and hold in front, p3 sts from left needle, k2 sts from cn"
+msgstr "снять 2 петли на вспомогательную спицу и оставить перед работой, 3 изн. с левой спицы, 2 лиц. со вспомогательной спицы"
+
+msgid "slip 3 sts to cn and hold in back, k2 sts from left needle, k3 sts from cn"
+msgstr "снять 3 петли на вспомогательную спицу и оставить за работой, 2 лиц. с левой спицы, 3 лиц. со вспомогательной спицы"
+
+msgid "slip 3 sts to cn and hold in back, k2 sts from left needle, p3 sts from cn"
+msgstr "снять 3 петли на вспомогательную спицу и оставить за работой, 2 лиц. с левой спицы, 3 изн. со вспомогательной спицы"
+
+msgid "slip 2 sts to cn and hold in front, k1, p1, k1, then k2 from cn"
+msgstr "снять 2 петли на вспомогательную спицу и оставить перед работой, 1 лиц., 1 изн., 1 лиц., затем 2 лиц. со вспомогательной спицы"
+
+msgid "slip 3 sts to cn and hold in back, k2, then k1, p1, k1 from cn"
+msgstr "снять 3 петли на вспомогательную спицу и оставить за работой, 2 лиц., затем 1 лиц., 1 изн., 1 лиц. со вспомогательной спицы"
+
+msgid "slip 3 sts to cn and hold in front, k2, slip last st from cn to needle, p1, then k2 from cn"
+msgstr "снять 3 петли на вспомогательную спицу и оставить перед работой, 2 лиц., последнюю петлю со вспомогательной спицы снять на рабочую спицу, 1 изн., затем 2 лиц. со вспомогательной спицы"
+
+msgid "slip 3 sts to cn and hold in back, k2, slip last st from cn to needle, p1, then k2 from cn"
+msgstr "снять 3 петли на вспомогательную спицу и оставить за работой, 2 лиц., последнюю петлю со вспомогательной спицы снять на рабочую спицу, 1 изн., затем 2 лиц. со вспомогательной спицы"
+
+msgid "slip 2 sts to cn and hold in front, p1, k1, p1, then k2 from cn"
+msgstr "снять 2 петли на вспомогательную спицу и оставить перед работой, 1 изн., 1 лиц., 1 изн., затем 2 лиц. со вспомогательной спицы"
+
+msgid "slip 3 sts to cn and hold in back, k2, then p1, k1, p1 from cn"
+msgstr "снять 3 петли на вспомогательную спицу и оставить за работой, 2 лиц., затем 1 изн., 1 лиц., 1 изн. со вспомогательной спицы"
+
+msgid "slip 3 sts to cn and hold in front, k1 st from left needle, k3 sts from cn"
+msgstr "снять 3 петли на вспомогательную спицу и оставить перед работой, 1 лиц. с левой спицы, 3 лиц. со вспомогательной спицы"
+
+msgid "slip 3 sts to cn and hold in front, p1 st from left needle, k3 sts from cn"
+msgstr "снять 3 петли на вспомогательную спицу и оставить перед работой, 1 изн. с левой спицы, 3 лиц. со вспомогательной спицы"
+
+msgid "slip 1 st to cn and hold in back, k3 sts from left needle, k1 st from cn"
+msgstr "снять 1 петлю на вспомогательную спицу и оставить за работой, 3 лиц. с левой спицы, 1 лиц. со вспомогательной спицы"
+
+msgid "slip 1 st to cn and hold in back, k3 sts from left needle, p1 st from cn"
+msgstr "снять 1 петлю на вспомогательную спицу и оставить за работой, 3 лиц. с левой спицы, 1 изн. со вспомогательной спицы"
+
+msgid "slip 3 sts to cn and hold in front, k2 sts from left needle, k3 sts from cn"
+msgstr "снять 3 петли на вспомогательную спицу и оставить перед работой, 2 лиц. с левой спицы, 3 лиц. со вспомогательной спицы"
+
+msgid "slip 3 sts to cn and hold in front, p2 sts from left needle, k3 sts from cn"
+msgstr "снять 3 петли на вспомогательную спицу и оставить перед работой, 2 изн. с левой спицы, 3 лиц. со вспомогательной спицы"
+
+msgid "slip 2 sts to cn and hold in back, k3 sts from left needle, k2 sts from cn"
+msgstr "снять 2 петли на вспомогательную спицу и оставить за работой, 3 лиц. с левой спицы, 2 лиц. со вспомогательной спицы"
+
+msgid "slip 2 sts to cn and hold in back, k3 sts from left needle, p2 sts from cn"
+msgstr "снять 2 петли на вспомогательную спицу и оставить за работой, 3 лиц. с левой спицы, 2 изн. со вспомогательной спицы"
+
+msgid "slip 3 sts to cn and hold in front, k3 sts from left needle, k3 sts from cn"
+msgstr "снять 3 петли на вспомогательную спицу и оставить перед работой, 3 лиц. с левой спицы, 3 лиц. со вспомогательной спицы"
+
+msgid "slip 3 sts to cn and hold in front, p3 sts from left needle, k3 sts from cn"
+msgstr "снять 3 петли на вспомогательную спицу и оставить перед работой, 3 изн. с левой спицы, 3 лиц. со вспомогательной спицы"
+
+msgid "slip 3 sts to cn and hold in back, k3 sts from left needle, k3 sts from cn"
+msgstr "снять 3 петли на вспомогательную спицу и оставить за работой, 3 лиц. с левой спицы, 3 лиц. со вспомогательной спицы"
+
+msgid "slip 3 sts to cn and hold in back, k3 sts from left needle, p3 sts from cn"
+msgstr "снять 3 петли на вспомогательную спицу и оставить за работой, 3 лиц. с левой спицы, 3 изн. со вспомогательной спицы"
+
+msgid "k1, p1, k1, p1 into same stitch"
+msgstr "лиц., изн., лиц., изн. в одну петлю"
+
+msgid "slip 4 sts to cn and hold in front, k1 st from left needle, k4 sts from cn"
+msgstr "снять 4 петли на вспомогательную спицу и оставить перед работой, 1 лиц. с левой спицы, 4 лиц. со вспомогательной спицы"
+
+msgid "slip 4 sts to cn and hold in front, p1 st from left needle, k4 sts from cn"
+msgstr "снять 4 петли на вспомогательную спицу и оставить перед работой, 1 изн. с левой спицы, 4 лиц. со вспомогательной спицы"
+
+msgid "slip 1 st to cn and hold in back, k4 sts from left needle, k1 st from cn"
+msgstr "снять 1 петлю на вспомогательную спицу и оставить за работой, 4 лиц. с левой спицы, 1 лиц. со вспомогательной спицы"
+
+msgid "slip 1 st to cn and hold in back, k4 sts from left needle, p1 st from cn"
+msgstr "снять 1 петлю на вспомогательную спицу и оставить за работой, 4 лиц. с левой спицы, 1 изн. со вспомогательной спицы"
+
+msgid "Ssk, k2tog, then pass the ssk over the k2tog"
+msgstr "ssk, 2 лиц. вместе, затем перекинуть ssk через эту убавку"
+
+msgid "k1 ,yo, k1, yo, k1 into same stitch"
+msgstr "лиц., накид, лиц., накид, лиц. в одну петлю"
+
+msgid "Sl next 3 sts to right hand needle.  *Pass 2nd st on right hand needle over 1st st, sl 1st st to left hand needle.  Then pass 2nd st on left hand needle over same 1st st, and sl 1st st back to right hand needle.*  Rep from * to * once more. Then purl 1st st."
+msgstr "Снять следующие 3 петли на правую спицу. *Перекинуть 2-ю петлю на правой спице через 1-ю, 1-ю петлю вернуть на левую спицу. Затем перекинуть 2-ю петлю на левой спице через ту же 1-ю петлю и вернуть 1-ю петлю на правую спицу.* Повторить от * до * ещё раз. Затем связать 1-ю петлю изнаночной."
+
+msgid "slip 3 sts to cn and hold in front, k3 sts from left needle, p1, k3 sts from cn"
+msgstr "снять 3 петли на вспомогательную спицу и оставить перед работой, 3 лиц. с левой спицы, 1 изн., 3 лиц. со вспомогательной спицы"
+
+msgid "slip 4 sts to cn and hold in back, k3 sts from left needle, p1, k3 sts from cn"
+msgstr "снять 4 петли на вспомогательную спицу и оставить за работой, 3 лиц. с левой спицы, 1 изн., 3 лиц. со вспомогательной спицы"
+
+msgid "yo, k2, pass yo over 2 knit stitches"
+msgstr "накид, 2 лиц., перекинуть накид через 2 лицевые петли"
+
+msgid "yo, p2, pass yo over 2 purl stitches"
+msgstr "накид, 2 изн., перекинуть накид через 2 изнаночные петли"
+
+msgid "(k1, yo, k1, yo, k1) into next st, turn, p5 sts, turn, ssk, k1, k2tog, turn, p3, turn, sl 2 sts knitwise, k1, pass 2 slipped sts over"
+msgstr "(лиц., накид, лиц., накид, лиц.) в следующую петлю, повернуть, 5 изн., повернуть, ssk, лиц., 2 лиц. вместе, повернуть, 3 изн., повернуть, снять 2 петли как лицевые, лиц., перекинуть 2 снятые петли через неё"
+
+msgid "slip 2 sts knitwise, k1 st from left needle, pass 2 slipped sts over"
+msgstr "снять 2 петли как лицевые, 1 лиц. с левой спицы, перекинуть 2 снятые петли через неё"
+
+msgid "knit in back and front of same st, then pick up vertical strand that runs between those 2 sts and knit it through the back"
+msgstr "связать лиц. в заднюю и переднюю стенку одной петли, затем поднять вертикальную нить между этими 2 петлями и провязать её лицевой за заднюю стенку"
+
+msgid "Insert right needle into third st on left needle and pass this st over first 2 sts on left needle; k1, yo, k1."
+msgstr "ввести правую спицу в третью петлю на левой спице и перекинуть её через первые 2 петли; лиц., накид, лиц."
+
+msgid "slip 1 st knitwise, k2 sts together from left needle, pass slipped stitch over"
+msgstr "снять 1 петлю как лицевую, 2 лиц. вместе с левой спицы, перекинуть снятую петлю через них"
+
+msgid "Knit 1 stitch wrapping yarn twice, then on next row drop extra wrap from needle"
+msgstr "связать 1 петлю, обернув нить дважды; в следующем ряду сбросить лишний оборот со спицы"
+
+msgid "Knit 1 stitch wrapping yarn 3 times, then on next row drop extra wraps from needle"
+msgstr "связать 1 петлю, обернув нить 3 раза; в следующем ряду сбросить лишние обороты со спицы"
+
+msgid "k1, p1, k1 into same stitch"
+msgstr "лиц., изн., лиц. в одну петлю"
+
+msgid "k1, leaving stitch on left hand needle, yo, k1 into same stitch"
+msgstr "лиц., не снимая петлю с левой спицы, накид, лиц. в ту же петлю"
+
+msgid "Knit 2 together"
+msgstr "2 лицевых вместе"
+
+msgid "Knit 3 together"
+msgstr "3 лицевых вместе"
+
+msgid "knit front and back of same st"
+msgstr "связать лиц. в переднюю, затем в заднюю стенку одной петли"
+
+msgid "knit on RS; purl on WS"
+msgstr "лицевая на лицевой стороне; изнаночная на изнанке"
+
+msgid "knit through back loop"
+msgstr "лицевая за заднюю стенку петли"
+
+msgid "slip 1 st to cn and hold in front, k1 from left needle, k1 st from cn"
+msgstr "снять 1 петлю на вспомогательную спицу и оставить перед работой, 1 лиц. с левой спицы, 1 лиц. со вспомогательной спицы"
+
+msgid "slip 1 st to cn and hold in front, k1 from left needle, yo, k1 st from cn"
+msgstr "снять 1 петлю на вспомогательную спицу и оставить перед работой, 1 лиц. с левой спицы, накид, 1 лиц. со вспомогательной спицы"
+
+msgid "slip 1 st to cn and hold in front, p1 from left needle, k1 st from cn"
+msgstr "снять 1 петлю на вспомогательную спицу и оставить перед работой, 1 изн. с левой спицы, 1 лиц. со вспомогательной спицы"
+
+msgid "make 1"
+msgstr "прибавить 1 петлю"
+
+msgid "make 1 purl"
+msgstr "прибавка изнаночной петлёй"
+
+msgid "With left needle, lift strand between sts from the front and knit through the back loop"
+msgstr "левой спицей поднять нить между петлями спереди и провязать лицевой за заднюю стенку"
+
+msgid "With left needle, lift strand between sts from the back and knit through the front loop"
+msgstr "левой спицей поднять нить между петлями сзади и провязать лицевой за переднюю стенку"
+
+msgid "no stitch (ignore this space)"
+msgstr "нет петли (пропустите эту клетку)"
+
+msgid "Nupp: knit into stitch, leaving it on left hand needle, * YO, knit into stitch again, rep from * until there are 7 sts from 1 st.  On next row, work 7 sts together back to 1 st."
+msgstr "Нупп: провязать лицевую, не снимая петлю с левой спицы, * накид, снова провязать лицевую в ту же петлю, повторять от *, пока из 1 петли не получится 7. В следующем ряду провязать 7 петель вместе в 1."
+
+msgid "Purl 2 together"
+msgstr "2 изнаночных вместе"
+
+msgid "Purl 2 together through the back loop"
+msgstr "2 изнаночных вместе за задние стенки"
+
+msgid "purl through back loop"
+msgstr "изнаночная за заднюю стенку петли"
+
+msgid "purl on RS; knit on WS"
+msgstr "изнаночная на лицевой стороне; лицевая на изнанке"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, k1 st from cn"
+msgstr "снять 1 петлю на вспомогательную спицу и оставить за работой, 1 лиц. с левой спицы, 1 лиц. со вспомогательной спицы"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, yo, k1 st from cn"
+msgstr "снять 1 петлю на вспомогательную спицу и оставить за работой, 1 лиц. с левой спицы, накид, 1 лиц. со вспомогательной спицы"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, p1 st from cn"
+msgstr "снять 1 петлю на вспомогательную спицу и оставить за работой, 1 лиц. с левой спицы, 1 изн. со вспомогательной спицы"
+
+msgid "Slip 1 stitch purlwise with yarn in back"
+msgstr "снять 1 петлю как изнаночную, нить сзади"
+
+msgid "Slip 1 stitch purlwise with yarn in front"
+msgstr "снять 1 петлю как изнаночную, нить спереди"
+
+msgid "Slip, slip, knit"
+msgstr "снять 2 петли по одной как лицевые, затем провязать их вместе"
+
+msgid "yarn over"
+msgstr "накид"

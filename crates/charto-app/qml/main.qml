@@ -14,6 +14,13 @@ ApplicationWindow {
 
     ChartBackend { id: backend }
 
+    // a file given on the command line (or double-clicked in a file manager) is opened at start-up
+    Component.onCompleted: {
+        var f = backend.startupFile()
+        if (f !== "")
+            requestOpen(f)
+    }
+
     // the whole editor state, republished by Rust after every action
     property var snap: JSON.parse(backend.snapshot)
     property var symbolPalette: JSON.parse(backend.paletteJson())
@@ -41,6 +48,9 @@ ApplicationWindow {
             s = s.substring(1)
         return decodeURIComponent(s)
     }
+
+    // Translation: the texts come from the .po files built into the program (see po/)
+    function tr(text) { return backend.translate(text) }
 
     function save() {
         if (snap.path !== "")
@@ -131,9 +141,9 @@ ApplicationWindow {
         renderChart(function (result) {
             var path = backend.printTempPath()
             if (result.saveToFile(path))
-                backend.printImage(path, snap.file !== "" ? snap.file : qsTr("Charto pattern"))
+                backend.printImage(path, snap.file !== "" ? snap.file : tr("Charto pattern"))
             else
-                backend.reportStatus(qsTr("Could not render the chart for printing"))
+                backend.reportStatus(tr("Could not render the chart for printing"))
         })
     }
 
@@ -141,8 +151,8 @@ ApplicationWindow {
         renderChart(function (result) {
             var target = /\.[A-Za-z0-9]+$/.test(path) ? path : path + ".png"
             backend.reportStatus(result.saveToFile(target)
-                                 ? qsTr("Exported ") + target
-                                 : qsTr("Could not write ") + target)
+                                 ? tr("Exported %1").arg(target)
+                                 : tr("Could not write %1").arg(target))
         })
     }
 
@@ -186,22 +196,20 @@ ApplicationWindow {
 
     menuBar: MenuBar {
         Menu {
-            title: qsTr("&File")
+            title: tr("&File")
             Action {
-                text: qsTr("&New…")
+                text: tr("&New…")
                 icon.name: "document-new"
-                shortcut: StandardKey.New
                 onTriggered: win.guardUnsaved(function () { newDialog.open() })
             }
             Action {
-                text: qsTr("&Open…")
+                text: tr("&Open…")
                 icon.name: "document-open"
-                shortcut: StandardKey.Open
                 onTriggered: win.guardUnsaved(function () { win.chooseFile("open") })
             }
             Menu {
                 id: recentMenu
-                title: qsTr("Open &Recent")
+                title: tr("Open &Recent")
                 enabled: snap.recent.length > 0
                 Instantiator {
                     model: snap.recent
@@ -214,100 +222,115 @@ ApplicationWindow {
                     onObjectRemoved: (index, object) => recentMenu.removeItem(object)
                 }
                 MenuSeparator {}
-                Action { text: qsTr("&Clear list"); onTriggered: backend.clearRecentFiles() }
+                Action { text: tr("&Clear list"); onTriggered: backend.clearRecentFiles() }
             }
-            Action { text: qsTr("&Save"); icon.name: "document-save"; shortcut: StandardKey.Save; onTriggered: win.save() }
-            Action { text: qsTr("Save &As…"); icon.name: "document-save-as"; shortcut: StandardKey.SaveAs; onTriggered: win.chooseFile("save") }
+            Action { text: tr("&Save"); icon.name: "document-save"; onTriggered: win.save() }
+            Action { text: tr("Save &As…"); icon.name: "document-save-as"; onTriggered: win.chooseFile("save") }
             MenuSeparator {}
             Action {
-                text: qsTr("Export as &PNG…")
+                text: tr("Export as &PNG…")
                 icon.name: "image-x-generic"
                 enabled: !win.printBusy
                 onTriggered: win.chooseFile("exportPng")
             }
-            Action { text: qsTr("Export as S&VG…"); icon.name: "image-svg+xml"; onTriggered: win.chooseFile("exportSvg") }
+            Action { text: tr("Export as S&VG…"); icon.name: "image-svg+xml"; onTriggered: win.chooseFile("exportSvg") }
             MenuSeparator {}
             Action {
-                text: qsTr("&Print…")
+                text: tr("&Print…")
                 icon.name: "document-print"
-                shortcut: StandardKey.Print
                 enabled: !win.printBusy
                 onTriggered: win.printChart()
             }
             MenuSeparator {}
-            Action { text: qsTr("&Quit"); icon.name: "application-exit"; shortcut: StandardKey.Quit; onTriggered: win.close() }
+            Action { text: tr("&Quit"); icon.name: "application-exit"; onTriggered: win.close() }
         }
         Menu {
-            title: qsTr("&Edit")
+            title: tr("&Edit")
             Action {
-                text: snap.canUndo ? qsTr("&Undo ") + snap.undoText : qsTr("&Undo")
+                text: snap.canUndo ? tr("&Undo %1").arg(tr(snap.undoText)) : tr("&Undo")
                 icon.name: "edit-undo"
-                shortcut: StandardKey.Undo
                 enabled: snap.canUndo
                 onTriggered: backend.undo()
             }
             Action {
-                text: snap.canRedo ? qsTr("&Redo ") + snap.redoText : qsTr("&Redo")
+                text: snap.canRedo ? tr("&Redo %1").arg(tr(snap.redoText)) : tr("&Redo")
                 icon.name: "edit-redo"
-                shortcut: StandardKey.Redo
                 enabled: snap.canRedo
                 onTriggered: backend.redo()
             }
             MenuSeparator {}
-            Action { text: qsTr("&Copy"); icon.name: "edit-copy"; shortcut: StandardKey.Copy; enabled: snap.selected > 0; onTriggered: backend.copy() }
+            Action { text: tr("&Copy"); icon.name: "edit-copy"; enabled: snap.selected > 0; onTriggered: backend.copy() }
             Action {
-                text: qsTr("&Paste into selection")
+                text: tr("&Paste into selection")
                 icon.name: "edit-paste"
-                shortcut: StandardKey.Paste
                 enabled: snap.hasClipboard
                 onTriggered: backend.paste(-1, -1)
             }
             MenuSeparator {}
-            Action { text: qsTr("Clear &selection"); shortcut: "Escape"; onTriggered: backend.clearSelection() }
-            Action { text: qsTr("Apply colour to selection"); enabled: snap.selected > 0; onTriggered: backend.applyColor() }
+            Action { text: tr("Clear &selection"); onTriggered: backend.clearSelection() }
+            Action { text: tr("Apply colour to selection"); enabled: snap.selected > 0; onTriggered: backend.applyColor() }
             MenuSeparator {}
             Action {
-                text: qsTr("&Preferences…")
+                text: tr("&Preferences…")
                 icon.name: "preferences-system"
-                shortcut: StandardKey.Preferences
                 onTriggered: prefDialog.load()
             }
         }
         Menu {
-            title: qsTr("&Chart")
-            Action { text: qsTr("Insert rows above…"); onTriggered: countDialog.ask("rowsAbove", text) }
-            Action { text: qsTr("Insert rows below…"); onTriggered: countDialog.ask("rowsBelow", text) }
-            Action { text: qsTr("Delete selected rows"); onTriggered: backend.deleteRows() }
+            title: tr("&Chart")
+            Action { text: tr("Insert rows above…"); onTriggered: countDialog.ask("rowsAbove", text) }
+            Action { text: tr("Insert rows below…"); onTriggered: countDialog.ask("rowsBelow", text) }
+            Action { text: tr("Delete selected rows"); onTriggered: backend.deleteRows() }
             MenuSeparator {}
-            Action { text: qsTr("Insert columns left…"); onTriggered: countDialog.ask("colsLeft", text) }
-            Action { text: qsTr("Insert columns right…"); onTriggered: countDialog.ask("colsRight", text) }
-            Action { text: qsTr("Delete selected columns"); onTriggered: backend.deleteColumns() }
+            Action { text: tr("Insert stitches left…"); onTriggered: countDialog.ask("colsLeft", text) }
+            Action { text: tr("Insert stitches right…"); onTriggered: countDialog.ask("colsRight", text) }
+            Action { text: tr("Delete selected stitches"); onTriggered: backend.deleteColumns() }
             MenuSeparator {}
-            Action { text: qsTr("Make selected rows a row repeat…"); onTriggered: countDialog.ask("repeat", text) }
-            Action { text: qsTr("Delete row repeat"); onTriggered: backend.deleteRowRepeat() }
+            Action { text: tr("Make selected rows a row repeat…"); onTriggered: countDialog.ask("repeat", text) }
+            Action { text: tr("Delete row repeat"); onTriggered: backend.deleteRowRepeat() }
         }
         Menu {
-            title: qsTr("&View")
-            Action { text: qsTr("Zoom &in"); icon.name: "zoom-in"; shortcut: StandardKey.ZoomIn; onTriggered: win.zoomBy(1.2) }
-            Action { text: qsTr("Zoom &out"); icon.name: "zoom-out"; shortcut: StandardKey.ZoomOut; onTriggered: win.zoomBy(1 / 1.2) }
-            Action { text: qsTr("&Reset zoom"); icon.name: "zoom-original"; shortcut: "Ctrl+0"; onTriggered: win.zoom = 1.0 }
+            title: tr("&View")
+            Action { text: tr("Zoom &in"); icon.name: "zoom-in"; onTriggered: win.zoomBy(1.2) }
+            Action { text: tr("Zoom &out"); icon.name: "zoom-out"; onTriggered: win.zoomBy(1 / 1.2) }
+            Action { text: tr("&Reset zoom"); icon.name: "zoom-original"; onTriggered: win.zoom = 1.0 }
         }
     }
+
+
+    // ---- keyboard shortcuts -------------------------------------------------
+    // Kept apart from the menu actions so that the menus show no shortcut text.
+
+    Shortcut { sequences: [StandardKey.New]; onActivated: win.guardUnsaved(function () { newDialog.open() }) }
+    Shortcut { sequences: [StandardKey.Open]; onActivated: win.guardUnsaved(function () { win.chooseFile("open") }) }
+    Shortcut { sequences: [StandardKey.Save]; onActivated: win.save() }
+    Shortcut { sequences: [StandardKey.SaveAs]; onActivated: win.chooseFile("save") }
+    Shortcut { sequences: [StandardKey.Print]; enabled: !win.printBusy; onActivated: win.printChart() }
+    Shortcut { sequences: [StandardKey.Quit]; onActivated: win.close() }
+    Shortcut { sequences: [StandardKey.Undo]; enabled: snap.canUndo; onActivated: backend.undo() }
+    Shortcut { sequences: [StandardKey.Redo]; enabled: snap.canRedo; onActivated: backend.redo() }
+    Shortcut { sequences: [StandardKey.Copy]; enabled: snap.selected > 0; onActivated: backend.copy() }
+    Shortcut { sequences: [StandardKey.Paste]; enabled: snap.hasClipboard; onActivated: backend.paste(-1, -1) }
+    Shortcut { sequence: "Escape"; onActivated: backend.clearSelection() }
+    Shortcut { sequences: [StandardKey.Preferences]; onActivated: prefDialog.load() }
+    Shortcut { sequences: [StandardKey.ZoomIn]; onActivated: win.zoomBy(1.2) }
+    Shortcut { sequences: [StandardKey.ZoomOut]; onActivated: win.zoomBy(1 / 1.2) }
+    Shortcut { sequence: "Ctrl+0"; onActivated: win.zoom = 1.0 }
 
     // ---- dialogs ----------------------------------------------------------
 
     FileDialog {
         id: openDialog
-        title: qsTr("Open pattern")
-        nameFilters: [qsTr("Charto patterns (*.spf)"), qsTr("All files (*)")]
+        title: tr("Open pattern")
+        nameFilters: [tr("Charto patterns (*.spf)"), tr("All files (*)")]
         onAccepted: win.requestOpen(win.localPath(selectedFile))
     }
 
     FileDialog {
         id: saveDialog
-        title: qsTr("Save pattern")
+        title: tr("Save pattern")
         fileMode: FileDialog.SaveFile
-        nameFilters: [qsTr("Charto patterns (*.spf)")]
+        nameFilters: [tr("Charto patterns (*.spf)")]
         onAccepted: {
             backend.saveFile(win.localPath(selectedFile))
             if (backend.status === "")
@@ -320,33 +343,33 @@ ApplicationWindow {
 
     ColorDialog {
         id: colorDialog
-        title: qsTr("Choose a colour")
+        title: tr("Choose a colour")
         onAccepted: backend.addColor(selectedColor.toString())
     }
 
     FileDialog {
         id: exportPngDialog
-        title: qsTr("Export as PNG image")
+        title: tr("Export as PNG image")
         fileMode: FileDialog.SaveFile
-        nameFilters: [qsTr("PNG images (*.png)")]
+        nameFilters: [tr("PNG images (*.png)")]
         onAccepted: win.exportPng(win.localPath(selectedFile))
     }
 
     FileDialog {
         id: exportSvgDialog
-        title: qsTr("Export as SVG drawing")
+        title: tr("Export as SVG drawing")
         fileMode: FileDialog.SaveFile
-        nameFilters: [qsTr("SVG drawings (*.svg)")]
+        nameFilters: [tr("SVG drawings (*.svg)")]
         onAccepted: backend.exportSvg(win.localPath(selectedFile))
     }
 
     Dialog {
         id: unsavedDialog
-        title: qsTr("Unsaved changes")
+        title: tr("Unsaved changes")
         modal: true
         anchors.centerIn: Overlay.overlay
         standardButtons: Dialog.Save | Dialog.Discard | Dialog.Cancel
-        Label { text: qsTr("The pattern has unsaved changes. Save them first?") }
+        Label { text: tr("The pattern has unsaved changes. Save them first?") }
         onAccepted: {
             if (snap.path !== "") {
                 backend.saveFile(snap.path)
@@ -365,15 +388,14 @@ ApplicationWindow {
     Dialog {
         id: recoveryDialog
         property string path: ""
-        title: qsTr("Recovered changes")
+        title: tr("Recovered changes")
         modal: true
         anchors.centerIn: Overlay.overlay
         standardButtons: Dialog.Yes | Dialog.No
         Label {
             width: 380
             wrapMode: Text.Wrap
-            text: qsTr("Charto found unsaved changes to this pattern from an earlier session. "
-                       + "Open the recovered version?")
+            text: tr("Charto found unsaved changes to this pattern from an earlier session. Open the recovered version?")
         }
         onAccepted: backend.openRecovery(path)
         onRejected: backend.openFile(path)
@@ -383,7 +405,7 @@ ApplicationWindow {
         id: labelDialog
         property string kind: "row"
         property int index: 0
-        title: kind === "row" ? qsTr("Row label") : qsTr("Column label")
+        title: kind === "row" ? tr("Row label") : tr("Stitch label")
         modal: true
         anchors.centerIn: Overlay.overlay
         standardButtons: Dialog.Ok | Dialog.Cancel
@@ -413,13 +435,13 @@ ApplicationWindow {
 
     ColorDialog {
         id: hlColorDialog
-        title: qsTr("Row highlight colour")
+        title: tr("Row highlight colour")
         onAccepted: prefDialog.hlColor = selectedColor
     }
 
     Dialog {
         id: prefDialog
-        title: qsTr("Preferences")
+        title: tr("Preferences")
         modal: true
         anchors.centerIn: Overlay.overlay
         standardButtons: Dialog.Ok | Dialog.Cancel
@@ -485,46 +507,46 @@ ApplicationWindow {
                 columnSpacing: 12
                 rowSpacing: 4
 
-                Label { text: qsTr("Chart"); font.bold: true; Layout.columnSpan: 2 }
-                Label { text: qsTr("Cell width (pixels)") }
+                Label { text: tr("Chart"); font.bold: true; Layout.columnSpan: 2 }
+                Label { text: tr("Cell width (pixels)") }
                 SpinBox { id: cellW; from: 10; to: 200; editable: true }
-                Label { text: qsTr("Cell height (pixels)") }
+                Label { text: tr("Cell height (pixels)") }
                 SpinBox { id: cellH; from: 10; to: 200; editable: true }
 
-                Label { text: qsTr("Row labels"); font.bold: true; Layout.columnSpan: 2 }
-                Label { text: qsTr("Show") }
+                Label { text: tr("Row labels"); font.bold: true; Layout.columnSpan: 2 }
+                Label { text: tr("Show") }
                 ComboBox {
                     id: rowMode
-                    model: [qsTr("All rows"), qsTr("Every n-th row"), qsTr("Odd rows"), qsTr("Even rows")]
+                    model: [tr("All rows"), tr("Every n-th row"), tr("Odd rows"), tr("Even rows")]
                 }
-                Label { text: qsTr("Number of the bottom row") }
+                Label { text: tr("Number of the bottom row") }
                 SpinBox { id: rowStart; from: 0; to: 100000; editable: true }
-                Label { text: qsTr("Interval (n)") }
+                Label { text: tr("Interval (n)") }
                 SpinBox { id: rowInterval; from: 1; to: 1000; editable: true }
-                Label { text: qsTr("First numbered row of the interval") }
+                Label { text: tr("First numbered row of the interval") }
                 SpinBox { id: rowIntervalStart; from: 0; to: 100000; editable: true }
-                Label { text: qsTr("Odd rows are labelled on the") }
-                ComboBox { id: oddLoc; model: [qsTr("left"), qsTr("right")] }
-                Label { text: qsTr("Even rows are labelled on the") }
-                ComboBox { id: evenLoc; model: [qsTr("left"), qsTr("right")] }
-                CheckBox { id: rowsEditable; text: qsTr("Row labels can be edited (double-click)"); Layout.columnSpan: 2 }
+                Label { text: tr("Odd rows are labelled on the") }
+                ComboBox { id: oddLoc; model: [tr("left"), tr("right")] }
+                Label { text: tr("Even rows are labelled on the") }
+                ComboBox { id: evenLoc; model: [tr("left"), tr("right")] }
+                CheckBox { id: rowsEditable; text: tr("Row labels can be edited (double-click)"); Layout.columnSpan: 2 }
 
-                Label { text: qsTr("Column labels"); font.bold: true; Layout.columnSpan: 2 }
-                Label { text: qsTr("Show") }
-                ComboBox { id: colMode; model: [qsTr("All columns"), qsTr("Every n-th column")] }
-                Label { text: qsTr("Interval (n)") }
+                Label { text: tr("Stitch labels"); font.bold: true; Layout.columnSpan: 2 }
+                Label { text: tr("Show") }
+                ComboBox { id: colMode; model: [tr("All stitches"), tr("Every n-th stitch")] }
+                Label { text: tr("Interval (n)") }
                 SpinBox { id: colInterval; from: 1; to: 1000; editable: true }
-                Label { text: qsTr("First numbered column of the interval") }
+                Label { text: tr("First numbered stitch of the interval") }
                 SpinBox { id: colIntervalStart; from: 0; to: 100000; editable: true }
-                CheckBox { id: colsEditable; text: qsTr("Column labels can be edited (double-click)"); Layout.columnSpan: 2 }
+                CheckBox { id: colsEditable; text: tr("Stitch labels can be edited (double-click)"); Layout.columnSpan: 2 }
 
-                Label { text: qsTr("Row highlighting"); font.bold: true; Layout.columnSpan: 2 }
-                CheckBox { id: hlOn; text: qsTr("Highlight every other row"); Layout.columnSpan: 2 }
-                Label { text: qsTr("Highlight") }
-                ComboBox { id: hlStart; model: [qsTr("odd rows (1, 3, 5, …)"), qsTr("even rows (2, 4, 6, …)")] }
-                Label { text: qsTr("Strength (%)") }
+                Label { text: tr("Row highlighting"); font.bold: true; Layout.columnSpan: 2 }
+                CheckBox { id: hlOn; text: tr("Highlight every other row"); Layout.columnSpan: 2 }
+                Label { text: tr("Highlight") }
+                ComboBox { id: hlStart; model: [tr("odd rows (1, 3, 5, …)"), tr("even rows (2, 4, 6, …)")] }
+                Label { text: tr("Strength (%)") }
                 SpinBox { id: hlOpacity; from: 0; to: 100; editable: true }
-                Label { text: qsTr("Colour") }
+                Label { text: tr("Colour") }
                 Rectangle {
                     implicitWidth: 60
                     implicitHeight: 26
@@ -534,14 +556,14 @@ ApplicationWindow {
                     MouseArea { anchors.fill: parent; onClicked: hlColorDialog.open() }
                 }
 
-                Label { text: qsTr("Fonts"); font.bold: true; Layout.columnSpan: 2 }
-                Label { text: qsTr("Label font") }
+                Label { text: tr("Fonts"); font.bold: true; Layout.columnSpan: 2 }
+                Label { text: tr("Label font") }
                 TextField { id: labelFont; selectByMouse: true }
-                Label { text: qsTr("Label size") }
+                Label { text: tr("Label size") }
                 SpinBox { id: labelSize; from: 1; to: 200; editable: true }
-                Label { text: qsTr("Legend font") }
+                Label { text: tr("Legend font") }
                 TextField { id: legendFont; selectByMouse: true }
-                Label { text: qsTr("Legend size") }
+                Label { text: tr("Legend size") }
                 SpinBox { id: legendSize; from: 1; to: 200; editable: true }
             }
         }
@@ -557,15 +579,15 @@ ApplicationWindow {
 
     Dialog {
         id: newDialog
-        title: qsTr("New pattern")
+        title: tr("New pattern")
         modal: true
         anchors.centerIn: Overlay.overlay
         standardButtons: Dialog.Ok | Dialog.Cancel
         GridLayout {
             columns: 2
-            Label { text: qsTr("Rows") }
+            Label { text: tr("Rows") }
             SpinBox { id: newRows; from: 1; to: 500; value: 10; editable: true }
-            Label { text: qsTr("Columns") }
+            Label { text: tr("Stitches") }
             SpinBox { id: newCols; from: 1; to: 500; value: 10; editable: true }
         }
         onAccepted: backend.newChart(newRows.value, newCols.value)
@@ -604,19 +626,19 @@ ApplicationWindow {
         property int col: 0
         property int row: 0
         MenuItem {
-            text: qsTr("Paste here")
+            text: tr("Paste here")
             enabled: snap.hasClipboard
             onTriggered: backend.paste(cellMenu.col, cellMenu.row)
         }
-        MenuItem { text: qsTr("Select row"); onTriggered: backend.selectRow(cellMenu.row) }
-        MenuItem { text: qsTr("Select column"); onTriggered: backend.selectColumn(cellMenu.col) }
+        MenuItem { text: tr("Select row"); onTriggered: backend.selectRow(cellMenu.row) }
+        MenuItem { text: tr("Select stitch column"); onTriggered: backend.selectColumn(cellMenu.col) }
         MenuSeparator {}
         MenuItem {
-            text: qsTr("Select all cells with this colour")
+            text: tr("Select all cells with this colour")
             onTriggered: backend.selectSameColor(cellMenu.row, cellMenu.col)
         }
         MenuItem {
-            text: qsTr("Select all cells with this symbol")
+            text: tr("Select all cells with this symbol")
             onTriggered: backend.selectSameSymbol(cellMenu.row, cellMenu.col)
         }
     }
@@ -637,14 +659,14 @@ ApplicationWindow {
                 anchors.fill: parent
                 spacing: 6
 
-                Label { text: qsTr("Mode"); font.bold: true }
+                Label { text: tr("Mode"); font.bold: true }
                 RowLayout {
-                    RadioButton { text: qsTr("Select"); checked: snap.mode === 0; onClicked: backend.setMode(0) }
-                    RadioButton { text: qsTr("Hide"); checked: snap.mode === 1; onClicked: backend.setMode(1) }
-                    RadioButton { text: qsTr("Unhide"); checked: snap.mode === 2; onClicked: backend.setMode(2) }
+                    RadioButton { text: tr("Select"); checked: snap.mode === 0; onClicked: backend.setMode(0) }
+                    RadioButton { text: tr("Hide"); checked: snap.mode === 1; onClicked: backend.setMode(1) }
+                    RadioButton { text: tr("Unhide"); checked: snap.mode === 2; onClicked: backend.setMode(2) }
                 }
 
-                Label { text: qsTr("Colour"); font.bold: true }
+                Label { text: tr("Colour"); font.bold: true }
                 Flow {
                     Layout.fillWidth: true
                     spacing: 4
@@ -664,12 +686,12 @@ ApplicationWindow {
                     Button { text: "+"; width: 26; height: 26; onClicked: colorDialog.open() }
                 }
                 Button {
-                    text: qsTr("Apply colour to selection")
+                    text: tr("Apply colour to selection")
                     enabled: snap.selected > 0
                     onClicked: backend.applyColor()
                 }
 
-                Label { visible: snap.recentSymbols.length > 0; text: qsTr("Recently used"); font.bold: true }
+                Label { visible: snap.recentSymbols.length > 0; text: tr("Recently used"); font.bold: true }
                 Flow {
                     visible: snap.recentSymbols.length > 0
                     Layout.fillWidth: true
@@ -692,7 +714,7 @@ ApplicationWindow {
                                 fillMode: Image.PreserveAspectFit
                             }
                             ToolTip.visible: recentHover.hovered
-                            ToolTip.text: recentSwatch.modelData.name + " – " + recentSwatch.modelData.description
+                            ToolTip.text: tr(recentSwatch.modelData.name) + " – " + tr(recentSwatch.modelData.description)
                             HoverHandler { id: recentHover }
                             MouseArea {
                                 anchors.fill: parent
@@ -704,7 +726,7 @@ ApplicationWindow {
                 }
 
                 Label {
-                    text: snap.active === "" ? qsTr("Symbols (none active)") : qsTr("Symbols – active: ") + snap.active
+                    text: snap.active === "" ? tr("Symbols (none active)") : tr("Symbols – active: %1").arg(tr(snap.active))
                     font.bold: true
                 }
 
@@ -719,7 +741,7 @@ ApplicationWindow {
                         required property var modelData
                         width: ListView.view.width - 12
                         spacing: 3
-                        Label { text: modelData.category; font.italic: true }
+                        Label { text: tr(modelData.category); font.italic: true }
                         Flow {
                             width: parent.width
                             spacing: 4
@@ -741,7 +763,7 @@ ApplicationWindow {
                                         fillMode: Image.PreserveAspectFit
                                     }
                                     ToolTip.visible: hover.hovered
-                                    ToolTip.text: swatch.modelData.name + " – " + swatch.modelData.description
+                                    ToolTip.text: tr(swatch.modelData.name) + " – " + tr(swatch.modelData.description)
                                     HoverHandler { id: hover }
                                     MouseArea {
                                         anchors.fill: parent
@@ -967,7 +989,7 @@ ApplicationWindow {
             anchors.leftMargin: 8
             anchors.rightMargin: 8
             Label {
-                text: snap.rows + " × " + snap.cols + qsTr(" cells   selected: ") + snap.selected
+                text: tr("%1 × %2 cells   selected: %3").arg(snap.rows).arg(snap.cols).arg(snap.selected)
                       + "   " + Math.round(win.zoom * 100) + "%"
             }
             Label {

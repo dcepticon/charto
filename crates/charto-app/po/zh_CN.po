@@ -1,0 +1,939 @@
+# Chinese (Simplified) translation of the Charto interface.
+# Translated by Claude (an AI) and not yet reviewed by a native speaker: corrections are welcome.
+msgid ""
+msgstr ""
+"Project-Id-Version: Charto\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Charto pattern"
+msgstr "Charto 图案"
+
+msgid "Could not render the chart for printing"
+msgstr "无法渲染图表以供打印"
+
+msgid "Exported %1"
+msgstr "已导出 %1"
+
+msgid "Could not write %1"
+msgstr "无法写入 %1"
+
+msgid "&File"
+msgstr "文件(&F)"
+
+msgid "&New…"
+msgstr "新建(&N)…"
+
+msgid "&Open…"
+msgstr "打开(&O)…"
+
+msgid "Open &Recent"
+msgstr "最近打开(&R)"
+
+msgid "&Clear list"
+msgstr "清除列表(&C)"
+
+msgid "&Save"
+msgstr "保存(&S)"
+
+msgid "Save &As…"
+msgstr "另存为(&A)…"
+
+msgid "Export as &PNG…"
+msgstr "导出为 PNG(&P)…"
+
+msgid "Export as S&VG…"
+msgstr "导出为 SVG(&V)…"
+
+msgid "&Print…"
+msgstr "打印(&T)…"
+
+msgid "&Quit"
+msgstr "退出(&Q)"
+
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+msgid "&Undo %1"
+msgstr "撤销(&U)：%1"
+
+msgid "&Undo"
+msgstr "撤销(&U)"
+
+msgid "&Redo %1"
+msgstr "重做(&R)：%1"
+
+msgid "&Redo"
+msgstr "重做(&R)"
+
+msgid "&Copy"
+msgstr "复制(&C)"
+
+msgid "&Paste into selection"
+msgstr "粘贴到选区(&P)"
+
+msgid "Clear &selection"
+msgstr "清除选区(&S)"
+
+msgid "Apply colour to selection"
+msgstr "将颜色应用到选区"
+
+msgid "&Preferences…"
+msgstr "首选项(&F)…"
+
+msgid "&Chart"
+msgstr "图表(&C)"
+
+msgid "Insert rows above…"
+msgstr "在上方插入行…"
+
+msgid "Insert rows below…"
+msgstr "在下方插入行…"
+
+msgid "Delete selected rows"
+msgstr "删除所选行"
+
+msgid "Insert stitches left…"
+msgstr "在左侧插入针目…"
+
+msgid "Insert stitches right…"
+msgstr "在右侧插入针目…"
+
+msgid "Delete selected stitches"
+msgstr "删除所选针目"
+
+msgid "Make selected rows a row repeat…"
+msgstr "将所选行设为重复行…"
+
+msgid "Delete row repeat"
+msgstr "删除重复行"
+
+msgid "&View"
+msgstr "视图(&V)"
+
+msgid "Zoom &in"
+msgstr "放大(&I)"
+
+msgid "Zoom &out"
+msgstr "缩小(&O)"
+
+msgid "&Reset zoom"
+msgstr "重置缩放(&R)"
+
+msgid "Open pattern"
+msgstr "打开图案"
+
+msgid "Charto patterns (*.spf)"
+msgstr "Charto 图案 (*.spf)"
+
+msgid "All files (*)"
+msgstr "所有文件 (*)"
+
+msgid "Save pattern"
+msgstr "保存图案"
+
+msgid "Choose a colour"
+msgstr "选择颜色"
+
+msgid "Export as PNG image"
+msgstr "导出为 PNG 图像"
+
+msgid "PNG images (*.png)"
+msgstr "PNG 图像 (*.png)"
+
+msgid "Export as SVG drawing"
+msgstr "导出为 SVG 矢量图"
+
+msgid "SVG drawings (*.svg)"
+msgstr "SVG 矢量图 (*.svg)"
+
+msgid "Unsaved changes"
+msgstr "未保存的更改"
+
+msgid "The pattern has unsaved changes. Save them first?"
+msgstr "图案有未保存的更改。要先保存吗？"
+
+msgid "Recovered changes"
+msgstr "已恢复的更改"
+
+msgid "Charto found unsaved changes to this pattern from an earlier session. Open the recovered version?"
+msgstr "Charto 发现此图案在之前的会话中有未保存的更改。要打开恢复的版本吗？"
+
+msgid "Row label"
+msgstr "行标签"
+
+msgid "Stitch label"
+msgstr "针目标签"
+
+msgid "Row highlight colour"
+msgstr "行高亮颜色"
+
+msgid "Preferences"
+msgstr "首选项"
+
+msgid "Chart"
+msgstr "图表"
+
+msgid "Cell width (pixels)"
+msgstr "单元格宽度（像素）"
+
+msgid "Cell height (pixels)"
+msgstr "单元格高度（像素）"
+
+msgid "Row labels"
+msgstr "行标签"
+
+msgid "Show"
+msgstr "显示"
+
+msgid "All rows"
+msgstr "所有行"
+
+msgid "Every n-th row"
+msgstr "每 n 行"
+
+msgid "Odd rows"
+msgstr "奇数行"
+
+msgid "Even rows"
+msgstr "偶数行"
+
+msgid "Number of the bottom row"
+msgstr "最下面一行的编号"
+
+msgid "Interval (n)"
+msgstr "间隔 (n)"
+
+msgid "First numbered row of the interval"
+msgstr "间隔中第一个编号的行"
+
+msgid "Odd rows are labelled on the"
+msgstr "奇数行的标签位于"
+
+msgid "left"
+msgstr "左侧"
+
+msgid "right"
+msgstr "右侧"
+
+msgid "Even rows are labelled on the"
+msgstr "偶数行的标签位于"
+
+msgid "Row labels can be edited (double-click)"
+msgstr "可编辑行标签（双击）"
+
+msgid "Stitch labels"
+msgstr "针目标签"
+
+msgid "All stitches"
+msgstr "所有针目"
+
+msgid "Every n-th stitch"
+msgstr "每 n 针"
+
+msgid "First numbered stitch of the interval"
+msgstr "间隔中第一个编号的针目"
+
+msgid "Stitch labels can be edited (double-click)"
+msgstr "可编辑针目标签（双击）"
+
+msgid "Row highlighting"
+msgstr "行高亮"
+
+msgid "Highlight every other row"
+msgstr "每隔一行高亮"
+
+msgid "Highlight"
+msgstr "高亮"
+
+msgid "odd rows (1, 3, 5, …)"
+msgstr "奇数行 (1, 3, 5, …)"
+
+msgid "even rows (2, 4, 6, …)"
+msgstr "偶数行 (2, 4, 6, …)"
+
+msgid "Strength (%)"
+msgstr "强度 (%)"
+
+msgid "Colour"
+msgstr "颜色"
+
+msgid "Fonts"
+msgstr "字体"
+
+msgid "Label font"
+msgstr "标签字体"
+
+msgid "Label size"
+msgstr "标签大小"
+
+msgid "Legend font"
+msgstr "图例字体"
+
+msgid "Legend size"
+msgstr "图例大小"
+
+msgid "New pattern"
+msgstr "新建图案"
+
+msgid "Rows"
+msgstr "行数"
+
+msgid "Stitches"
+msgstr "针目数"
+
+msgid "Paste here"
+msgstr "粘贴到此处"
+
+msgid "Select row"
+msgstr "选择行"
+
+msgid "Select stitch column"
+msgstr "选择针目列"
+
+msgid "Select all cells with this colour"
+msgstr "选择所有此颜色的单元格"
+
+msgid "Select all cells with this symbol"
+msgstr "选择所有带此符号的单元格"
+
+msgid "Mode"
+msgstr "模式"
+
+msgid "Select"
+msgstr "选择"
+
+msgid "Hide"
+msgstr "隐藏"
+
+msgid "Unhide"
+msgstr "取消隐藏"
+
+msgid "Recently used"
+msgstr "最近使用"
+
+msgid "Symbols (none active)"
+msgstr "符号（未选择）"
+
+msgid "Symbols – active: %1"
+msgstr "符号 – 当前：%1"
+
+msgid "%1 × %2 cells   selected: %3"
+msgstr "%1 × %2 个单元格   已选择：%3"
+
+msgid "Open"
+msgstr "打开"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Export"
+msgstr "导出"
+
+msgid "paint cells"
+msgstr "放置符号"
+
+msgid "clear selection"
+msgstr "清除选区"
+
+msgid "color selected cells"
+msgstr "为所选单元格着色"
+
+msgid "hide cells"
+msgstr "隐藏单元格"
+
+msgid "unhide cells"
+msgstr "取消隐藏单元格"
+
+msgid "copy selection"
+msgstr "复制选区"
+
+msgid "paste cells"
+msgstr "粘贴单元格"
+
+msgid "insert rows"
+msgstr "插入行"
+
+msgid "delete rows"
+msgstr "删除行"
+
+msgid "insert stitches"
+msgstr "插入针目"
+
+msgid "delete stitches"
+msgstr "删除针目"
+
+msgid "select cells"
+msgstr "选择单元格"
+
+msgid "edit row label"
+msgstr "编辑行标签"
+
+msgid "edit stitch label"
+msgstr "编辑针目标签"
+
+msgid "add row repeat"
+msgstr "添加重复行"
+
+msgid "delete row repeat"
+msgstr "删除重复行"
+
+msgid "3 stitch cables"
+msgstr "3针麻花"
+
+msgid "4 stitch cables"
+msgstr "4针麻花"
+
+msgid "5 stitch cables"
+msgstr "5针麻花"
+
+msgid "6 stitch cables"
+msgstr "6针麻花"
+
+msgid "increases"
+msgstr "加针"
+
+msgid "decreases"
+msgstr "减针"
+
+msgid "7 stitch cables"
+msgstr "7针麻花"
+
+msgid "special"
+msgstr "特殊"
+
+msgid "basic"
+msgstr "基本"
+
+msgid "2 stitch cables"
+msgstr "2针麻花"
+
+msgid "1 over 2 left"
+msgstr "1针对2针左交叉"
+
+msgid "1 over 2 left-purl"
+msgstr "1针对2针左交叉（上针）"
+
+msgid "1 over 2 right"
+msgstr "1针对2针右交叉"
+
+msgid "1 over 2 right-purl"
+msgstr "1针对2针右交叉（上针）"
+
+msgid "1 over 3 left"
+msgstr "1针对3针左交叉"
+
+msgid "1 over 3 left-purl"
+msgstr "1针对3针左交叉（上针）"
+
+msgid "1 over 3 right"
+msgstr "1针对3针右交叉"
+
+msgid "1 over 3 right-purl"
+msgstr "1针对3针右交叉（上针）"
+
+msgid "1overKPKleft"
+msgstr "1针对KPK左交叉"
+
+msgid "1overKPKright"
+msgstr "1针对KPK右交叉"
+
+msgid "1overPKPleft"
+msgstr "1针对PKP左交叉"
+
+msgid "1overPKPright"
+msgstr "1针对PKP右交叉"
+
+msgid "2 over 1 left"
+msgstr "2针对1针左交叉"
+
+msgid "2 over 1 left-purl"
+msgstr "2针对1针左交叉（上针）"
+
+msgid "2 over 1 right"
+msgstr "2针对1针右交叉"
+
+msgid "2 over 1 right-purl"
+msgstr "2针对1针右交叉（上针）"
+
+msgid "2 over 2 left"
+msgstr "2针对2针左交叉"
+
+msgid "2 over 2 left-purl"
+msgstr "2针对2针左交叉（上针）"
+
+msgid "2 over 2 right"
+msgstr "2针对2针右交叉"
+
+msgid "2 over 2 right-purl"
+msgstr "2针对2针右交叉（上针）"
+
+msgid "2 over 3 left"
+msgstr "2针对3针左交叉"
+
+msgid "2 over 3 left-purl"
+msgstr "2针对3针左交叉（上针）"
+
+msgid "2 over 3 right"
+msgstr "2针对3针右交叉"
+
+msgid "2 over 3 right-purl"
+msgstr "2针对3针右交叉（上针）"
+
+msgid "2 over KPK left"
+msgstr "2针对KPK左交叉"
+
+msgid "2 over KPK right"
+msgstr "2针对KPK右交叉"
+
+msgid "2overP2Kleft"
+msgstr "2针对P2K左交叉"
+
+msgid "2overP2Kright"
+msgstr "2针对P2K右交叉"
+
+msgid "2 over PKP left"
+msgstr "2针对PKP左交叉"
+
+msgid "2 over PKP right"
+msgstr "2针对PKP右交叉"
+
+msgid "3 over 1 left"
+msgstr "3针对1针左交叉"
+
+msgid "3 over 1 left-purl"
+msgstr "3针对1针左交叉（上针）"
+
+msgid "3 over 1 right"
+msgstr "3针对1针右交叉"
+
+msgid "3 over 1 right-purl"
+msgstr "3针对1针右交叉（上针）"
+
+msgid "3 over 2 left"
+msgstr "3针对2针左交叉"
+
+msgid "3 over 2 left-purl"
+msgstr "3针对2针左交叉（上针）"
+
+msgid "3 over 2 right"
+msgstr "3针对2针右交叉"
+
+msgid "3 over 2 right-purl"
+msgstr "3针对2针右交叉（上针）"
+
+msgid "3 over 3 left"
+msgstr "3针对3针左交叉"
+
+msgid "3 over 3 left-purl"
+msgstr "3针对3针左交叉（上针）"
+
+msgid "3 over 3 right"
+msgstr "3针对3针右交叉"
+
+msgid "3 over 3 right-purl"
+msgstr "3针对3针右交叉（上针）"
+
+msgid "4 increase"
+msgstr "一针加成4针"
+
+msgid "4over1left"
+msgstr "4针对1针左交叉"
+
+msgid "4over1left-purl"
+msgstr "4针对1针左交叉（上针）"
+
+msgid "4over1right"
+msgstr "4针对1针右交叉"
+
+msgid "4over1right-purl"
+msgstr "4针对1针右交叉（上针）"
+
+msgid "4tog decrease"
+msgstr "4针并1针"
+
+msgid "5 increase"
+msgstr "一针加成5针"
+
+msgid "5tog decrease"
+msgstr "5针并1针"
+
+msgid "C7left"
+msgstr "C7 左"
+
+msgid "C7right"
+msgstr "C7 右"
+
+msgid "bind 2 knit"
+msgstr "套收2针下针"
+
+msgid "bind 2 purl"
+msgstr "套收2针上针"
+
+msgid "bobble"
+msgstr "凸起针（泡泡针）"
+
+msgid "centered double decrease"
+msgstr "中上3针并1针"
+
+msgid "centered double increase"
+msgstr "中间一针加2针"
+
+msgid "closed ring"
+msgstr "闭合环"
+
+msgid "double decrease"
+msgstr "左上3针并1针"
+
+msgid "elongated"
+msgstr "绕线2圈的加长针"
+
+msgid "elongated twice"
+msgstr "绕线3圈的加长针"
+
+msgid "k1, p1, k1 increase"
+msgstr "加针：下针、上针、下针"
+
+msgid "k1, yo, k1 increase"
+msgstr "加针：下针、挂针、下针"
+
+msgid "k2tog"
+msgstr "右上2针并1针"
+
+msgid "k3tog"
+msgstr "右上3针并1针"
+
+msgid "kfb"
+msgstr "前后针织加针"
+
+msgid "knit"
+msgstr "下针"
+
+msgid "ktbl"
+msgstr "扭针（下针）"
+
+msgid "LT"
+msgstr "左上1针交叉"
+
+msgid "lt_yo"
+msgstr "左上1针交叉（带挂针）"
+
+msgid "LTp"
+msgstr "左上1针交叉（带上针）"
+
+msgid "M1"
+msgstr "加1针"
+
+msgid "M1-p"
+msgstr "加1针（上针）"
+
+msgid "make 1 left"
+msgstr "左加针"
+
+msgid "make 1 right"
+msgstr "右加针"
+
+msgid "nostitch"
+msgstr "无针"
+
+msgid "nupp"
+msgstr "努普结"
+
+msgid "p2tog"
+msgstr "上针2针并1针"
+
+msgid "p2tog tbl"
+msgstr "上针2针并1针（后线圈）"
+
+msgid "ptbl"
+msgstr "扭针（上针）"
+
+msgid "purl"
+msgstr "上针"
+
+msgid "RT"
+msgstr "右上1针交叉"
+
+msgid "rt_yo"
+msgstr "右上1针交叉（带挂针）"
+
+msgid "RTp"
+msgstr "右上1针交叉（带上针）"
+
+msgid "sl1wyib"
+msgstr "滑针（线在后）"
+
+msgid "sl1wyif"
+msgstr "滑针（线在前）"
+
+msgid "ssk"
+msgstr "左上2针并1针"
+
+msgid "yo"
+msgstr "挂针"
+
+msgid "slip 1 st to cn and hold in front, k2 sts from left needle, k1 st from cn"
+msgstr "将1针移到麻花针上，留在织物前面，从左针2针下针，从麻花针1针下针"
+
+msgid "slip 1 st to cn and hold in front, p2 sts from left needle, k1 st from cn"
+msgstr "将1针移到麻花针上，留在织物前面，从左针2针上针，从麻花针1针下针"
+
+msgid "slip 2 sts to cn and hold in back, k1 st from left needle, k2 sts from cn"
+msgstr "将2针移到麻花针上，留在织物后面，从左针1针下针，从麻花针2针下针"
+
+msgid "slip 2 sts to cn and hold in back, k1 st from left needle, p2 sts from cn"
+msgstr "将2针移到麻花针上，留在织物后面，从左针1针下针，从麻花针2针上针"
+
+msgid "slip 1 st to cn and hold in front, k3 sts from left needle, k1 st from cn"
+msgstr "将1针移到麻花针上，留在织物前面，从左针3针下针，从麻花针1针下针"
+
+msgid "slip 1 st to cn and hold in front, p3 sts from left needle, k1 st from cn"
+msgstr "将1针移到麻花针上，留在织物前面，从左针3针上针，从麻花针1针下针"
+
+msgid "slip 3 sts to cn and hold in back, k1 st from left needle, k3 sts from cn"
+msgstr "将3针移到麻花针上，留在织物后面，从左针1针下针，从麻花针3针下针"
+
+msgid "slip 3 sts to cn and hold in back, k1 st from left needle, p3 sts from cn"
+msgstr "将3针移到麻花针上，留在织物后面，从左针1针下针，从麻花针3针上针"
+
+msgid "slip 1 st to cn and hold in front, k1, p1, k1, then k1 from cn"
+msgstr "将1针移到麻花针上，留在织物前面，1针下针，1针上针，1针下针，然后从麻花针1针下针"
+
+msgid "slip 3 sts to cn and hold in back, k1, then k1, p1, k1 from cn"
+msgstr "将3针移到麻花针上，留在织物后面，1针下针，然后1针下针，1针上针，从麻花针1针下针"
+
+msgid "slip 1 st to cn and hold in front, p1, k1, p1, then k1 from cn"
+msgstr "将1针移到麻花针上，留在织物前面，1针上针，1针下针，1针上针，然后从麻花针1针下针"
+
+msgid "slip 3 sts to cn and hold in back, k1, then p1, k1, p1 from cn"
+msgstr "将3针移到麻花针上，留在织物后面，1针下针，然后1针上针，1针下针，从麻花针1针上针"
+
+msgid "slip 2 sts to cn and hold in front, k1 sts from left needle, k2 sts from cn"
+msgstr "将2针移到麻花针上，留在织物前面，从左针1针下针，从麻花针2针下针"
+
+msgid "slip 2 sts to cn and hold in front, p1 sts from left needle, k2 sts from cn"
+msgstr "将2针移到麻花针上，留在织物前面，从左针1针上针，从麻花针2针下针"
+
+msgid "slip 1 st to cn and hold in back, k2 sts from left needle, k1 st from cn"
+msgstr "将1针移到麻花针上，留在织物后面，从左针2针下针，从麻花针1针下针"
+
+msgid "slip 1 st to cn and hold in back, k2 sts from left needle, p1 st from cn"
+msgstr "将1针移到麻花针上，留在织物后面，从左针2针下针，从麻花针1针上针"
+
+msgid "slip 2 sts to cn and hold in front, k2 sts from left needle, k2 sts from cn"
+msgstr "将2针移到麻花针上，留在织物前面，从左针2针下针，从麻花针2针下针"
+
+msgid "slip 2 sts to cn and hold in front, p2 sts from left needle, k2 sts from cn"
+msgstr "将2针移到麻花针上，留在织物前面，从左针2针上针，从麻花针2针下针"
+
+msgid "slip 2 sts to cn and hold in back, k2 sts from left needle, k2 sts from cn"
+msgstr "将2针移到麻花针上，留在织物后面，从左针2针下针，从麻花针2针下针"
+
+msgid "slip 2 sts to cn and hold in back, k2 sts from left needle, p2 sts from cn"
+msgstr "将2针移到麻花针上，留在织物后面，从左针2针下针，从麻花针2针上针"
+
+msgid "slip 2 sts to cn and hold in front, k3 sts from left needle, k2 sts from cn"
+msgstr "将2针移到麻花针上，留在织物前面，从左针3针下针，从麻花针2针下针"
+
+msgid "slip 2 sts to cn and hold in front, p3 sts from left needle, k2 sts from cn"
+msgstr "将2针移到麻花针上，留在织物前面，从左针3针上针，从麻花针2针下针"
+
+msgid "slip 3 sts to cn and hold in back, k2 sts from left needle, k3 sts from cn"
+msgstr "将3针移到麻花针上，留在织物后面，从左针2针下针，从麻花针3针下针"
+
+msgid "slip 3 sts to cn and hold in back, k2 sts from left needle, p3 sts from cn"
+msgstr "将3针移到麻花针上，留在织物后面，从左针2针下针，从麻花针3针上针"
+
+msgid "slip 2 sts to cn and hold in front, k1, p1, k1, then k2 from cn"
+msgstr "将2针移到麻花针上，留在织物前面，1针下针，1针上针，1针下针，然后从麻花针2针下针"
+
+msgid "slip 3 sts to cn and hold in back, k2, then k1, p1, k1 from cn"
+msgstr "将3针移到麻花针上，留在织物后面，2针下针，然后1针下针，1针上针，从麻花针1针下针"
+
+msgid "slip 3 sts to cn and hold in front, k2, slip last st from cn to needle, p1, then k2 from cn"
+msgstr "将3针移到麻花针上，留在织物前面，2针下针，将麻花针上的最后一针移回针上，1针上针，然后从麻花针2针下针"
+
+msgid "slip 3 sts to cn and hold in back, k2, slip last st from cn to needle, p1, then k2 from cn"
+msgstr "将3针移到麻花针上，留在织物后面，2针下针，将麻花针上的最后一针移回针上，1针上针，然后从麻花针2针下针"
+
+msgid "slip 2 sts to cn and hold in front, p1, k1, p1, then k2 from cn"
+msgstr "将2针移到麻花针上，留在织物前面，1针上针，1针下针，1针上针，然后从麻花针2针下针"
+
+msgid "slip 3 sts to cn and hold in back, k2, then p1, k1, p1 from cn"
+msgstr "将3针移到麻花针上，留在织物后面，2针下针，然后1针上针，1针下针，从麻花针1针上针"
+
+msgid "slip 3 sts to cn and hold in front, k1 st from left needle, k3 sts from cn"
+msgstr "将3针移到麻花针上，留在织物前面，从左针1针下针，从麻花针3针下针"
+
+msgid "slip 3 sts to cn and hold in front, p1 st from left needle, k3 sts from cn"
+msgstr "将3针移到麻花针上，留在织物前面，从左针1针上针，从麻花针3针下针"
+
+msgid "slip 1 st to cn and hold in back, k3 sts from left needle, k1 st from cn"
+msgstr "将1针移到麻花针上，留在织物后面，从左针3针下针，从麻花针1针下针"
+
+msgid "slip 1 st to cn and hold in back, k3 sts from left needle, p1 st from cn"
+msgstr "将1针移到麻花针上，留在织物后面，从左针3针下针，从麻花针1针上针"
+
+msgid "slip 3 sts to cn and hold in front, k2 sts from left needle, k3 sts from cn"
+msgstr "将3针移到麻花针上，留在织物前面，从左针2针下针，从麻花针3针下针"
+
+msgid "slip 3 sts to cn and hold in front, p2 sts from left needle, k3 sts from cn"
+msgstr "将3针移到麻花针上，留在织物前面，从左针2针上针，从麻花针3针下针"
+
+msgid "slip 2 sts to cn and hold in back, k3 sts from left needle, k2 sts from cn"
+msgstr "将2针移到麻花针上，留在织物后面，从左针3针下针，从麻花针2针下针"
+
+msgid "slip 2 sts to cn and hold in back, k3 sts from left needle, p2 sts from cn"
+msgstr "将2针移到麻花针上，留在织物后面，从左针3针下针，从麻花针2针上针"
+
+msgid "slip 3 sts to cn and hold in front, k3 sts from left needle, k3 sts from cn"
+msgstr "将3针移到麻花针上，留在织物前面，从左针3针下针，从麻花针3针下针"
+
+msgid "slip 3 sts to cn and hold in front, p3 sts from left needle, k3 sts from cn"
+msgstr "将3针移到麻花针上，留在织物前面，从左针3针上针，从麻花针3针下针"
+
+msgid "slip 3 sts to cn and hold in back, k3 sts from left needle, k3 sts from cn"
+msgstr "将3针移到麻花针上，留在织物后面，从左针3针下针，从麻花针3针下针"
+
+msgid "slip 3 sts to cn and hold in back, k3 sts from left needle, p3 sts from cn"
+msgstr "将3针移到麻花针上，留在织物后面，从左针3针下针，从麻花针3针上针"
+
+msgid "k1, p1, k1, p1 into same stitch"
+msgstr "在同一针里织下针、上针、下针、上针"
+
+msgid "slip 4 sts to cn and hold in front, k1 st from left needle, k4 sts from cn"
+msgstr "将4针移到麻花针上，留在织物前面，从左针1针下针，从麻花针4针下针"
+
+msgid "slip 4 sts to cn and hold in front, p1 st from left needle, k4 sts from cn"
+msgstr "将4针移到麻花针上，留在织物前面，从左针1针上针，从麻花针4针下针"
+
+msgid "slip 1 st to cn and hold in back, k4 sts from left needle, k1 st from cn"
+msgstr "将1针移到麻花针上，留在织物后面，从左针4针下针，从麻花针1针下针"
+
+msgid "slip 1 st to cn and hold in back, k4 sts from left needle, p1 st from cn"
+msgstr "将1针移到麻花针上，留在织物后面，从左针4针下针，从麻花针1针上针"
+
+msgid "Ssk, k2tog, then pass the ssk over the k2tog"
+msgstr "先织左上2针并1针，再织右上2针并1针，然后将前者套过后者"
+
+msgid "k1 ,yo, k1, yo, k1 into same stitch"
+msgstr "在同一针里织下针、挂针、下针、挂针、下针"
+
+msgid "Sl next 3 sts to right hand needle.  *Pass 2nd st on right hand needle over 1st st, sl 1st st to left hand needle.  Then pass 2nd st on left hand needle over same 1st st, and sl 1st st back to right hand needle.*  Rep from * to * once more. Then purl 1st st."
+msgstr "将接下来的3针滑到右针上。*将右针上的第2针套过第1针，再把第1针移回左针。然后将左针上的第2针套过同一个第1针，并把第1针移回右针。* 再重复一次*到*之间的步骤。然后将第1针织上针。"
+
+msgid "slip 3 sts to cn and hold in front, k3 sts from left needle, p1, k3 sts from cn"
+msgstr "将3针移到麻花针上，留在织物前面，从左针3针下针，1针上针，从麻花针3针下针"
+
+msgid "slip 4 sts to cn and hold in back, k3 sts from left needle, p1, k3 sts from cn"
+msgstr "将4针移到麻花针上，留在织物后面，从左针3针下针，1针上针，从麻花针3针下针"
+
+msgid "yo, k2, pass yo over 2 knit stitches"
+msgstr "挂针，织2针下针，将挂针套过这2针下针"
+
+msgid "yo, p2, pass yo over 2 purl stitches"
+msgstr "挂针，织2针上针，将挂针套过这2针上针"
+
+msgid "(k1, yo, k1, yo, k1) into next st, turn, p5 sts, turn, ssk, k1, k2tog, turn, p3, turn, sl 2 sts knitwise, k1, pass 2 slipped sts over"
+msgstr "在下一针里织（下针、挂针、下针、挂针、下针），翻面，织5针上针，翻面，织左上2针并1针、1针下针、右上2针并1针，翻面，织3针上针，翻面，如织下针般滑2针，织1针下针，将2个滑针套过它"
+
+msgid "slip 2 sts knitwise, k1 st from left needle, pass 2 slipped sts over"
+msgstr "如织下针般滑2针，从左针织1针下针，将2个滑针套过它"
+
+msgid "knit in back and front of same st, then pick up vertical strand that runs between those 2 sts and knit it through the back"
+msgstr "在同一针的后线圈和前线圈各织一针下针，然后挑起这2针之间的竖线，织后线圈下针"
+
+msgid "Insert right needle into third st on left needle and pass this st over first 2 sts on left needle; k1, yo, k1."
+msgstr "将右针插入左针上的第3针，把它套过左针上的前2针；织下针、挂针、下针"
+
+msgid "slip 1 st knitwise, k2 sts together from left needle, pass slipped stitch over"
+msgstr "如织下针般滑1针，从左针将2针一起织下针，将滑针套过"
+
+msgid "Knit 1 stitch wrapping yarn twice, then on next row drop extra wrap from needle"
+msgstr "绕线两圈织1针，下一行时从针上放掉多绕的一圈"
+
+msgid "Knit 1 stitch wrapping yarn 3 times, then on next row drop extra wraps from needle"
+msgstr "绕线3圈织1针，下一行时从针上放掉多绕的圈"
+
+msgid "k1, p1, k1 into same stitch"
+msgstr "在同一针里织下针、上针、下针"
+
+msgid "k1, leaving stitch on left hand needle, yo, k1 into same stitch"
+msgstr "织1针下针，不要把线圈从左针上取下，挂针，再在同一针里织1针下针"
+
+msgid "Knit 2 together"
+msgstr "2针一起织下针"
+
+msgid "Knit 3 together"
+msgstr "3针一起织下针"
+
+msgid "knit front and back of same st"
+msgstr "在同一针的前线圈和后线圈各织1针下针"
+
+msgid "knit on RS; purl on WS"
+msgstr "正面织下针，反面织上针"
+
+msgid "knit through back loop"
+msgstr "织后线圈下针"
+
+msgid "slip 1 st to cn and hold in front, k1 from left needle, k1 st from cn"
+msgstr "将1针移到麻花针上，留在织物前面，从左针1针下针，从麻花针1针下针"
+
+msgid "slip 1 st to cn and hold in front, k1 from left needle, yo, k1 st from cn"
+msgstr "将1针移到麻花针上，留在织物前面，从左针1针下针，挂针，从麻花针1针下针"
+
+msgid "slip 1 st to cn and hold in front, p1 from left needle, k1 st from cn"
+msgstr "将1针移到麻花针上，留在织物前面，从左针1针上针，从麻花针1针下针"
+
+msgid "make 1"
+msgstr "加1针"
+
+msgid "make 1 purl"
+msgstr "加1针（上针）"
+
+msgid "With left needle, lift strand between sts from the front and knit through the back loop"
+msgstr "用左针从前面挑起两针之间的横线，织后线圈下针"
+
+msgid "With left needle, lift strand between sts from the back and knit through the front loop"
+msgstr "用左针从后面挑起两针之间的横线，织前线圈下针"
+
+msgid "no stitch (ignore this space)"
+msgstr "无针（忽略此格）"
+
+msgid "Nupp: knit into stitch, leaving it on left hand needle, * YO, knit into stitch again, rep from * until there are 7 sts from 1 st.  On next row, work 7 sts together back to 1 st."
+msgstr "努普结：在针目里织下针，不取下线圈，* 挂针，再次在同一针里织下针，从*处重复，直到1针变成7针。下一行将7针并成1针。"
+
+msgid "Purl 2 together"
+msgstr "2针一起织上针"
+
+msgid "Purl 2 together through the back loop"
+msgstr "2针一起织上针（后线圈）"
+
+msgid "purl through back loop"
+msgstr "织后线圈上针"
+
+msgid "purl on RS; knit on WS"
+msgstr "正面织上针，反面织下针"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, k1 st from cn"
+msgstr "将1针移到麻花针上，留在织物后面，从左针1针下针，从麻花针1针下针"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, yo, k1 st from cn"
+msgstr "将1针移到麻花针上，留在织物后面，从左针1针下针，挂针，从麻花针1针下针"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, p1 st from cn"
+msgstr "将1针移到麻花针上，留在织物后面，从左针1针下针，从麻花针1针上针"
+
+msgid "Slip 1 stitch purlwise with yarn in back"
+msgstr "如织上针般滑1针，线放在后面"
+
+msgid "Slip 1 stitch purlwise with yarn in front"
+msgstr "如织上针般滑1针，线放在前面"
+
+msgid "Slip, slip, knit"
+msgstr "依次滑2针，再将这2针一起织下针"
+
+msgid "yarn over"
+msgstr "挂针"

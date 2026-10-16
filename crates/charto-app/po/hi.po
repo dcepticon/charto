@@ -1,0 +1,939 @@
+# Hindi translation of the Charto interface.
+# Translated by Claude (an AI) and not yet reviewed by a native speaker: corrections are welcome.
+msgid ""
+msgstr ""
+"Project-Id-Version: Charto\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Charto pattern"
+msgstr "Charto पैटर्न"
+
+msgid "Could not render the chart for printing"
+msgstr "प्रिंट के लिए चार्ट तैयार नहीं किया जा सका"
+
+msgid "Exported %1"
+msgstr "निर्यात किया गया: %1"
+
+msgid "Could not write %1"
+msgstr "%1 नहीं लिखा जा सका"
+
+msgid "&File"
+msgstr "फ़ाइल(&F)"
+
+msgid "&New…"
+msgstr "नया(&N)…"
+
+msgid "&Open…"
+msgstr "खोलें(&O)…"
+
+msgid "Open &Recent"
+msgstr "हाल की फ़ाइलें(&R)"
+
+msgid "&Clear list"
+msgstr "सूची साफ़ करें(&C)"
+
+msgid "&Save"
+msgstr "सहेजें(&S)"
+
+msgid "Save &As…"
+msgstr "ऐसे सहेजें(&A)…"
+
+msgid "Export as &PNG…"
+msgstr "PNG के रूप में निर्यात करें(&P)…"
+
+msgid "Export as S&VG…"
+msgstr "SVG के रूप में निर्यात करें(&V)…"
+
+msgid "&Print…"
+msgstr "प्रिंट करें(&T)…"
+
+msgid "&Quit"
+msgstr "बाहर निकलें(&Q)"
+
+msgid "&Edit"
+msgstr "संपादन(&E)"
+
+msgid "&Undo %1"
+msgstr "पूर्ववत करें(&U): %1"
+
+msgid "&Undo"
+msgstr "पूर्ववत करें(&U)"
+
+msgid "&Redo %1"
+msgstr "फिर से करें(&R): %1"
+
+msgid "&Redo"
+msgstr "फिर से करें(&R)"
+
+msgid "&Copy"
+msgstr "कॉपी करें(&C)"
+
+msgid "&Paste into selection"
+msgstr "चयन में चिपकाएँ(&P)"
+
+msgid "Clear &selection"
+msgstr "चयन हटाएँ(&S)"
+
+msgid "Apply colour to selection"
+msgstr "चयन पर रंग लागू करें"
+
+msgid "&Preferences…"
+msgstr "प्राथमिकताएँ(&F)…"
+
+msgid "&Chart"
+msgstr "चार्ट(&C)"
+
+msgid "Insert rows above…"
+msgstr "ऊपर पंक्तियाँ जोड़ें…"
+
+msgid "Insert rows below…"
+msgstr "नीचे पंक्तियाँ जोड़ें…"
+
+msgid "Delete selected rows"
+msgstr "चयनित पंक्तियाँ हटाएँ"
+
+msgid "Insert stitches left…"
+msgstr "बाईं ओर फंदे जोड़ें…"
+
+msgid "Insert stitches right…"
+msgstr "दाईं ओर फंदे जोड़ें…"
+
+msgid "Delete selected stitches"
+msgstr "चयनित फंदे हटाएँ"
+
+msgid "Make selected rows a row repeat…"
+msgstr "चयनित पंक्तियों को दोहराव बनाएँ…"
+
+msgid "Delete row repeat"
+msgstr "पंक्ति दोहराव हटाएँ"
+
+msgid "&View"
+msgstr "दृश्य(&V)"
+
+msgid "Zoom &in"
+msgstr "ज़ूम इन(&I)"
+
+msgid "Zoom &out"
+msgstr "ज़ूम आउट(&O)"
+
+msgid "&Reset zoom"
+msgstr "ज़ूम रीसेट करें(&R)"
+
+msgid "Open pattern"
+msgstr "पैटर्न खोलें"
+
+msgid "Charto patterns (*.spf)"
+msgstr "Charto पैटर्न (*.spf)"
+
+msgid "All files (*)"
+msgstr "सभी फ़ाइलें (*)"
+
+msgid "Save pattern"
+msgstr "पैटर्न सहेजें"
+
+msgid "Choose a colour"
+msgstr "रंग चुनें"
+
+msgid "Export as PNG image"
+msgstr "PNG छवि के रूप में निर्यात करें"
+
+msgid "PNG images (*.png)"
+msgstr "PNG छवियाँ (*.png)"
+
+msgid "Export as SVG drawing"
+msgstr "SVG चित्र के रूप में निर्यात करें"
+
+msgid "SVG drawings (*.svg)"
+msgstr "SVG चित्र (*.svg)"
+
+msgid "Unsaved changes"
+msgstr "अनसहेजे परिवर्तन"
+
+msgid "The pattern has unsaved changes. Save them first?"
+msgstr "पैटर्न में अनसहेजे परिवर्तन हैं। क्या पहले उन्हें सहेजें?"
+
+msgid "Recovered changes"
+msgstr "पुनर्प्राप्त परिवर्तन"
+
+msgid "Charto found unsaved changes to this pattern from an earlier session. Open the recovered version?"
+msgstr "Charto को इस पैटर्न के पिछले सत्र के अनसहेजे परिवर्तन मिले हैं। क्या पुनर्प्राप्त संस्करण खोलें?"
+
+msgid "Row label"
+msgstr "पंक्ति लेबल"
+
+msgid "Stitch label"
+msgstr "फंदा लेबल"
+
+msgid "Row highlight colour"
+msgstr "पंक्ति हाइलाइट रंग"
+
+msgid "Preferences"
+msgstr "प्राथमिकताएँ"
+
+msgid "Chart"
+msgstr "चार्ट"
+
+msgid "Cell width (pixels)"
+msgstr "सेल की चौड़ाई (पिक्सेल)"
+
+msgid "Cell height (pixels)"
+msgstr "सेल की ऊँचाई (पिक्सेल)"
+
+msgid "Row labels"
+msgstr "पंक्ति लेबल"
+
+msgid "Show"
+msgstr "दिखाएँ"
+
+msgid "All rows"
+msgstr "सभी पंक्तियाँ"
+
+msgid "Every n-th row"
+msgstr "हर n-वीं पंक्ति"
+
+msgid "Odd rows"
+msgstr "विषम पंक्तियाँ"
+
+msgid "Even rows"
+msgstr "सम पंक्तियाँ"
+
+msgid "Number of the bottom row"
+msgstr "सबसे नीचे की पंक्ति की संख्या"
+
+msgid "Interval (n)"
+msgstr "अंतराल (n)"
+
+msgid "First numbered row of the interval"
+msgstr "अंतराल की पहली क्रमांकित पंक्ति"
+
+msgid "Odd rows are labelled on the"
+msgstr "विषम पंक्तियों के लेबल"
+
+msgid "left"
+msgstr "बाईं ओर"
+
+msgid "right"
+msgstr "दाईं ओर"
+
+msgid "Even rows are labelled on the"
+msgstr "सम पंक्तियों के लेबल"
+
+msgid "Row labels can be edited (double-click)"
+msgstr "पंक्ति लेबल संपादित किए जा सकते हैं (डबल-क्लिक)"
+
+msgid "Stitch labels"
+msgstr "फंदा लेबल"
+
+msgid "All stitches"
+msgstr "सभी फंदे"
+
+msgid "Every n-th stitch"
+msgstr "हर n-वाँ फंदा"
+
+msgid "First numbered stitch of the interval"
+msgstr "अंतराल का पहला क्रमांकित फंदा"
+
+msgid "Stitch labels can be edited (double-click)"
+msgstr "फंदा लेबल संपादित किए जा सकते हैं (डबल-क्लिक)"
+
+msgid "Row highlighting"
+msgstr "पंक्ति हाइलाइट"
+
+msgid "Highlight every other row"
+msgstr "हर दूसरी पंक्ति हाइलाइट करें"
+
+msgid "Highlight"
+msgstr "हाइलाइट"
+
+msgid "odd rows (1, 3, 5, …)"
+msgstr "विषम पंक्तियाँ (1, 3, 5, …)"
+
+msgid "even rows (2, 4, 6, …)"
+msgstr "सम पंक्तियाँ (2, 4, 6, …)"
+
+msgid "Strength (%)"
+msgstr "तीव्रता (%)"
+
+msgid "Colour"
+msgstr "रंग"
+
+msgid "Fonts"
+msgstr "फ़ॉन्ट"
+
+msgid "Label font"
+msgstr "लेबल फ़ॉन्ट"
+
+msgid "Label size"
+msgstr "लेबल आकार"
+
+msgid "Legend font"
+msgstr "लेजेंड फ़ॉन्ट"
+
+msgid "Legend size"
+msgstr "लेजेंड आकार"
+
+msgid "New pattern"
+msgstr "नया पैटर्न"
+
+msgid "Rows"
+msgstr "पंक्तियाँ"
+
+msgid "Stitches"
+msgstr "फंदे"
+
+msgid "Paste here"
+msgstr "यहाँ चिपकाएँ"
+
+msgid "Select row"
+msgstr "पंक्ति चुनें"
+
+msgid "Select stitch column"
+msgstr "फंदा स्तंभ चुनें"
+
+msgid "Select all cells with this colour"
+msgstr "इस रंग के सभी सेल चुनें"
+
+msgid "Select all cells with this symbol"
+msgstr "इस प्रतीक वाले सभी सेल चुनें"
+
+msgid "Mode"
+msgstr "मोड"
+
+msgid "Select"
+msgstr "चुनें"
+
+msgid "Hide"
+msgstr "छिपाएँ"
+
+msgid "Unhide"
+msgstr "फिर से दिखाएँ"
+
+msgid "Recently used"
+msgstr "हाल में उपयोग किए गए"
+
+msgid "Symbols (none active)"
+msgstr "प्रतीक (कोई सक्रिय नहीं)"
+
+msgid "Symbols – active: %1"
+msgstr "प्रतीक – सक्रिय: %1"
+
+msgid "%1 × %2 cells   selected: %3"
+msgstr "%1 × %2 सेल   चयनित: %3"
+
+msgid "Open"
+msgstr "खोलें"
+
+msgid "Save"
+msgstr "सहेजें"
+
+msgid "Export"
+msgstr "निर्यात करें"
+
+msgid "paint cells"
+msgstr "प्रतीक लगाएँ"
+
+msgid "clear selection"
+msgstr "चयन हटाएँ"
+
+msgid "color selected cells"
+msgstr "चयनित सेल को रंगें"
+
+msgid "hide cells"
+msgstr "सेल छिपाएँ"
+
+msgid "unhide cells"
+msgstr "सेल फिर से दिखाएँ"
+
+msgid "copy selection"
+msgstr "चयन कॉपी करें"
+
+msgid "paste cells"
+msgstr "सेल चिपकाएँ"
+
+msgid "insert rows"
+msgstr "पंक्तियाँ जोड़ें"
+
+msgid "delete rows"
+msgstr "पंक्तियाँ हटाएँ"
+
+msgid "insert stitches"
+msgstr "फंदे जोड़ें"
+
+msgid "delete stitches"
+msgstr "फंदे हटाएँ"
+
+msgid "select cells"
+msgstr "सेल चुनें"
+
+msgid "edit row label"
+msgstr "पंक्ति लेबल संपादित करें"
+
+msgid "edit stitch label"
+msgstr "फंदा लेबल संपादित करें"
+
+msgid "add row repeat"
+msgstr "पंक्ति दोहराव जोड़ें"
+
+msgid "delete row repeat"
+msgstr "पंक्ति दोहराव हटाएँ"
+
+msgid "3 stitch cables"
+msgstr "3 फंदों की केबल"
+
+msgid "4 stitch cables"
+msgstr "4 फंदों की केबल"
+
+msgid "5 stitch cables"
+msgstr "5 फंदों की केबल"
+
+msgid "6 stitch cables"
+msgstr "6 फंदों की केबल"
+
+msgid "increases"
+msgstr "बढ़ाव"
+
+msgid "decreases"
+msgstr "घटाव"
+
+msgid "7 stitch cables"
+msgstr "7 फंदों की केबल"
+
+msgid "special"
+msgstr "विशेष"
+
+msgid "basic"
+msgstr "मूल"
+
+msgid "2 stitch cables"
+msgstr "2 फंदों की केबल"
+
+msgid "1 over 2 left"
+msgstr "1 ऊपर 2 – बाएँ"
+
+msgid "1 over 2 left-purl"
+msgstr "1 ऊपर 2 – बाएँ (उल्टे)"
+
+msgid "1 over 2 right"
+msgstr "1 ऊपर 2 – दाएँ"
+
+msgid "1 over 2 right-purl"
+msgstr "1 ऊपर 2 – दाएँ (उल्टे)"
+
+msgid "1 over 3 left"
+msgstr "1 ऊपर 3 – बाएँ"
+
+msgid "1 over 3 left-purl"
+msgstr "1 ऊपर 3 – बाएँ (उल्टे)"
+
+msgid "1 over 3 right"
+msgstr "1 ऊपर 3 – दाएँ"
+
+msgid "1 over 3 right-purl"
+msgstr "1 ऊपर 3 – दाएँ (उल्टे)"
+
+msgid "1overKPKleft"
+msgstr "1 ऊपर KPK – बाएँ"
+
+msgid "1overKPKright"
+msgstr "1 ऊपर KPK – दाएँ"
+
+msgid "1overPKPleft"
+msgstr "1 ऊपर PKP – बाएँ"
+
+msgid "1overPKPright"
+msgstr "1 ऊपर PKP – दाएँ"
+
+msgid "2 over 1 left"
+msgstr "2 ऊपर 1 – बाएँ"
+
+msgid "2 over 1 left-purl"
+msgstr "2 ऊपर 1 – बाएँ (उल्टे)"
+
+msgid "2 over 1 right"
+msgstr "2 ऊपर 1 – दाएँ"
+
+msgid "2 over 1 right-purl"
+msgstr "2 ऊपर 1 – दाएँ (उल्टे)"
+
+msgid "2 over 2 left"
+msgstr "2 ऊपर 2 – बाएँ"
+
+msgid "2 over 2 left-purl"
+msgstr "2 ऊपर 2 – बाएँ (उल्टे)"
+
+msgid "2 over 2 right"
+msgstr "2 ऊपर 2 – दाएँ"
+
+msgid "2 over 2 right-purl"
+msgstr "2 ऊपर 2 – दाएँ (उल्टे)"
+
+msgid "2 over 3 left"
+msgstr "2 ऊपर 3 – बाएँ"
+
+msgid "2 over 3 left-purl"
+msgstr "2 ऊपर 3 – बाएँ (उल्टे)"
+
+msgid "2 over 3 right"
+msgstr "2 ऊपर 3 – दाएँ"
+
+msgid "2 over 3 right-purl"
+msgstr "2 ऊपर 3 – दाएँ (उल्टे)"
+
+msgid "2 over KPK left"
+msgstr "2 ऊपर KPK – बाएँ"
+
+msgid "2 over KPK right"
+msgstr "2 ऊपर KPK – दाएँ"
+
+msgid "2overP2Kleft"
+msgstr "2 ऊपर P2K – बाएँ"
+
+msgid "2overP2Kright"
+msgstr "2 ऊपर P2K – दाएँ"
+
+msgid "2 over PKP left"
+msgstr "2 ऊपर PKP – बाएँ"
+
+msgid "2 over PKP right"
+msgstr "2 ऊपर PKP – दाएँ"
+
+msgid "3 over 1 left"
+msgstr "3 ऊपर 1 – बाएँ"
+
+msgid "3 over 1 left-purl"
+msgstr "3 ऊपर 1 – बाएँ (उल्टे)"
+
+msgid "3 over 1 right"
+msgstr "3 ऊपर 1 – दाएँ"
+
+msgid "3 over 1 right-purl"
+msgstr "3 ऊपर 1 – दाएँ (उल्टे)"
+
+msgid "3 over 2 left"
+msgstr "3 ऊपर 2 – बाएँ"
+
+msgid "3 over 2 left-purl"
+msgstr "3 ऊपर 2 – बाएँ (उल्टे)"
+
+msgid "3 over 2 right"
+msgstr "3 ऊपर 2 – दाएँ"
+
+msgid "3 over 2 right-purl"
+msgstr "3 ऊपर 2 – दाएँ (उल्टे)"
+
+msgid "3 over 3 left"
+msgstr "3 ऊपर 3 – बाएँ"
+
+msgid "3 over 3 left-purl"
+msgstr "3 ऊपर 3 – बाएँ (उल्टे)"
+
+msgid "3 over 3 right"
+msgstr "3 ऊपर 3 – दाएँ"
+
+msgid "3 over 3 right-purl"
+msgstr "3 ऊपर 3 – दाएँ (उल्टे)"
+
+msgid "4 increase"
+msgstr "4 फंदे बढ़ाएँ"
+
+msgid "4over1left"
+msgstr "4 ऊपर 1 – बाएँ"
+
+msgid "4over1left-purl"
+msgstr "4 ऊपर 1 – बाएँ (उल्टे)"
+
+msgid "4over1right"
+msgstr "4 ऊपर 1 – दाएँ"
+
+msgid "4over1right-purl"
+msgstr "4 ऊपर 1 – दाएँ (उल्टे)"
+
+msgid "4tog decrease"
+msgstr "4 फंदे एक साथ बुनें"
+
+msgid "5 increase"
+msgstr "5 फंदे बढ़ाएँ"
+
+msgid "5tog decrease"
+msgstr "5 फंदे एक साथ बुनें"
+
+msgid "C7left"
+msgstr "C7 बाएँ"
+
+msgid "C7right"
+msgstr "C7 दाएँ"
+
+msgid "bind 2 knit"
+msgstr "2 सीधे फंदे बाँधें"
+
+msgid "bind 2 purl"
+msgstr "2 उल्टे फंदे बाँधें"
+
+msgid "bobble"
+msgstr "बॉबल"
+
+msgid "centered double decrease"
+msgstr "केंद्रित दोहरा घटाव"
+
+msgid "centered double increase"
+msgstr "केंद्रित दोहरी वृद्धि"
+
+msgid "closed ring"
+msgstr "बंद रिंग"
+
+msgid "double decrease"
+msgstr "दोहरा घटाव"
+
+msgid "elongated"
+msgstr "लंबा फंदा"
+
+msgid "elongated twice"
+msgstr "अतिरिक्त लंबा फंदा"
+
+msgid "k1, p1, k1 increase"
+msgstr "बढ़ाव: सीधा, उल्टा, सीधा"
+
+msgid "k1, yo, k1 increase"
+msgstr "बढ़ाव: सीधा, यार्न ओवर, सीधा"
+
+msgid "k2tog"
+msgstr "2 सीधे फंदे एक साथ"
+
+msgid "k3tog"
+msgstr "3 सीधे फंदे एक साथ"
+
+msgid "kfb"
+msgstr "आगे और पीछे सीधा बुनें"
+
+msgid "knit"
+msgstr "सीधा फंदा"
+
+msgid "ktbl"
+msgstr "सीधा, पिछले लूप से"
+
+msgid "LT"
+msgstr "बाएँ क्रॉस (1 फंदा)"
+
+msgid "lt_yo"
+msgstr "बाएँ क्रॉस (यार्न ओवर सहित)"
+
+msgid "LTp"
+msgstr "बाएँ क्रॉस (उल्टे सहित)"
+
+msgid "M1"
+msgstr "बढ़ाव"
+
+msgid "M1-p"
+msgstr "उल्टा बढ़ाव"
+
+msgid "make 1 left"
+msgstr "बाईं ओर झुका बढ़ाव"
+
+msgid "make 1 right"
+msgstr "दाईं ओर झुका बढ़ाव"
+
+msgid "nostitch"
+msgstr "कोई फंदा नहीं"
+
+msgid "nupp"
+msgstr "नुप्प"
+
+msgid "p2tog"
+msgstr "2 उल्टे फंदे एक साथ"
+
+msgid "p2tog tbl"
+msgstr "2 उल्टे फंदे एक साथ (पिछले लूप से)"
+
+msgid "ptbl"
+msgstr "उल्टा, पिछले लूप से"
+
+msgid "purl"
+msgstr "उल्टा फंदा"
+
+msgid "RT"
+msgstr "दाएँ क्रॉस (1 फंदा)"
+
+msgid "rt_yo"
+msgstr "दाएँ क्रॉस (यार्न ओवर सहित)"
+
+msgid "RTp"
+msgstr "दाएँ क्रॉस (उल्टे सहित)"
+
+msgid "sl1wyib"
+msgstr "फंदा खिसकाएँ, धागा पीछे"
+
+msgid "sl1wyif"
+msgstr "फंदा खिसकाएँ, धागा आगे"
+
+msgid "ssk"
+msgstr "बाईं ओर झुका घटाव (ssk)"
+
+msgid "yo"
+msgstr "यार्न ओवर"
+
+msgid "slip 1 st to cn and hold in front, k2 sts from left needle, k1 st from cn"
+msgstr "1 फंदा केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 2 फंदे सीधे, केबल सलाई से 1 फंदा सीधे"
+
+msgid "slip 1 st to cn and hold in front, p2 sts from left needle, k1 st from cn"
+msgstr "1 फंदा केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 2 फंदे उल्टे, केबल सलाई से 1 फंदा सीधे"
+
+msgid "slip 2 sts to cn and hold in back, k1 st from left needle, k2 sts from cn"
+msgstr "2 फंदे केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 1 फंदा सीधे, केबल सलाई से 2 फंदे सीधे"
+
+msgid "slip 2 sts to cn and hold in back, k1 st from left needle, p2 sts from cn"
+msgstr "2 फंदे केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 1 फंदा सीधे, केबल सलाई से 2 फंदे उल्टे"
+
+msgid "slip 1 st to cn and hold in front, k3 sts from left needle, k1 st from cn"
+msgstr "1 फंदा केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 3 फंदे सीधे, केबल सलाई से 1 फंदा सीधे"
+
+msgid "slip 1 st to cn and hold in front, p3 sts from left needle, k1 st from cn"
+msgstr "1 फंदा केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 3 फंदे उल्टे, केबल सलाई से 1 फंदा सीधे"
+
+msgid "slip 3 sts to cn and hold in back, k1 st from left needle, k3 sts from cn"
+msgstr "3 फंदे केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 1 फंदा सीधे, केबल सलाई से 3 फंदे सीधे"
+
+msgid "slip 3 sts to cn and hold in back, k1 st from left needle, p3 sts from cn"
+msgstr "3 फंदे केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 1 फंदा सीधे, केबल सलाई से 3 फंदे उल्टे"
+
+msgid "slip 1 st to cn and hold in front, k1, p1, k1, then k1 from cn"
+msgstr "1 फंदा केबल सलाई पर डालकर सामने रखें, 1 फंदा सीधे, 1 फंदा उल्टे, 1 फंदा सीधे, फिर केबल सलाई से 1 फंदा सीधे"
+
+msgid "slip 3 sts to cn and hold in back, k1, then k1, p1, k1 from cn"
+msgstr "3 फंदे केबल सलाई पर डालकर पीछे रखें, 1 फंदा सीधे, फिर 1 फंदा सीधे, 1 फंदा उल्टे, केबल सलाई से 1 फंदा सीधे"
+
+msgid "slip 1 st to cn and hold in front, p1, k1, p1, then k1 from cn"
+msgstr "1 फंदा केबल सलाई पर डालकर सामने रखें, 1 फंदा उल्टे, 1 फंदा सीधे, 1 फंदा उल्टे, फिर केबल सलाई से 1 फंदा सीधे"
+
+msgid "slip 3 sts to cn and hold in back, k1, then p1, k1, p1 from cn"
+msgstr "3 फंदे केबल सलाई पर डालकर पीछे रखें, 1 फंदा सीधे, फिर 1 फंदा उल्टे, 1 फंदा सीधे, केबल सलाई से 1 फंदा उल्टे"
+
+msgid "slip 2 sts to cn and hold in front, k1 sts from left needle, k2 sts from cn"
+msgstr "2 फंदे केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 1 फंदा सीधे, केबल सलाई से 2 फंदे सीधे"
+
+msgid "slip 2 sts to cn and hold in front, p1 sts from left needle, k2 sts from cn"
+msgstr "2 फंदे केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 1 फंदा उल्टे, केबल सलाई से 2 फंदे सीधे"
+
+msgid "slip 1 st to cn and hold in back, k2 sts from left needle, k1 st from cn"
+msgstr "1 फंदा केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 2 फंदे सीधे, केबल सलाई से 1 फंदा सीधे"
+
+msgid "slip 1 st to cn and hold in back, k2 sts from left needle, p1 st from cn"
+msgstr "1 फंदा केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 2 फंदे सीधे, केबल सलाई से 1 फंदा उल्टे"
+
+msgid "slip 2 sts to cn and hold in front, k2 sts from left needle, k2 sts from cn"
+msgstr "2 फंदे केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 2 फंदे सीधे, केबल सलाई से 2 फंदे सीधे"
+
+msgid "slip 2 sts to cn and hold in front, p2 sts from left needle, k2 sts from cn"
+msgstr "2 फंदे केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 2 फंदे उल्टे, केबल सलाई से 2 फंदे सीधे"
+
+msgid "slip 2 sts to cn and hold in back, k2 sts from left needle, k2 sts from cn"
+msgstr "2 फंदे केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 2 फंदे सीधे, केबल सलाई से 2 फंदे सीधे"
+
+msgid "slip 2 sts to cn and hold in back, k2 sts from left needle, p2 sts from cn"
+msgstr "2 फंदे केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 2 फंदे सीधे, केबल सलाई से 2 फंदे उल्टे"
+
+msgid "slip 2 sts to cn and hold in front, k3 sts from left needle, k2 sts from cn"
+msgstr "2 फंदे केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 3 फंदे सीधे, केबल सलाई से 2 फंदे सीधे"
+
+msgid "slip 2 sts to cn and hold in front, p3 sts from left needle, k2 sts from cn"
+msgstr "2 फंदे केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 3 फंदे उल्टे, केबल सलाई से 2 फंदे सीधे"
+
+msgid "slip 3 sts to cn and hold in back, k2 sts from left needle, k3 sts from cn"
+msgstr "3 फंदे केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 2 फंदे सीधे, केबल सलाई से 3 फंदे सीधे"
+
+msgid "slip 3 sts to cn and hold in back, k2 sts from left needle, p3 sts from cn"
+msgstr "3 फंदे केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 2 फंदे सीधे, केबल सलाई से 3 फंदे उल्टे"
+
+msgid "slip 2 sts to cn and hold in front, k1, p1, k1, then k2 from cn"
+msgstr "2 फंदे केबल सलाई पर डालकर सामने रखें, 1 फंदा सीधे, 1 फंदा उल्टे, 1 फंदा सीधे, फिर केबल सलाई से 2 फंदे सीधे"
+
+msgid "slip 3 sts to cn and hold in back, k2, then k1, p1, k1 from cn"
+msgstr "3 फंदे केबल सलाई पर डालकर पीछे रखें, 2 फंदे सीधे, फिर 1 फंदा सीधे, 1 फंदा उल्टे, केबल सलाई से 1 फंदा सीधे"
+
+msgid "slip 3 sts to cn and hold in front, k2, slip last st from cn to needle, p1, then k2 from cn"
+msgstr "3 फंदे केबल सलाई पर डालकर सामने रखें, 2 फंदे सीधे, केबल सलाई से आखिरी फंदा सलाई पर वापस डालें, 1 फंदा उल्टे, फिर केबल सलाई से 2 फंदे सीधे"
+
+msgid "slip 3 sts to cn and hold in back, k2, slip last st from cn to needle, p1, then k2 from cn"
+msgstr "3 फंदे केबल सलाई पर डालकर पीछे रखें, 2 फंदे सीधे, केबल सलाई से आखिरी फंदा सलाई पर वापस डालें, 1 फंदा उल्टे, फिर केबल सलाई से 2 फंदे सीधे"
+
+msgid "slip 2 sts to cn and hold in front, p1, k1, p1, then k2 from cn"
+msgstr "2 फंदे केबल सलाई पर डालकर सामने रखें, 1 फंदा उल्टे, 1 फंदा सीधे, 1 फंदा उल्टे, फिर केबल सलाई से 2 फंदे सीधे"
+
+msgid "slip 3 sts to cn and hold in back, k2, then p1, k1, p1 from cn"
+msgstr "3 फंदे केबल सलाई पर डालकर पीछे रखें, 2 फंदे सीधे, फिर 1 फंदा उल्टे, 1 फंदा सीधे, केबल सलाई से 1 फंदा उल्टे"
+
+msgid "slip 3 sts to cn and hold in front, k1 st from left needle, k3 sts from cn"
+msgstr "3 फंदे केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 1 फंदा सीधे, केबल सलाई से 3 फंदे सीधे"
+
+msgid "slip 3 sts to cn and hold in front, p1 st from left needle, k3 sts from cn"
+msgstr "3 फंदे केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 1 फंदा उल्टे, केबल सलाई से 3 फंदे सीधे"
+
+msgid "slip 1 st to cn and hold in back, k3 sts from left needle, k1 st from cn"
+msgstr "1 फंदा केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 3 फंदे सीधे, केबल सलाई से 1 फंदा सीधे"
+
+msgid "slip 1 st to cn and hold in back, k3 sts from left needle, p1 st from cn"
+msgstr "1 फंदा केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 3 फंदे सीधे, केबल सलाई से 1 फंदा उल्टे"
+
+msgid "slip 3 sts to cn and hold in front, k2 sts from left needle, k3 sts from cn"
+msgstr "3 फंदे केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 2 फंदे सीधे, केबल सलाई से 3 फंदे सीधे"
+
+msgid "slip 3 sts to cn and hold in front, p2 sts from left needle, k3 sts from cn"
+msgstr "3 फंदे केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 2 फंदे उल्टे, केबल सलाई से 3 फंदे सीधे"
+
+msgid "slip 2 sts to cn and hold in back, k3 sts from left needle, k2 sts from cn"
+msgstr "2 फंदे केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 3 फंदे सीधे, केबल सलाई से 2 फंदे सीधे"
+
+msgid "slip 2 sts to cn and hold in back, k3 sts from left needle, p2 sts from cn"
+msgstr "2 फंदे केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 3 फंदे सीधे, केबल सलाई से 2 फंदे उल्टे"
+
+msgid "slip 3 sts to cn and hold in front, k3 sts from left needle, k3 sts from cn"
+msgstr "3 फंदे केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 3 फंदे सीधे, केबल सलाई से 3 फंदे सीधे"
+
+msgid "slip 3 sts to cn and hold in front, p3 sts from left needle, k3 sts from cn"
+msgstr "3 फंदे केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 3 फंदे उल्टे, केबल सलाई से 3 फंदे सीधे"
+
+msgid "slip 3 sts to cn and hold in back, k3 sts from left needle, k3 sts from cn"
+msgstr "3 फंदे केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 3 फंदे सीधे, केबल सलाई से 3 फंदे सीधे"
+
+msgid "slip 3 sts to cn and hold in back, k3 sts from left needle, p3 sts from cn"
+msgstr "3 फंदे केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 3 फंदे सीधे, केबल सलाई से 3 फंदे उल्टे"
+
+msgid "k1, p1, k1, p1 into same stitch"
+msgstr "एक ही फंदे में सीधा, उल्टा, सीधा, उल्टा बुनें"
+
+msgid "slip 4 sts to cn and hold in front, k1 st from left needle, k4 sts from cn"
+msgstr "4 फंदे केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 1 फंदा सीधे, केबल सलाई से 4 फंदे सीधे"
+
+msgid "slip 4 sts to cn and hold in front, p1 st from left needle, k4 sts from cn"
+msgstr "4 फंदे केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 1 फंदा उल्टे, केबल सलाई से 4 फंदे सीधे"
+
+msgid "slip 1 st to cn and hold in back, k4 sts from left needle, k1 st from cn"
+msgstr "1 फंदा केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 4 फंदे सीधे, केबल सलाई से 1 फंदा सीधे"
+
+msgid "slip 1 st to cn and hold in back, k4 sts from left needle, p1 st from cn"
+msgstr "1 फंदा केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 4 फंदे सीधे, केबल सलाई से 1 फंदा उल्टे"
+
+msgid "Ssk, k2tog, then pass the ssk over the k2tog"
+msgstr "ssk, 2 सीधे फंदे एक साथ, फिर ssk को उन पर से निकालें"
+
+msgid "k1 ,yo, k1, yo, k1 into same stitch"
+msgstr "एक ही फंदे में सीधा, यार्न ओवर, सीधा, यार्न ओवर, सीधा बुनें"
+
+msgid "Sl next 3 sts to right hand needle.  *Pass 2nd st on right hand needle over 1st st, sl 1st st to left hand needle.  Then pass 2nd st on left hand needle over same 1st st, and sl 1st st back to right hand needle.*  Rep from * to * once more. Then purl 1st st."
+msgstr "अगले 3 फंदे दाईं सलाई पर खिसकाएँ। *दाईं सलाई के दूसरे फंदे को पहले फंदे के ऊपर से निकालें, पहले फंदे को बाईं सलाई पर वापस डालें। फिर बाईं सलाई के दूसरे फंदे को उसी पहले फंदे के ऊपर से निकालें और पहले फंदे को दाईं सलाई पर वापस डालें।* * से * तक एक बार और दोहराएँ। फिर पहले फंदे को उल्टा बुनें।"
+
+msgid "slip 3 sts to cn and hold in front, k3 sts from left needle, p1, k3 sts from cn"
+msgstr "3 फंदे केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 3 फंदे सीधे, 1 फंदा उल्टे, केबल सलाई से 3 फंदे सीधे"
+
+msgid "slip 4 sts to cn and hold in back, k3 sts from left needle, p1, k3 sts from cn"
+msgstr "4 फंदे केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 3 फंदे सीधे, 1 फंदा उल्टे, केबल सलाई से 3 फंदे सीधे"
+
+msgid "yo, k2, pass yo over 2 knit stitches"
+msgstr "यार्न ओवर, 2 सीधे, यार्न ओवर को 2 सीधे फंदों के ऊपर से निकालें"
+
+msgid "yo, p2, pass yo over 2 purl stitches"
+msgstr "यार्न ओवर, 2 उल्टे, यार्न ओवर को 2 उल्टे फंदों के ऊपर से निकालें"
+
+msgid "(k1, yo, k1, yo, k1) into next st, turn, p5 sts, turn, ssk, k1, k2tog, turn, p3, turn, sl 2 sts knitwise, k1, pass 2 slipped sts over"
+msgstr "अगले फंदे में (सीधा, यार्न ओवर, सीधा, यार्न ओवर, सीधा) बुनें, पलटें, 5 उल्टे फंदे, पलटें, ssk, 1 सीधा, 2 सीधे फंदे एक साथ, पलटें, 3 उल्टे, पलटें, 2 फंदे सीधे की तरह खिसकाएँ, 1 सीधा, खिसकाए हुए 2 फंदों को ऊपर से निकालें"
+
+msgid "slip 2 sts knitwise, k1 st from left needle, pass 2 slipped sts over"
+msgstr "2 फंदे सीधे की तरह खिसकाएँ, बाईं सलाई से 1 फंदा सीधा बुनें, खिसकाए हुए 2 फंदों को ऊपर से निकालें"
+
+msgid "knit in back and front of same st, then pick up vertical strand that runs between those 2 sts and knit it through the back"
+msgstr "एक ही फंदे के पीछे और आगे के लूप से सीधा बुनें, फिर इन 2 फंदों के बीच का खड़ा धागा उठाकर उसे पीछे के लूप से सीधा बुनें"
+
+msgid "Insert right needle into third st on left needle and pass this st over first 2 sts on left needle; k1, yo, k1."
+msgstr "दाईं सलाई को बाईं सलाई के तीसरे फंदे में डालें और उसे पहले 2 फंदों के ऊपर से निकालें; 1 सीधा, यार्न ओवर, 1 सीधा"
+
+msgid "slip 1 st knitwise, k2 sts together from left needle, pass slipped stitch over"
+msgstr "1 फंदा सीधे की तरह खिसकाएँ, बाईं सलाई से 2 फंदे एक साथ सीधे बुनें, खिसकाए हुए फंदे को ऊपर से निकालें"
+
+msgid "Knit 1 stitch wrapping yarn twice, then on next row drop extra wrap from needle"
+msgstr "धागे को दो बार लपेटकर 1 फंदा बुनें, अगली पंक्ति में अतिरिक्त लपेट को सलाई से गिरा दें"
+
+msgid "Knit 1 stitch wrapping yarn 3 times, then on next row drop extra wraps from needle"
+msgstr "धागे को 3 बार लपेटकर 1 फंदा बुनें, अगली पंक्ति में अतिरिक्त लपेटों को सलाई से गिरा दें"
+
+msgid "k1, p1, k1 into same stitch"
+msgstr "एक ही फंदे में सीधा, उल्टा, सीधा बुनें"
+
+msgid "k1, leaving stitch on left hand needle, yo, k1 into same stitch"
+msgstr "1 सीधा बुनें, फंदे को बाईं सलाई पर ही रहने दें, यार्न ओवर करें, उसी फंदे में 1 सीधा बुनें"
+
+msgid "Knit 2 together"
+msgstr "2 फंदे एक साथ सीधे बुनें"
+
+msgid "Knit 3 together"
+msgstr "3 फंदे एक साथ सीधे बुनें"
+
+msgid "knit front and back of same st"
+msgstr "एक ही फंदे के आगे और पीछे के लूप से सीधा बुनें"
+
+msgid "knit on RS; purl on WS"
+msgstr "सीधी तरफ़ सीधा; उल्टी तरफ़ उल्टा"
+
+msgid "knit through back loop"
+msgstr "पीछे के लूप से सीधा बुनें"
+
+msgid "slip 1 st to cn and hold in front, k1 from left needle, k1 st from cn"
+msgstr "1 फंदा केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 1 फंदा सीधे, केबल सलाई से 1 फंदा सीधे"
+
+msgid "slip 1 st to cn and hold in front, k1 from left needle, yo, k1 st from cn"
+msgstr "1 फंदा केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 1 फंदा सीधे, यार्न ओवर, केबल सलाई से 1 फंदा सीधे"
+
+msgid "slip 1 st to cn and hold in front, p1 from left needle, k1 st from cn"
+msgstr "1 फंदा केबल सलाई पर डालकर सामने रखें, बाईं सलाई से 1 फंदा उल्टे, केबल सलाई से 1 फंदा सीधे"
+
+msgid "make 1"
+msgstr "1 फंदा बढ़ाएँ"
+
+msgid "make 1 purl"
+msgstr "1 फंदा उल्टा बढ़ाएँ"
+
+msgid "With left needle, lift strand between sts from the front and knit through the back loop"
+msgstr "बाईं सलाई से फंदों के बीच का धागा आगे से उठाएँ और पीछे के लूप से सीधा बुनें"
+
+msgid "With left needle, lift strand between sts from the back and knit through the front loop"
+msgstr "बाईं सलाई से फंदों के बीच का धागा पीछे से उठाएँ और आगे के लूप से सीधा बुनें"
+
+msgid "no stitch (ignore this space)"
+msgstr "कोई फंदा नहीं (इस सेल को छोड़ दें)"
+
+msgid "Nupp: knit into stitch, leaving it on left hand needle, * YO, knit into stitch again, rep from * until there are 7 sts from 1 st.  On next row, work 7 sts together back to 1 st."
+msgstr "नुप्प: फंदे में सीधा बुनें और उसे बाईं सलाई पर ही रहने दें, * यार्न ओवर करें, उसी फंदे में फिर सीधा बुनें, * से तब तक दोहराएँ जब तक 1 फंदे से 7 फंदे न हो जाएँ। अगली पंक्ति में 7 फंदे एक साथ बुनकर 1 फंदा बना लें।"
+
+msgid "Purl 2 together"
+msgstr "2 फंदे एक साथ उल्टे बुनें"
+
+msgid "Purl 2 together through the back loop"
+msgstr "2 फंदे पीछे के लूप से एक साथ उल्टे बुनें"
+
+msgid "purl through back loop"
+msgstr "पीछे के लूप से उल्टा बुनें"
+
+msgid "purl on RS; knit on WS"
+msgstr "सीधी तरफ़ उल्टा; उल्टी तरफ़ सीधा"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, k1 st from cn"
+msgstr "1 फंदा केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 1 फंदा सीधे, केबल सलाई से 1 फंदा सीधे"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, yo, k1 st from cn"
+msgstr "1 फंदा केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 1 फंदा सीधे, यार्न ओवर, केबल सलाई से 1 फंदा सीधे"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, p1 st from cn"
+msgstr "1 फंदा केबल सलाई पर डालकर पीछे रखें, बाईं सलाई से 1 फंदा सीधे, केबल सलाई से 1 फंदा उल्टे"
+
+msgid "Slip 1 stitch purlwise with yarn in back"
+msgstr "धागा पीछे रखकर 1 फंदा उल्टे की तरह खिसकाएँ"
+
+msgid "Slip 1 stitch purlwise with yarn in front"
+msgstr "धागा आगे रखकर 1 फंदा उल्टे की तरह खिसकाएँ"
+
+msgid "Slip, slip, knit"
+msgstr "2 फंदे एक-एक करके खिसकाएँ, फिर उन्हें एक साथ सीधे बुनें"
+
+msgid "yarn over"
+msgstr "यार्न ओवर"

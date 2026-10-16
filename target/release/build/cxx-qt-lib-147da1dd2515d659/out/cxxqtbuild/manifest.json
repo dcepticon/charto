@@ -2,10 +2,10 @@
   "name": "cxx-qt-lib",
   "link_name": "cxx-qt-lib",
   "qt_modules": [
-    "Qml",
-    "Gui",
     "Core",
-    "QuickControls2"
+    "QuickControls2",
+    "Gui",
+    "Qml"
   ],
   "initializers": [
     {

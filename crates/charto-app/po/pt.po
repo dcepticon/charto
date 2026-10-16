@@ -1,0 +1,939 @@
+# Portuguese (Brazil) translation of the Charto interface.
+# Translated by Claude (an AI) and not yet reviewed by a native speaker: corrections are welcome.
+msgid ""
+msgstr ""
+"Project-Id-Version: Charto\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Charto pattern"
+msgstr "Padrão do Charto"
+
+msgid "Could not render the chart for printing"
+msgstr "Não foi possível preparar o gráfico para impressão"
+
+msgid "Exported %1"
+msgstr "Exportado: %1"
+
+msgid "Could not write %1"
+msgstr "Não foi possível gravar %1"
+
+msgid "&File"
+msgstr "&Arquivo"
+
+msgid "&New…"
+msgstr "&Novo…"
+
+msgid "&Open…"
+msgstr "&Abrir…"
+
+msgid "Open &Recent"
+msgstr "Abrir &recente"
+
+msgid "&Clear list"
+msgstr "&Limpar lista"
+
+msgid "&Save"
+msgstr "&Salvar"
+
+msgid "Save &As…"
+msgstr "Salvar &como…"
+
+msgid "Export as &PNG…"
+msgstr "Exportar como &PNG…"
+
+msgid "Export as S&VG…"
+msgstr "Exportar como S&VG…"
+
+msgid "&Print…"
+msgstr "&Imprimir…"
+
+msgid "&Quit"
+msgstr "&Sair"
+
+msgid "&Edit"
+msgstr "&Editar"
+
+msgid "&Undo %1"
+msgstr "&Desfazer: %1"
+
+msgid "&Undo"
+msgstr "&Desfazer"
+
+msgid "&Redo %1"
+msgstr "&Refazer: %1"
+
+msgid "&Redo"
+msgstr "&Refazer"
+
+msgid "&Copy"
+msgstr "&Copiar"
+
+msgid "&Paste into selection"
+msgstr "Co&lar na seleção"
+
+msgid "Clear &selection"
+msgstr "Limpar &seleção"
+
+msgid "Apply colour to selection"
+msgstr "Aplicar cor à seleção"
+
+msgid "&Preferences…"
+msgstr "&Preferências…"
+
+msgid "&Chart"
+msgstr "&Gráfico"
+
+msgid "Insert rows above…"
+msgstr "Inserir carreiras acima…"
+
+msgid "Insert rows below…"
+msgstr "Inserir carreiras abaixo…"
+
+msgid "Delete selected rows"
+msgstr "Excluir carreiras selecionadas"
+
+msgid "Insert stitches left…"
+msgstr "Inserir pontos à esquerda…"
+
+msgid "Insert stitches right…"
+msgstr "Inserir pontos à direita…"
+
+msgid "Delete selected stitches"
+msgstr "Excluir pontos selecionados"
+
+msgid "Make selected rows a row repeat…"
+msgstr "Transformar carreiras selecionadas em repetição…"
+
+msgid "Delete row repeat"
+msgstr "Excluir repetição de carreiras"
+
+msgid "&View"
+msgstr "&Exibir"
+
+msgid "Zoom &in"
+msgstr "Ampl&iar"
+
+msgid "Zoom &out"
+msgstr "&Reduzir"
+
+msgid "&Reset zoom"
+msgstr "&Redefinir zoom"
+
+msgid "Open pattern"
+msgstr "Abrir padrão"
+
+msgid "Charto patterns (*.spf)"
+msgstr "Padrões do Charto (*.spf)"
+
+msgid "All files (*)"
+msgstr "Todos os arquivos (*)"
+
+msgid "Save pattern"
+msgstr "Salvar padrão"
+
+msgid "Choose a colour"
+msgstr "Escolher uma cor"
+
+msgid "Export as PNG image"
+msgstr "Exportar como imagem PNG"
+
+msgid "PNG images (*.png)"
+msgstr "Imagens PNG (*.png)"
+
+msgid "Export as SVG drawing"
+msgstr "Exportar como desenho SVG"
+
+msgid "SVG drawings (*.svg)"
+msgstr "Desenhos SVG (*.svg)"
+
+msgid "Unsaved changes"
+msgstr "Alterações não salvas"
+
+msgid "The pattern has unsaved changes. Save them first?"
+msgstr "O padrão tem alterações não salvas. Salvá-las primeiro?"
+
+msgid "Recovered changes"
+msgstr "Alterações recuperadas"
+
+msgid "Charto found unsaved changes to this pattern from an earlier session. Open the recovered version?"
+msgstr "O Charto encontrou alterações não salvas deste padrão de uma sessão anterior. Abrir a versão recuperada?"
+
+msgid "Row label"
+msgstr "Rótulo da carreira"
+
+msgid "Stitch label"
+msgstr "Rótulo do ponto"
+
+msgid "Row highlight colour"
+msgstr "Cor de destaque das carreiras"
+
+msgid "Preferences"
+msgstr "Preferências"
+
+msgid "Chart"
+msgstr "Gráfico"
+
+msgid "Cell width (pixels)"
+msgstr "Largura da célula (pixels)"
+
+msgid "Cell height (pixels)"
+msgstr "Altura da célula (pixels)"
+
+msgid "Row labels"
+msgstr "Rótulos das carreiras"
+
+msgid "Show"
+msgstr "Mostrar"
+
+msgid "All rows"
+msgstr "Todas as carreiras"
+
+msgid "Every n-th row"
+msgstr "A cada n carreiras"
+
+msgid "Odd rows"
+msgstr "Carreiras ímpares"
+
+msgid "Even rows"
+msgstr "Carreiras pares"
+
+msgid "Number of the bottom row"
+msgstr "Número da carreira inferior"
+
+msgid "Interval (n)"
+msgstr "Intervalo (n)"
+
+msgid "First numbered row of the interval"
+msgstr "Primeira carreira numerada do intervalo"
+
+msgid "Odd rows are labelled on the"
+msgstr "As carreiras ímpares são rotuladas à"
+
+msgid "left"
+msgstr "esquerda"
+
+msgid "right"
+msgstr "direita"
+
+msgid "Even rows are labelled on the"
+msgstr "As carreiras pares são rotuladas à"
+
+msgid "Row labels can be edited (double-click)"
+msgstr "Os rótulos das carreiras podem ser editados (clique duplo)"
+
+msgid "Stitch labels"
+msgstr "Rótulos dos pontos"
+
+msgid "All stitches"
+msgstr "Todos os pontos"
+
+msgid "Every n-th stitch"
+msgstr "A cada n pontos"
+
+msgid "First numbered stitch of the interval"
+msgstr "Primeiro ponto numerado do intervalo"
+
+msgid "Stitch labels can be edited (double-click)"
+msgstr "Os rótulos dos pontos podem ser editados (clique duplo)"
+
+msgid "Row highlighting"
+msgstr "Destaque de carreiras"
+
+msgid "Highlight every other row"
+msgstr "Destacar carreiras alternadas"
+
+msgid "Highlight"
+msgstr "Destacar"
+
+msgid "odd rows (1, 3, 5, …)"
+msgstr "carreiras ímpares (1, 3, 5, …)"
+
+msgid "even rows (2, 4, 6, …)"
+msgstr "carreiras pares (2, 4, 6, …)"
+
+msgid "Strength (%)"
+msgstr "Intensidade (%)"
+
+msgid "Colour"
+msgstr "Cor"
+
+msgid "Fonts"
+msgstr "Fontes"
+
+msgid "Label font"
+msgstr "Fonte dos rótulos"
+
+msgid "Label size"
+msgstr "Tamanho dos rótulos"
+
+msgid "Legend font"
+msgstr "Fonte da legenda"
+
+msgid "Legend size"
+msgstr "Tamanho da legenda"
+
+msgid "New pattern"
+msgstr "Novo padrão"
+
+msgid "Rows"
+msgstr "Carreiras"
+
+msgid "Stitches"
+msgstr "Pontos"
+
+msgid "Paste here"
+msgstr "Colar aqui"
+
+msgid "Select row"
+msgstr "Selecionar carreira"
+
+msgid "Select stitch column"
+msgstr "Selecionar coluna de pontos"
+
+msgid "Select all cells with this colour"
+msgstr "Selecionar todas as células desta cor"
+
+msgid "Select all cells with this symbol"
+msgstr "Selecionar todas as células com este símbolo"
+
+msgid "Mode"
+msgstr "Modo"
+
+msgid "Select"
+msgstr "Selecionar"
+
+msgid "Hide"
+msgstr "Ocultar"
+
+msgid "Unhide"
+msgstr "Reexibir"
+
+msgid "Recently used"
+msgstr "Usados recentemente"
+
+msgid "Symbols (none active)"
+msgstr "Símbolos (nenhum ativo)"
+
+msgid "Symbols – active: %1"
+msgstr "Símbolos – ativo: %1"
+
+msgid "%1 × %2 cells   selected: %3"
+msgstr "%1 × %2 células   selecionadas: %3"
+
+msgid "Open"
+msgstr "Abrir"
+
+msgid "Save"
+msgstr "Salvar"
+
+msgid "Export"
+msgstr "Exportar"
+
+msgid "paint cells"
+msgstr "colocar símbolos"
+
+msgid "clear selection"
+msgstr "limpar seleção"
+
+msgid "color selected cells"
+msgstr "colorir células selecionadas"
+
+msgid "hide cells"
+msgstr "ocultar células"
+
+msgid "unhide cells"
+msgstr "reexibir células"
+
+msgid "copy selection"
+msgstr "copiar seleção"
+
+msgid "paste cells"
+msgstr "colar células"
+
+msgid "insert rows"
+msgstr "inserir carreiras"
+
+msgid "delete rows"
+msgstr "excluir carreiras"
+
+msgid "insert stitches"
+msgstr "inserir pontos"
+
+msgid "delete stitches"
+msgstr "excluir pontos"
+
+msgid "select cells"
+msgstr "selecionar células"
+
+msgid "edit row label"
+msgstr "editar rótulo da carreira"
+
+msgid "edit stitch label"
+msgstr "editar rótulo do ponto"
+
+msgid "add row repeat"
+msgstr "adicionar repetição de carreiras"
+
+msgid "delete row repeat"
+msgstr "excluir repetição de carreiras"
+
+msgid "3 stitch cables"
+msgstr "tranças de 3 pontos"
+
+msgid "4 stitch cables"
+msgstr "tranças de 4 pontos"
+
+msgid "5 stitch cables"
+msgstr "tranças de 5 pontos"
+
+msgid "6 stitch cables"
+msgstr "tranças de 6 pontos"
+
+msgid "increases"
+msgstr "aumentos"
+
+msgid "decreases"
+msgstr "diminuições"
+
+msgid "7 stitch cables"
+msgstr "tranças de 7 pontos"
+
+msgid "special"
+msgstr "especiais"
+
+msgid "basic"
+msgstr "básicos"
+
+msgid "2 stitch cables"
+msgstr "tranças de 2 pontos"
+
+msgid "1 over 2 left"
+msgstr "1 sobre 2 para a esquerda"
+
+msgid "1 over 2 left-purl"
+msgstr "1 sobre 2 para a esquerda (avesso)"
+
+msgid "1 over 2 right"
+msgstr "1 sobre 2 para a direita"
+
+msgid "1 over 2 right-purl"
+msgstr "1 sobre 2 para a direita (avesso)"
+
+msgid "1 over 3 left"
+msgstr "1 sobre 3 para a esquerda"
+
+msgid "1 over 3 left-purl"
+msgstr "1 sobre 3 para a esquerda (avesso)"
+
+msgid "1 over 3 right"
+msgstr "1 sobre 3 para a direita"
+
+msgid "1 over 3 right-purl"
+msgstr "1 sobre 3 para a direita (avesso)"
+
+msgid "1overKPKleft"
+msgstr "1 sobre KPK para a esquerda"
+
+msgid "1overKPKright"
+msgstr "1 sobre KPK para a direita"
+
+msgid "1overPKPleft"
+msgstr "1 sobre PKP para a esquerda"
+
+msgid "1overPKPright"
+msgstr "1 sobre PKP para a direita"
+
+msgid "2 over 1 left"
+msgstr "2 sobre 1 para a esquerda"
+
+msgid "2 over 1 left-purl"
+msgstr "2 sobre 1 para a esquerda (avesso)"
+
+msgid "2 over 1 right"
+msgstr "2 sobre 1 para a direita"
+
+msgid "2 over 1 right-purl"
+msgstr "2 sobre 1 para a direita (avesso)"
+
+msgid "2 over 2 left"
+msgstr "2 sobre 2 para a esquerda"
+
+msgid "2 over 2 left-purl"
+msgstr "2 sobre 2 para a esquerda (avesso)"
+
+msgid "2 over 2 right"
+msgstr "2 sobre 2 para a direita"
+
+msgid "2 over 2 right-purl"
+msgstr "2 sobre 2 para a direita (avesso)"
+
+msgid "2 over 3 left"
+msgstr "2 sobre 3 para a esquerda"
+
+msgid "2 over 3 left-purl"
+msgstr "2 sobre 3 para a esquerda (avesso)"
+
+msgid "2 over 3 right"
+msgstr "2 sobre 3 para a direita"
+
+msgid "2 over 3 right-purl"
+msgstr "2 sobre 3 para a direita (avesso)"
+
+msgid "2 over KPK left"
+msgstr "2 sobre KPK para a esquerda"
+
+msgid "2 over KPK right"
+msgstr "2 sobre KPK para a direita"
+
+msgid "2overP2Kleft"
+msgstr "2 sobre P2K para a esquerda"
+
+msgid "2overP2Kright"
+msgstr "2 sobre P2K para a direita"
+
+msgid "2 over PKP left"
+msgstr "2 sobre PKP para a esquerda"
+
+msgid "2 over PKP right"
+msgstr "2 sobre PKP para a direita"
+
+msgid "3 over 1 left"
+msgstr "3 sobre 1 para a esquerda"
+
+msgid "3 over 1 left-purl"
+msgstr "3 sobre 1 para a esquerda (avesso)"
+
+msgid "3 over 1 right"
+msgstr "3 sobre 1 para a direita"
+
+msgid "3 over 1 right-purl"
+msgstr "3 sobre 1 para a direita (avesso)"
+
+msgid "3 over 2 left"
+msgstr "3 sobre 2 para a esquerda"
+
+msgid "3 over 2 left-purl"
+msgstr "3 sobre 2 para a esquerda (avesso)"
+
+msgid "3 over 2 right"
+msgstr "3 sobre 2 para a direita"
+
+msgid "3 over 2 right-purl"
+msgstr "3 sobre 2 para a direita (avesso)"
+
+msgid "3 over 3 left"
+msgstr "3 sobre 3 para a esquerda"
+
+msgid "3 over 3 left-purl"
+msgstr "3 sobre 3 para a esquerda (avesso)"
+
+msgid "3 over 3 right"
+msgstr "3 sobre 3 para a direita"
+
+msgid "3 over 3 right-purl"
+msgstr "3 sobre 3 para a direita (avesso)"
+
+msgid "4 increase"
+msgstr "aumento para 4 pontos"
+
+msgid "4over1left"
+msgstr "4 sobre 1 para a esquerda"
+
+msgid "4over1left-purl"
+msgstr "4 sobre 1 para a esquerda (avesso)"
+
+msgid "4over1right"
+msgstr "4 sobre 1 para a direita"
+
+msgid "4over1right-purl"
+msgstr "4 sobre 1 para a direita (avesso)"
+
+msgid "4tog decrease"
+msgstr "diminuição de 4 pontos"
+
+msgid "5 increase"
+msgstr "aumento para 5 pontos"
+
+msgid "5tog decrease"
+msgstr "diminuição de 5 pontos"
+
+msgid "C7left"
+msgstr "C7 para a esquerda"
+
+msgid "C7right"
+msgstr "C7 para a direita"
+
+msgid "bind 2 knit"
+msgstr "fechamento de 2 pontos meia"
+
+msgid "bind 2 purl"
+msgstr "fechamento de 2 pontos avesso"
+
+msgid "bobble"
+msgstr "bobble"
+
+msgid "centered double decrease"
+msgstr "diminuição dupla centralizada"
+
+msgid "centered double increase"
+msgstr "aumento duplo centralizado"
+
+msgid "closed ring"
+msgstr "anel fechado"
+
+msgid "double decrease"
+msgstr "diminuição dupla"
+
+msgid "elongated"
+msgstr "ponto alongado"
+
+msgid "elongated twice"
+msgstr "ponto muito alongado"
+
+msgid "k1, p1, k1 increase"
+msgstr "aumento: meia, avesso, meia"
+
+msgid "k1, yo, k1 increase"
+msgstr "aumento: meia, laçada, meia"
+
+msgid "k2tog"
+msgstr "2 pontos juntos meia"
+
+msgid "k3tog"
+msgstr "3 pontos juntos meia"
+
+msgid "kfb"
+msgstr "meia na frente e atrás"
+
+msgid "knit"
+msgstr "ponto meia"
+
+msgid "ktbl"
+msgstr "meia torcida"
+
+msgid "LT"
+msgstr "cruzamento à esquerda (1 ponto)"
+
+msgid "lt_yo"
+msgstr "cruzamento à esquerda com laçada"
+
+msgid "LTp"
+msgstr "cruzamento à esquerda com avesso"
+
+msgid "M1"
+msgstr "aumento"
+
+msgid "M1-p"
+msgstr "aumento avesso"
+
+msgid "make 1 left"
+msgstr "aumento inclinado à esquerda"
+
+msgid "make 1 right"
+msgstr "aumento inclinado à direita"
+
+msgid "nostitch"
+msgstr "sem ponto"
+
+msgid "nupp"
+msgstr "nupp"
+
+msgid "p2tog"
+msgstr "2 pontos juntos avesso"
+
+msgid "p2tog tbl"
+msgstr "2 pontos juntos avesso pela alça de trás"
+
+msgid "ptbl"
+msgstr "avesso torcido"
+
+msgid "purl"
+msgstr "ponto avesso"
+
+msgid "RT"
+msgstr "cruzamento à direita (1 ponto)"
+
+msgid "rt_yo"
+msgstr "cruzamento à direita com laçada"
+
+msgid "RTp"
+msgstr "cruzamento à direita com avesso"
+
+msgid "sl1wyib"
+msgstr "ponto deslizado, fio atrás"
+
+msgid "sl1wyif"
+msgstr "ponto deslizado, fio na frente"
+
+msgid "ssk"
+msgstr "diminuição inclinada à esquerda (ssk)"
+
+msgid "yo"
+msgstr "laçada"
+
+msgid "slip 1 st to cn and hold in front, k2 sts from left needle, k1 st from cn"
+msgstr "passar 1 ponto para a agulha auxiliar e deixar na frente do trabalho, 2 pontos meia da agulha esquerda, 1 ponto meia da agulha auxiliar"
+
+msgid "slip 1 st to cn and hold in front, p2 sts from left needle, k1 st from cn"
+msgstr "passar 1 ponto para a agulha auxiliar e deixar na frente do trabalho, 2 pontos avesso da agulha esquerda, 1 ponto meia da agulha auxiliar"
+
+msgid "slip 2 sts to cn and hold in back, k1 st from left needle, k2 sts from cn"
+msgstr "passar 2 pontos para a agulha auxiliar e deixar atrás do trabalho, 1 ponto meia da agulha esquerda, 2 pontos meia da agulha auxiliar"
+
+msgid "slip 2 sts to cn and hold in back, k1 st from left needle, p2 sts from cn"
+msgstr "passar 2 pontos para a agulha auxiliar e deixar atrás do trabalho, 1 ponto meia da agulha esquerda, 2 pontos avesso da agulha auxiliar"
+
+msgid "slip 1 st to cn and hold in front, k3 sts from left needle, k1 st from cn"
+msgstr "passar 1 ponto para a agulha auxiliar e deixar na frente do trabalho, 3 pontos meia da agulha esquerda, 1 ponto meia da agulha auxiliar"
+
+msgid "slip 1 st to cn and hold in front, p3 sts from left needle, k1 st from cn"
+msgstr "passar 1 ponto para a agulha auxiliar e deixar na frente do trabalho, 3 pontos avesso da agulha esquerda, 1 ponto meia da agulha auxiliar"
+
+msgid "slip 3 sts to cn and hold in back, k1 st from left needle, k3 sts from cn"
+msgstr "passar 3 pontos para a agulha auxiliar e deixar atrás do trabalho, 1 ponto meia da agulha esquerda, 3 pontos meia da agulha auxiliar"
+
+msgid "slip 3 sts to cn and hold in back, k1 st from left needle, p3 sts from cn"
+msgstr "passar 3 pontos para a agulha auxiliar e deixar atrás do trabalho, 1 ponto meia da agulha esquerda, 3 pontos avesso da agulha auxiliar"
+
+msgid "slip 1 st to cn and hold in front, k1, p1, k1, then k1 from cn"
+msgstr "passar 1 ponto para a agulha auxiliar e deixar na frente do trabalho, 1 ponto meia, 1 ponto avesso, 1 ponto meia, depois 1 ponto meia da agulha auxiliar"
+
+msgid "slip 3 sts to cn and hold in back, k1, then k1, p1, k1 from cn"
+msgstr "passar 3 pontos para a agulha auxiliar e deixar atrás do trabalho, 1 ponto meia, depois 1 ponto meia, 1 ponto avesso, 1 ponto meia da agulha auxiliar"
+
+msgid "slip 1 st to cn and hold in front, p1, k1, p1, then k1 from cn"
+msgstr "passar 1 ponto para a agulha auxiliar e deixar na frente do trabalho, 1 ponto avesso, 1 ponto meia, 1 ponto avesso, depois 1 ponto meia da agulha auxiliar"
+
+msgid "slip 3 sts to cn and hold in back, k1, then p1, k1, p1 from cn"
+msgstr "passar 3 pontos para a agulha auxiliar e deixar atrás do trabalho, 1 ponto meia, depois 1 ponto avesso, 1 ponto meia, 1 ponto avesso da agulha auxiliar"
+
+msgid "slip 2 sts to cn and hold in front, k1 sts from left needle, k2 sts from cn"
+msgstr "passar 2 pontos para a agulha auxiliar e deixar na frente do trabalho, 1 ponto meia da agulha esquerda, 2 pontos meia da agulha auxiliar"
+
+msgid "slip 2 sts to cn and hold in front, p1 sts from left needle, k2 sts from cn"
+msgstr "passar 2 pontos para a agulha auxiliar e deixar na frente do trabalho, 1 ponto avesso da agulha esquerda, 2 pontos meia da agulha auxiliar"
+
+msgid "slip 1 st to cn and hold in back, k2 sts from left needle, k1 st from cn"
+msgstr "passar 1 ponto para a agulha auxiliar e deixar atrás do trabalho, 2 pontos meia da agulha esquerda, 1 ponto meia da agulha auxiliar"
+
+msgid "slip 1 st to cn and hold in back, k2 sts from left needle, p1 st from cn"
+msgstr "passar 1 ponto para a agulha auxiliar e deixar atrás do trabalho, 2 pontos meia da agulha esquerda, 1 ponto avesso da agulha auxiliar"
+
+msgid "slip 2 sts to cn and hold in front, k2 sts from left needle, k2 sts from cn"
+msgstr "passar 2 pontos para a agulha auxiliar e deixar na frente do trabalho, 2 pontos meia da agulha esquerda, 2 pontos meia da agulha auxiliar"
+
+msgid "slip 2 sts to cn and hold in front, p2 sts from left needle, k2 sts from cn"
+msgstr "passar 2 pontos para a agulha auxiliar e deixar na frente do trabalho, 2 pontos avesso da agulha esquerda, 2 pontos meia da agulha auxiliar"
+
+msgid "slip 2 sts to cn and hold in back, k2 sts from left needle, k2 sts from cn"
+msgstr "passar 2 pontos para a agulha auxiliar e deixar atrás do trabalho, 2 pontos meia da agulha esquerda, 2 pontos meia da agulha auxiliar"
+
+msgid "slip 2 sts to cn and hold in back, k2 sts from left needle, p2 sts from cn"
+msgstr "passar 2 pontos para a agulha auxiliar e deixar atrás do trabalho, 2 pontos meia da agulha esquerda, 2 pontos avesso da agulha auxiliar"
+
+msgid "slip 2 sts to cn and hold in front, k3 sts from left needle, k2 sts from cn"
+msgstr "passar 2 pontos para a agulha auxiliar e deixar na frente do trabalho, 3 pontos meia da agulha esquerda, 2 pontos meia da agulha auxiliar"
+
+msgid "slip 2 sts to cn and hold in front, p3 sts from left needle, k2 sts from cn"
+msgstr "passar 2 pontos para a agulha auxiliar e deixar na frente do trabalho, 3 pontos avesso da agulha esquerda, 2 pontos meia da agulha auxiliar"
+
+msgid "slip 3 sts to cn and hold in back, k2 sts from left needle, k3 sts from cn"
+msgstr "passar 3 pontos para a agulha auxiliar e deixar atrás do trabalho, 2 pontos meia da agulha esquerda, 3 pontos meia da agulha auxiliar"
+
+msgid "slip 3 sts to cn and hold in back, k2 sts from left needle, p3 sts from cn"
+msgstr "passar 3 pontos para a agulha auxiliar e deixar atrás do trabalho, 2 pontos meia da agulha esquerda, 3 pontos avesso da agulha auxiliar"
+
+msgid "slip 2 sts to cn and hold in front, k1, p1, k1, then k2 from cn"
+msgstr "passar 2 pontos para a agulha auxiliar e deixar na frente do trabalho, 1 ponto meia, 1 ponto avesso, 1 ponto meia, depois 2 pontos meia da agulha auxiliar"
+
+msgid "slip 3 sts to cn and hold in back, k2, then k1, p1, k1 from cn"
+msgstr "passar 3 pontos para a agulha auxiliar e deixar atrás do trabalho, 2 pontos meia, depois 1 ponto meia, 1 ponto avesso, 1 ponto meia da agulha auxiliar"
+
+msgid "slip 3 sts to cn and hold in front, k2, slip last st from cn to needle, p1, then k2 from cn"
+msgstr "passar 3 pontos para a agulha auxiliar e deixar na frente do trabalho, 2 pontos meia, passar o último ponto da agulha auxiliar para a agulha, 1 ponto avesso, depois 2 pontos meia da agulha auxiliar"
+
+msgid "slip 3 sts to cn and hold in back, k2, slip last st from cn to needle, p1, then k2 from cn"
+msgstr "passar 3 pontos para a agulha auxiliar e deixar atrás do trabalho, 2 pontos meia, passar o último ponto da agulha auxiliar para a agulha, 1 ponto avesso, depois 2 pontos meia da agulha auxiliar"
+
+msgid "slip 2 sts to cn and hold in front, p1, k1, p1, then k2 from cn"
+msgstr "passar 2 pontos para a agulha auxiliar e deixar na frente do trabalho, 1 ponto avesso, 1 ponto meia, 1 ponto avesso, depois 2 pontos meia da agulha auxiliar"
+
+msgid "slip 3 sts to cn and hold in back, k2, then p1, k1, p1 from cn"
+msgstr "passar 3 pontos para a agulha auxiliar e deixar atrás do trabalho, 2 pontos meia, depois 1 ponto avesso, 1 ponto meia, 1 ponto avesso da agulha auxiliar"
+
+msgid "slip 3 sts to cn and hold in front, k1 st from left needle, k3 sts from cn"
+msgstr "passar 3 pontos para a agulha auxiliar e deixar na frente do trabalho, 1 ponto meia da agulha esquerda, 3 pontos meia da agulha auxiliar"
+
+msgid "slip 3 sts to cn and hold in front, p1 st from left needle, k3 sts from cn"
+msgstr "passar 3 pontos para a agulha auxiliar e deixar na frente do trabalho, 1 ponto avesso da agulha esquerda, 3 pontos meia da agulha auxiliar"
+
+msgid "slip 1 st to cn and hold in back, k3 sts from left needle, k1 st from cn"
+msgstr "passar 1 ponto para a agulha auxiliar e deixar atrás do trabalho, 3 pontos meia da agulha esquerda, 1 ponto meia da agulha auxiliar"
+
+msgid "slip 1 st to cn and hold in back, k3 sts from left needle, p1 st from cn"
+msgstr "passar 1 ponto para a agulha auxiliar e deixar atrás do trabalho, 3 pontos meia da agulha esquerda, 1 ponto avesso da agulha auxiliar"
+
+msgid "slip 3 sts to cn and hold in front, k2 sts from left needle, k3 sts from cn"
+msgstr "passar 3 pontos para a agulha auxiliar e deixar na frente do trabalho, 2 pontos meia da agulha esquerda, 3 pontos meia da agulha auxiliar"
+
+msgid "slip 3 sts to cn and hold in front, p2 sts from left needle, k3 sts from cn"
+msgstr "passar 3 pontos para a agulha auxiliar e deixar na frente do trabalho, 2 pontos avesso da agulha esquerda, 3 pontos meia da agulha auxiliar"
+
+msgid "slip 2 sts to cn and hold in back, k3 sts from left needle, k2 sts from cn"
+msgstr "passar 2 pontos para a agulha auxiliar e deixar atrás do trabalho, 3 pontos meia da agulha esquerda, 2 pontos meia da agulha auxiliar"
+
+msgid "slip 2 sts to cn and hold in back, k3 sts from left needle, p2 sts from cn"
+msgstr "passar 2 pontos para a agulha auxiliar e deixar atrás do trabalho, 3 pontos meia da agulha esquerda, 2 pontos avesso da agulha auxiliar"
+
+msgid "slip 3 sts to cn and hold in front, k3 sts from left needle, k3 sts from cn"
+msgstr "passar 3 pontos para a agulha auxiliar e deixar na frente do trabalho, 3 pontos meia da agulha esquerda, 3 pontos meia da agulha auxiliar"
+
+msgid "slip 3 sts to cn and hold in front, p3 sts from left needle, k3 sts from cn"
+msgstr "passar 3 pontos para a agulha auxiliar e deixar na frente do trabalho, 3 pontos avesso da agulha esquerda, 3 pontos meia da agulha auxiliar"
+
+msgid "slip 3 sts to cn and hold in back, k3 sts from left needle, k3 sts from cn"
+msgstr "passar 3 pontos para a agulha auxiliar e deixar atrás do trabalho, 3 pontos meia da agulha esquerda, 3 pontos meia da agulha auxiliar"
+
+msgid "slip 3 sts to cn and hold in back, k3 sts from left needle, p3 sts from cn"
+msgstr "passar 3 pontos para a agulha auxiliar e deixar atrás do trabalho, 3 pontos meia da agulha esquerda, 3 pontos avesso da agulha auxiliar"
+
+msgid "k1, p1, k1, p1 into same stitch"
+msgstr "1 meia, 1 avesso, 1 meia, 1 avesso no mesmo ponto"
+
+msgid "slip 4 sts to cn and hold in front, k1 st from left needle, k4 sts from cn"
+msgstr "passar 4 pontos para a agulha auxiliar e deixar na frente do trabalho, 1 ponto meia da agulha esquerda, 4 pontos meia da agulha auxiliar"
+
+msgid "slip 4 sts to cn and hold in front, p1 st from left needle, k4 sts from cn"
+msgstr "passar 4 pontos para a agulha auxiliar e deixar na frente do trabalho, 1 ponto avesso da agulha esquerda, 4 pontos meia da agulha auxiliar"
+
+msgid "slip 1 st to cn and hold in back, k4 sts from left needle, k1 st from cn"
+msgstr "passar 1 ponto para a agulha auxiliar e deixar atrás do trabalho, 4 pontos meia da agulha esquerda, 1 ponto meia da agulha auxiliar"
+
+msgid "slip 1 st to cn and hold in back, k4 sts from left needle, p1 st from cn"
+msgstr "passar 1 ponto para a agulha auxiliar e deixar atrás do trabalho, 4 pontos meia da agulha esquerda, 1 ponto avesso da agulha auxiliar"
+
+msgid "Ssk, k2tog, then pass the ssk over the k2tog"
+msgstr "ssk, 2 pontos juntos meia, depois passar o ssk por cima"
+
+msgid "k1 ,yo, k1, yo, k1 into same stitch"
+msgstr "1 meia, laçada, 1 meia, laçada, 1 meia no mesmo ponto"
+
+msgid "Sl next 3 sts to right hand needle.  *Pass 2nd st on right hand needle over 1st st, sl 1st st to left hand needle.  Then pass 2nd st on left hand needle over same 1st st, and sl 1st st back to right hand needle.*  Rep from * to * once more. Then purl 1st st."
+msgstr "Passar os 3 pontos seguintes para a agulha direita. *Passar o 2.º ponto da agulha direita por cima do 1.º e devolver o 1.º à agulha esquerda. Depois passar o 2.º ponto da agulha esquerda por cima do mesmo 1.º e devolver o 1.º à agulha direita.* Repetir de * a * mais uma vez. Depois tricotar o 1.º ponto em avesso."
+
+msgid "slip 3 sts to cn and hold in front, k3 sts from left needle, p1, k3 sts from cn"
+msgstr "passar 3 pontos para a agulha auxiliar e deixar na frente do trabalho, 3 pontos meia da agulha esquerda, 1 ponto avesso, 3 pontos meia da agulha auxiliar"
+
+msgid "slip 4 sts to cn and hold in back, k3 sts from left needle, p1, k3 sts from cn"
+msgstr "passar 4 pontos para a agulha auxiliar e deixar atrás do trabalho, 3 pontos meia da agulha esquerda, 1 ponto avesso, 3 pontos meia da agulha auxiliar"
+
+msgid "yo, k2, pass yo over 2 knit stitches"
+msgstr "laçada, 2 meias, passar a laçada por cima dos 2 pontos meia"
+
+msgid "yo, p2, pass yo over 2 purl stitches"
+msgstr "laçada, 2 avessos, passar a laçada por cima dos 2 pontos avesso"
+
+msgid "(k1, yo, k1, yo, k1) into next st, turn, p5 sts, turn, ssk, k1, k2tog, turn, p3, turn, sl 2 sts knitwise, k1, pass 2 slipped sts over"
+msgstr "(1 meia, laçada, 1 meia, laçada, 1 meia) no ponto seguinte, virar, 5 pontos avesso, virar, ssk, 1 meia, 2 pontos juntos meia, virar, 3 avesso, virar, passar 2 pontos como para meia, 1 meia, passar os 2 pontos passados por cima"
+
+msgid "slip 2 sts knitwise, k1 st from left needle, pass 2 slipped sts over"
+msgstr "passar 2 pontos como para meia, 1 ponto meia da agulha esquerda, passar os 2 pontos passados por cima"
+
+msgid "knit in back and front of same st, then pick up vertical strand that runs between those 2 sts and knit it through the back"
+msgstr "tricotar meia por trás e pela frente do mesmo ponto, depois levantar o fio vertical entre esses 2 pontos e tricotá-lo meia por trás"
+
+msgid "Insert right needle into third st on left needle and pass this st over first 2 sts on left needle; k1, yo, k1."
+msgstr "inserir a agulha direita no 3.º ponto da agulha esquerda e passá-lo por cima dos 2 primeiros; 1 meia, laçada, 1 meia"
+
+msgid "slip 1 st knitwise, k2 sts together from left needle, pass slipped stitch over"
+msgstr "passar 1 ponto como para meia, 2 pontos juntos meia da agulha esquerda, passar o ponto passado por cima"
+
+msgid "Knit 1 stitch wrapping yarn twice, then on next row drop extra wrap from needle"
+msgstr "tricotar 1 ponto enrolando o fio duas vezes; na carreira seguinte soltar a volta extra da agulha"
+
+msgid "Knit 1 stitch wrapping yarn 3 times, then on next row drop extra wraps from needle"
+msgstr "tricotar 1 ponto enrolando o fio 3 vezes; na carreira seguinte soltar as voltas extras da agulha"
+
+msgid "k1, p1, k1 into same stitch"
+msgstr "1 meia, 1 avesso, 1 meia no mesmo ponto"
+
+msgid "k1, leaving stitch on left hand needle, yo, k1 into same stitch"
+msgstr "1 meia deixando o ponto na agulha esquerda, laçada, 1 meia no mesmo ponto"
+
+msgid "Knit 2 together"
+msgstr "tricotar 2 pontos juntos em meia"
+
+msgid "Knit 3 together"
+msgstr "tricotar 3 pontos juntos em meia"
+
+msgid "knit front and back of same st"
+msgstr "tricotar meia pela frente e por trás do mesmo ponto"
+
+msgid "knit on RS; purl on WS"
+msgstr "meia no lado direito; avesso no lado avesso"
+
+msgid "knit through back loop"
+msgstr "tricotar meia pela alça de trás"
+
+msgid "slip 1 st to cn and hold in front, k1 from left needle, k1 st from cn"
+msgstr "passar 1 ponto para a agulha auxiliar e deixar na frente do trabalho, 1 ponto meia da agulha esquerda, 1 ponto meia da agulha auxiliar"
+
+msgid "slip 1 st to cn and hold in front, k1 from left needle, yo, k1 st from cn"
+msgstr "passar 1 ponto para a agulha auxiliar e deixar na frente do trabalho, 1 ponto meia da agulha esquerda, laçada, 1 ponto meia da agulha auxiliar"
+
+msgid "slip 1 st to cn and hold in front, p1 from left needle, k1 st from cn"
+msgstr "passar 1 ponto para a agulha auxiliar e deixar na frente do trabalho, 1 ponto avesso da agulha esquerda, 1 ponto meia da agulha auxiliar"
+
+msgid "make 1"
+msgstr "fazer 1 aumento"
+
+msgid "make 1 purl"
+msgstr "fazer 1 aumento em avesso"
+
+msgid "With left needle, lift strand between sts from the front and knit through the back loop"
+msgstr "com a agulha esquerda, levantar por diante o fio entre os pontos e tricotá-lo meia pela alça de trás"
+
+msgid "With left needle, lift strand between sts from the back and knit through the front loop"
+msgstr "com a agulha esquerda, levantar por trás o fio entre os pontos e tricotá-lo meia pela alça da frente"
+
+msgid "no stitch (ignore this space)"
+msgstr "sem ponto (ignore esta célula)"
+
+msgid "Nupp: knit into stitch, leaving it on left hand needle, * YO, knit into stitch again, rep from * until there are 7 sts from 1 st.  On next row, work 7 sts together back to 1 st."
+msgstr "Nupp: tricotar o ponto em meia deixando-o na agulha esquerda, * laçada, tricotar de novo meia no mesmo ponto, repetir de * até haver 7 pontos a partir de 1. Na carreira seguinte, tricotar os 7 pontos juntos até voltar a 1."
+
+msgid "Purl 2 together"
+msgstr "tricotar 2 pontos juntos em avesso"
+
+msgid "Purl 2 together through the back loop"
+msgstr "tricotar 2 pontos juntos em avesso pelas alças de trás"
+
+msgid "purl through back loop"
+msgstr "tricotar avesso pela alça de trás"
+
+msgid "purl on RS; knit on WS"
+msgstr "avesso no lado direito; meia no lado avesso"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, k1 st from cn"
+msgstr "passar 1 ponto para a agulha auxiliar e deixar atrás do trabalho, 1 ponto meia da agulha esquerda, 1 ponto meia da agulha auxiliar"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, yo, k1 st from cn"
+msgstr "passar 1 ponto para a agulha auxiliar e deixar atrás do trabalho, 1 ponto meia da agulha esquerda, laçada, 1 ponto meia da agulha auxiliar"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, p1 st from cn"
+msgstr "passar 1 ponto para a agulha auxiliar e deixar atrás do trabalho, 1 ponto meia da agulha esquerda, 1 ponto avesso da agulha auxiliar"
+
+msgid "Slip 1 stitch purlwise with yarn in back"
+msgstr "passar 1 ponto como para avesso, com o fio atrás"
+
+msgid "Slip 1 stitch purlwise with yarn in front"
+msgstr "passar 1 ponto como para avesso, com o fio na frente"
+
+msgid "Slip, slip, knit"
+msgstr "passar 2 pontos um a um, depois tricotá-los juntos"
+
+msgid "yarn over"
+msgstr "laçada"

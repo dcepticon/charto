@@ -1,11 +1,13 @@
 #!/bin/sh
-# Builds a Debian/Ubuntu package: dist/charto_<version>-1_<arch>.deb
+# Builds a Debian/Ubuntu package: dist/charto.deb
 #
 # usage: packaging/build-deb.sh [path/to/charto]
 #   without an argument the release binary is built first (cargo build -p charto-app --release)
 #
 # Needs: cargo (unless you pass a binary), dpkg-dev (dpkg-deb, dpkg-shlibdeps).
-# Optional: DEBFULLNAME and DEBEMAIL set the maintainer line, e.g.
+# Optional: CHARTO_DEB_SUFFIX is appended to the version (build-deb-in-container.sh uses it to
+# tell the packages for different Ubuntu releases apart), e.g. CHARTO_DEB_SUFFIX="~ubuntu26.04".
+# DEBFULLNAME and DEBEMAIL set the maintainer line, e.g.
 #   DEBFULLNAME="Your Name" DEBEMAIL=you@example.org packaging/build-deb.sh
 set -e
 umask 022
@@ -15,8 +17,8 @@ root=$(dirname "$here")
 version=$(sed -n 's/^version *= *"\(.*\)"/\1/p' "$root/Cargo.toml" | head -1)
 [ -n "$version" ] || { echo "cannot read the version from Cargo.toml" >&2; exit 1; }
 arch=$(dpkg --print-architecture)
-revision=1
-full="$version-$revision"
+revision=2
+full="$version-$revision${CHARTO_DEB_SUFFIX:-}"
 
 bin=$1
 if [ -z "$bin" ]; then
@@ -41,16 +43,23 @@ find "$pkg/usr/share/charto" -type f -exec chmod 644 {} +
 install -D -m 644 "$here/charto.desktop"  "$pkg/usr/share/applications/charto.desktop"
 install -D -m 644 "$here/charto.svg"      "$pkg/usr/share/icons/hicolor/scalable/apps/charto.svg"
 install -D -m 644 "$here/charto-mime.xml" "$pkg/usr/share/mime/packages/charto.xml"
+# AppStream metadata: this is what software centres (Discover, GNOME Software) show as the
+# author, licence, home page and name. It is the Flatpak file with the native desktop-file name.
+sed 's,<launchable type="desktop-id">org.charto.Charto.desktop</launchable>,<launchable type="desktop-id">charto.desktop</launchable>,' \
+  "$here/flatpak/org.charto.Charto.metainfo.xml" > "$work/org.charto.Charto.metainfo.xml"
+install -D -m 644 "$work/org.charto.Charto.metainfo.xml" "$pkg/usr/share/metainfo/org.charto.Charto.metainfo.xml"
 
 doc=$pkg/usr/share/doc/charto
 mkdir -p "$doc"
 cat > "$doc/copyright" <<COPYRIGHT
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Charto
+Upstream-Contact: Claude and Fibrely Designs
 Comment: Charto is a Rust + Qt 6 port of sconcho, the knitting chart designer
  written by Markus Dittrich (https://github.com/craftoid/sconcho).
 
 Files: *
+Copyright: 2026 Claude and Fibrely Designs
 License: GPL-3+
 
 License: GPL-3+
@@ -64,7 +73,7 @@ License: GPL-3+
 COPYRIGHT
 chmod 644 "$doc/copyright"
 printf 'charto (%s) unstable; urgency=low\n\n  * Packaged with packaging/build-deb.sh.\n\n -- %s <%s>  %s\n' \
-  "$full" "${DEBFULLNAME:-Charto packager}" "${DEBEMAIL:-charto@localhost}" "$(date -R)" \
+  "$full" "${DEBFULLNAME:-Claude and Fibrely Designs}" "${DEBEMAIL:-info@fibrely.com}" "$(date -R)" \
   | gzip -9n > "$doc/changelog.Debian.gz"
 chmod 644 "$doc/changelog.Debian.gz"
 
@@ -87,23 +96,25 @@ cat > "$pkg/DEBIAN/control" <<CONTROL
 Package: charto
 Version: $full
 Architecture: $arch
-Maintainer: ${DEBFULLNAME:-Charto packager} <${DEBEMAIL:-charto@localhost}>
+Maintainer: ${DEBFULLNAME:-Claude and Fibrely Designs} <${DEBEMAIL:-info@fibrely.com}>
 Installed-Size: $size
 Depends: $depends
 Recommends: xdg-desktop-portal, xdg-desktop-portal-kde | xdg-desktop-portal-gtk | xdg-desktop-portal-gnome
 Section: graphics
+Homepage: https://dcepticon.github.io/charto/
 Priority: optional
 Description: knitting chart designer
  Charto designs knitting charts and patterns: place stitch symbols on a
- grid, colour cells, repeat rows, number rows and columns, and export or
+ grid, colour cells, repeat rows, number rows and stitches, and export or
  print the chart. It opens and saves sconcho (.spf) pattern files.
  .
  Open, save and print use the desktop's own dialogs through the freedesktop
  portals. Charto is a Rust and Qt 6 port of sconcho.
 CONTROL
 
-mkdir -p "$root/dist"
-out=$root/dist/charto_${full}_${arch}.deb
+# a plain file name: software centres show the name up to the first dot ("charto_3" for charto_3.1.0-...)
+out=${CHARTO_DEB_OUT:-$root/dist/charto.deb}
+mkdir -p "$(dirname "$out")"
 dpkg-deb --root-owner-group --build "$pkg" "$out" >/dev/null
 echo "Built $out"
-echo "Install with: sudo apt install $out"
+echo "Install with: sudo apt install ./${out#$PWD/}"

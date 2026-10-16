@@ -564,6 +564,10 @@ void cxxbridge1$205$ChartBackend$export_svg(::ChartBackend &self, ::QString cons
 
 void cxxbridge1$205$ChartBackend$print_temp_path(::ChartBackend const &self, ::QString *return$) noexcept;
 
+void cxxbridge1$205$ChartBackend$translate(::ChartBackend const &self, ::QString const &text, ::QString *return$) noexcept;
+
+void cxxbridge1$205$ChartBackend$startup_file(::ChartBackend const &self, ::QString *return$) noexcept;
+
 void cxxbridge1$205$ChartBackend$print_image(::ChartBackend &self, ::QString const &png_path, ::QString const &title) noexcept;
 
 void cxxbridge1$205$ChartBackend$choose_file(::ChartBackend &self, ::QString const &purpose, ::QString const &current) noexcept;
@@ -870,6 +874,18 @@ void ChartBackend::exportSvg(::QString const &path) noexcept {
 ::QString ChartBackend::printTempPath() const noexcept {
   ::rust::MaybeUninit<::QString> return$;
   cxxbridge1$205$ChartBackend$print_temp_path(*this, &return$.value);
+  return ::std::move(return$.value);
+}
+
+::QString ChartBackend::translate(::QString const &text) const noexcept {
+  ::rust::MaybeUninit<::QString> return$;
+  cxxbridge1$205$ChartBackend$translate(*this, text, &return$.value);
+  return ::std::move(return$.value);
+}
+
+::QString ChartBackend::startupFile() const noexcept {
+  ::rust::MaybeUninit<::QString> return$;
+  cxxbridge1$205$ChartBackend$startup_file(*this, &return$.value);
   return ::std::move(return$.value);
 }
 

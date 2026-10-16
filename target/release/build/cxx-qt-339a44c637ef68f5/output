@@ -2,7 +2,7 @@ cargo::rerun-if-changed=src/connection.rs
 cargo::rerun-if-changed=src/qobject.rs
 cargo::rerun-if-changed=src/connection.cpp
 cargo::rerun-if-changed=src/init.cpp
-cargo::warning=Neither mold, lld, nor gold linkers were found. Linking with GNU ld.bfd will likely fail.
+cargo::rustc-link-arg=-fuse-ld=lld
 cargo::rerun-if-env-changed=QMAKE
 cargo::rerun-if-env-changed=QT_VERSION_MAJOR
 cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
@@ -430,7 +430,7 @@ ARFLAGS_x86_64_unknown_linux_gnu = None
 cargo:rerun-if-env-changed=ARFLAGS_x86_64-unknown-linux-gnu
 ARFLAGS_x86_64-unknown-linux-gnu = None
 cargo:rustc-link-lib=static:+whole-archive=cxx-qt-call-init-crate_cxx_qt
-cargo:rustc-link-search=native=/home/fibrely/charto-testing/charto/target/release/build/cxx-qt-339a44c637ef68f5/out
+cargo:rustc-link-search=native=/home/fibrely/charto/target/release/build/cxx-qt-339a44c637ef68f5/out
 cargo:rerun-if-env-changed=CXXSTDLIB_x86_64-unknown-linux-gnu
 CXXSTDLIB_x86_64-unknown-linux-gnu = None
 cargo:rerun-if-env-changed=CXXSTDLIB_x86_64_unknown_linux_gnu
@@ -549,7 +549,7 @@ ARFLAGS_x86_64_unknown_linux_gnu = None
 cargo:rerun-if-env-changed=ARFLAGS_x86_64-unknown-linux-gnu
 ARFLAGS_x86_64-unknown-linux-gnu = None
 cargo:rustc-link-lib=static=cxx-qt-cxxqt-generated
-cargo:rustc-link-search=native=/home/fibrely/charto-testing/charto/target/release/build/cxx-qt-339a44c637ef68f5/out
+cargo:rustc-link-search=native=/home/fibrely/charto/target/release/build/cxx-qt-339a44c637ef68f5/out
 cargo:rerun-if-env-changed=CXXSTDLIB_x86_64-unknown-linux-gnu
 CXXSTDLIB_x86_64-unknown-linux-gnu = None
 cargo:rerun-if-env-changed=CXXSTDLIB_x86_64_unknown_linux_gnu
@@ -567,4 +567,4 @@ HOST_CXXSTDLIB_STATIC = None
 cargo:rerun-if-env-changed=CXXSTDLIB_STATIC
 CXXSTDLIB_STATIC = None
 cargo:rustc-link-lib=stdc++
-cargo::metadata=CXX_QT_MANIFEST_PATH=/home/fibrely/charto-testing/charto/target/release/build/cxx-qt-339a44c637ef68f5/out/cxxqtbuild/manifest.json
+cargo::metadata=CXX_QT_MANIFEST_PATH=/home/fibrely/charto/target/release/build/cxx-qt-339a44c637ef68f5/out/cxxqtbuild/manifest.json

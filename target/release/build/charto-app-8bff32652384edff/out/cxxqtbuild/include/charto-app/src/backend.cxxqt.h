@@ -97,6 +97,8 @@ public:
   Q_INVOKABLE void applySettings(QString const& json) noexcept;
   Q_INVOKABLE void exportSvg(QString const& path) noexcept;
   Q_INVOKABLE QString printTempPath() const noexcept;
+  Q_INVOKABLE QString translate(QString const& text) const noexcept;
+  Q_INVOKABLE QString startupFile() const noexcept;
   Q_INVOKABLE void printImage(QString const& png_path, QString const& title) noexcept;
   Q_INVOKABLE void chooseFile(QString const& purpose, QString const& current) noexcept;
   Q_INVOKABLE void reportStatus(QString const& message) noexcept;

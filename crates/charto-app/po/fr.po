@@ -1,0 +1,939 @@
+# French translation of the Charto interface.
+# Translated by Claude (an AI) and not yet reviewed by a native speaker: corrections are welcome.
+msgid ""
+msgstr ""
+"Project-Id-Version: Charto\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Charto pattern"
+msgstr "Modèle Charto"
+
+msgid "Could not render the chart for printing"
+msgstr "Impossible de préparer le diagramme pour l’impression"
+
+msgid "Exported %1"
+msgstr "Exporté : %1"
+
+msgid "Could not write %1"
+msgstr "Impossible d’écrire %1"
+
+msgid "&File"
+msgstr "&Fichier"
+
+msgid "&New…"
+msgstr "&Nouveau…"
+
+msgid "&Open…"
+msgstr "&Ouvrir…"
+
+msgid "Open &Recent"
+msgstr "Ouvrir un fichier &récent"
+
+msgid "&Clear list"
+msgstr "&Effacer la liste"
+
+msgid "&Save"
+msgstr "&Enregistrer"
+
+msgid "Save &As…"
+msgstr "Enregistrer &sous…"
+
+msgid "Export as &PNG…"
+msgstr "Exporter en &PNG…"
+
+msgid "Export as S&VG…"
+msgstr "Exporter en S&VG…"
+
+msgid "&Print…"
+msgstr "&Imprimer…"
+
+msgid "&Quit"
+msgstr "&Quitter"
+
+msgid "&Edit"
+msgstr "&Édition"
+
+msgid "&Undo %1"
+msgstr "&Annuler : %1"
+
+msgid "&Undo"
+msgstr "&Annuler"
+
+msgid "&Redo %1"
+msgstr "&Rétablir : %1"
+
+msgid "&Redo"
+msgstr "&Rétablir"
+
+msgid "&Copy"
+msgstr "&Copier"
+
+msgid "&Paste into selection"
+msgstr "Co&ller dans la sélection"
+
+msgid "Clear &selection"
+msgstr "Effacer la &sélection"
+
+msgid "Apply colour to selection"
+msgstr "Appliquer la couleur à la sélection"
+
+msgid "&Preferences…"
+msgstr "&Préférences…"
+
+msgid "&Chart"
+msgstr "&Diagramme"
+
+msgid "Insert rows above…"
+msgstr "Insérer des rangs au-dessus…"
+
+msgid "Insert rows below…"
+msgstr "Insérer des rangs en dessous…"
+
+msgid "Delete selected rows"
+msgstr "Supprimer les rangs sélectionnés"
+
+msgid "Insert stitches left…"
+msgstr "Insérer des mailles à gauche…"
+
+msgid "Insert stitches right…"
+msgstr "Insérer des mailles à droite…"
+
+msgid "Delete selected stitches"
+msgstr "Supprimer les mailles sélectionnées"
+
+msgid "Make selected rows a row repeat…"
+msgstr "Transformer les rangs sélectionnés en répétition…"
+
+msgid "Delete row repeat"
+msgstr "Supprimer la répétition de rangs"
+
+msgid "&View"
+msgstr "&Affichage"
+
+msgid "Zoom &in"
+msgstr "Zoom &avant"
+
+msgid "Zoom &out"
+msgstr "Zoom a&rrière"
+
+msgid "&Reset zoom"
+msgstr "&Réinitialiser le zoom"
+
+msgid "Open pattern"
+msgstr "Ouvrir un modèle"
+
+msgid "Charto patterns (*.spf)"
+msgstr "Modèles Charto (*.spf)"
+
+msgid "All files (*)"
+msgstr "Tous les fichiers (*)"
+
+msgid "Save pattern"
+msgstr "Enregistrer le modèle"
+
+msgid "Choose a colour"
+msgstr "Choisir une couleur"
+
+msgid "Export as PNG image"
+msgstr "Exporter en image PNG"
+
+msgid "PNG images (*.png)"
+msgstr "Images PNG (*.png)"
+
+msgid "Export as SVG drawing"
+msgstr "Exporter en dessin SVG"
+
+msgid "SVG drawings (*.svg)"
+msgstr "Dessins SVG (*.svg)"
+
+msgid "Unsaved changes"
+msgstr "Modifications non enregistrées"
+
+msgid "The pattern has unsaved changes. Save them first?"
+msgstr "Le modèle contient des modifications non enregistrées. Les enregistrer d’abord ?"
+
+msgid "Recovered changes"
+msgstr "Modifications récupérées"
+
+msgid "Charto found unsaved changes to this pattern from an earlier session. Open the recovered version?"
+msgstr "Charto a trouvé des modifications non enregistrées de ce modèle datant d’une session précédente. Ouvrir la version récupérée ?"
+
+msgid "Row label"
+msgstr "Étiquette du rang"
+
+msgid "Stitch label"
+msgstr "Étiquette de la maille"
+
+msgid "Row highlight colour"
+msgstr "Couleur de surbrillance des rangs"
+
+msgid "Preferences"
+msgstr "Préférences"
+
+msgid "Chart"
+msgstr "Diagramme"
+
+msgid "Cell width (pixels)"
+msgstr "Largeur des cases (pixels)"
+
+msgid "Cell height (pixels)"
+msgstr "Hauteur des cases (pixels)"
+
+msgid "Row labels"
+msgstr "Étiquettes des rangs"
+
+msgid "Show"
+msgstr "Afficher"
+
+msgid "All rows"
+msgstr "Tous les rangs"
+
+msgid "Every n-th row"
+msgstr "Un rang sur n"
+
+msgid "Odd rows"
+msgstr "Rangs impairs"
+
+msgid "Even rows"
+msgstr "Rangs pairs"
+
+msgid "Number of the bottom row"
+msgstr "Numéro du rang du bas"
+
+msgid "Interval (n)"
+msgstr "Intervalle (n)"
+
+msgid "First numbered row of the interval"
+msgstr "Premier rang numéroté de l’intervalle"
+
+msgid "Odd rows are labelled on the"
+msgstr "Les rangs impairs sont numérotés à"
+
+msgid "left"
+msgstr "gauche"
+
+msgid "right"
+msgstr "droite"
+
+msgid "Even rows are labelled on the"
+msgstr "Les rangs pairs sont numérotés à"
+
+msgid "Row labels can be edited (double-click)"
+msgstr "Les étiquettes des rangs sont modifiables (double-clic)"
+
+msgid "Stitch labels"
+msgstr "Étiquettes des mailles"
+
+msgid "All stitches"
+msgstr "Toutes les mailles"
+
+msgid "Every n-th stitch"
+msgstr "Une maille sur n"
+
+msgid "First numbered stitch of the interval"
+msgstr "Première maille numérotée de l’intervalle"
+
+msgid "Stitch labels can be edited (double-click)"
+msgstr "Les étiquettes des mailles sont modifiables (double-clic)"
+
+msgid "Row highlighting"
+msgstr "Surbrillance des rangs"
+
+msgid "Highlight every other row"
+msgstr "Mettre en surbrillance un rang sur deux"
+
+msgid "Highlight"
+msgstr "Surligner"
+
+msgid "odd rows (1, 3, 5, …)"
+msgstr "rangs impairs (1, 3, 5, …)"
+
+msgid "even rows (2, 4, 6, …)"
+msgstr "rangs pairs (2, 4, 6, …)"
+
+msgid "Strength (%)"
+msgstr "Intensité (%)"
+
+msgid "Colour"
+msgstr "Couleur"
+
+msgid "Fonts"
+msgstr "Polices"
+
+msgid "Label font"
+msgstr "Police des étiquettes"
+
+msgid "Label size"
+msgstr "Taille des étiquettes"
+
+msgid "Legend font"
+msgstr "Police de la légende"
+
+msgid "Legend size"
+msgstr "Taille de la légende"
+
+msgid "New pattern"
+msgstr "Nouveau modèle"
+
+msgid "Rows"
+msgstr "Rangs"
+
+msgid "Stitches"
+msgstr "Mailles"
+
+msgid "Paste here"
+msgstr "Coller ici"
+
+msgid "Select row"
+msgstr "Sélectionner le rang"
+
+msgid "Select stitch column"
+msgstr "Sélectionner la colonne de mailles"
+
+msgid "Select all cells with this colour"
+msgstr "Sélectionner toutes les cases de cette couleur"
+
+msgid "Select all cells with this symbol"
+msgstr "Sélectionner toutes les cases avec ce symbole"
+
+msgid "Mode"
+msgstr "Mode"
+
+msgid "Select"
+msgstr "Sélection"
+
+msgid "Hide"
+msgstr "Masquer"
+
+msgid "Unhide"
+msgstr "Réafficher"
+
+msgid "Recently used"
+msgstr "Récemment utilisés"
+
+msgid "Symbols (none active)"
+msgstr "Symboles (aucun actif)"
+
+msgid "Symbols – active: %1"
+msgstr "Symboles – actif : %1"
+
+msgid "%1 × %2 cells   selected: %3"
+msgstr "%1 × %2 cases   sélectionnées : %3"
+
+msgid "Open"
+msgstr "Ouvrir"
+
+msgid "Save"
+msgstr "Enregistrer"
+
+msgid "Export"
+msgstr "Exporter"
+
+msgid "paint cells"
+msgstr "pose de symboles"
+
+msgid "clear selection"
+msgstr "effacement de la sélection"
+
+msgid "color selected cells"
+msgstr "coloration des cases sélectionnées"
+
+msgid "hide cells"
+msgstr "masquage de cases"
+
+msgid "unhide cells"
+msgstr "réaffichage de cases"
+
+msgid "copy selection"
+msgstr "copie de la sélection"
+
+msgid "paste cells"
+msgstr "collage de cases"
+
+msgid "insert rows"
+msgstr "insertion de rangs"
+
+msgid "delete rows"
+msgstr "suppression de rangs"
+
+msgid "insert stitches"
+msgstr "insertion de mailles"
+
+msgid "delete stitches"
+msgstr "suppression de mailles"
+
+msgid "select cells"
+msgstr "sélection de cases"
+
+msgid "edit row label"
+msgstr "modification de l’étiquette du rang"
+
+msgid "edit stitch label"
+msgstr "modification de l’étiquette de la maille"
+
+msgid "add row repeat"
+msgstr "ajout d’une répétition de rangs"
+
+msgid "delete row repeat"
+msgstr "suppression de la répétition de rangs"
+
+msgid "3 stitch cables"
+msgstr "torsades de 3 mailles"
+
+msgid "4 stitch cables"
+msgstr "torsades de 4 mailles"
+
+msgid "5 stitch cables"
+msgstr "torsades de 5 mailles"
+
+msgid "6 stitch cables"
+msgstr "torsades de 6 mailles"
+
+msgid "increases"
+msgstr "augmentations"
+
+msgid "decreases"
+msgstr "diminutions"
+
+msgid "7 stitch cables"
+msgstr "torsades de 7 mailles"
+
+msgid "special"
+msgstr "spéciaux"
+
+msgid "basic"
+msgstr "de base"
+
+msgid "2 stitch cables"
+msgstr "torsades de 2 mailles"
+
+msgid "1 over 2 left"
+msgstr "1 sur 2 à gauche"
+
+msgid "1 over 2 left-purl"
+msgstr "1 sur 2 à gauche (envers)"
+
+msgid "1 over 2 right"
+msgstr "1 sur 2 à droite"
+
+msgid "1 over 2 right-purl"
+msgstr "1 sur 2 à droite (envers)"
+
+msgid "1 over 3 left"
+msgstr "1 sur 3 à gauche"
+
+msgid "1 over 3 left-purl"
+msgstr "1 sur 3 à gauche (envers)"
+
+msgid "1 over 3 right"
+msgstr "1 sur 3 à droite"
+
+msgid "1 over 3 right-purl"
+msgstr "1 sur 3 à droite (envers)"
+
+msgid "1overKPKleft"
+msgstr "1 sur KPK à gauche"
+
+msgid "1overKPKright"
+msgstr "1 sur KPK à droite"
+
+msgid "1overPKPleft"
+msgstr "1 sur PKP à gauche"
+
+msgid "1overPKPright"
+msgstr "1 sur PKP à droite"
+
+msgid "2 over 1 left"
+msgstr "2 sur 1 à gauche"
+
+msgid "2 over 1 left-purl"
+msgstr "2 sur 1 à gauche (envers)"
+
+msgid "2 over 1 right"
+msgstr "2 sur 1 à droite"
+
+msgid "2 over 1 right-purl"
+msgstr "2 sur 1 à droite (envers)"
+
+msgid "2 over 2 left"
+msgstr "2 sur 2 à gauche"
+
+msgid "2 over 2 left-purl"
+msgstr "2 sur 2 à gauche (envers)"
+
+msgid "2 over 2 right"
+msgstr "2 sur 2 à droite"
+
+msgid "2 over 2 right-purl"
+msgstr "2 sur 2 à droite (envers)"
+
+msgid "2 over 3 left"
+msgstr "2 sur 3 à gauche"
+
+msgid "2 over 3 left-purl"
+msgstr "2 sur 3 à gauche (envers)"
+
+msgid "2 over 3 right"
+msgstr "2 sur 3 à droite"
+
+msgid "2 over 3 right-purl"
+msgstr "2 sur 3 à droite (envers)"
+
+msgid "2 over KPK left"
+msgstr "2 sur KPK à gauche"
+
+msgid "2 over KPK right"
+msgstr "2 sur KPK à droite"
+
+msgid "2overP2Kleft"
+msgstr "2 sur P2K à gauche"
+
+msgid "2overP2Kright"
+msgstr "2 sur P2K à droite"
+
+msgid "2 over PKP left"
+msgstr "2 sur PKP à gauche"
+
+msgid "2 over PKP right"
+msgstr "2 sur PKP à droite"
+
+msgid "3 over 1 left"
+msgstr "3 sur 1 à gauche"
+
+msgid "3 over 1 left-purl"
+msgstr "3 sur 1 à gauche (envers)"
+
+msgid "3 over 1 right"
+msgstr "3 sur 1 à droite"
+
+msgid "3 over 1 right-purl"
+msgstr "3 sur 1 à droite (envers)"
+
+msgid "3 over 2 left"
+msgstr "3 sur 2 à gauche"
+
+msgid "3 over 2 left-purl"
+msgstr "3 sur 2 à gauche (envers)"
+
+msgid "3 over 2 right"
+msgstr "3 sur 2 à droite"
+
+msgid "3 over 2 right-purl"
+msgstr "3 sur 2 à droite (envers)"
+
+msgid "3 over 3 left"
+msgstr "3 sur 3 à gauche"
+
+msgid "3 over 3 left-purl"
+msgstr "3 sur 3 à gauche (envers)"
+
+msgid "3 over 3 right"
+msgstr "3 sur 3 à droite"
+
+msgid "3 over 3 right-purl"
+msgstr "3 sur 3 à droite (envers)"
+
+msgid "4 increase"
+msgstr "augmentation à 4 mailles"
+
+msgid "4over1left"
+msgstr "4 sur 1 à gauche"
+
+msgid "4over1left-purl"
+msgstr "4 sur 1 à gauche (envers)"
+
+msgid "4over1right"
+msgstr "4 sur 1 à droite"
+
+msgid "4over1right-purl"
+msgstr "4 sur 1 à droite (envers)"
+
+msgid "4tog decrease"
+msgstr "diminution de 4 mailles"
+
+msgid "5 increase"
+msgstr "augmentation à 5 mailles"
+
+msgid "5tog decrease"
+msgstr "diminution de 5 mailles"
+
+msgid "C7left"
+msgstr "C7 à gauche"
+
+msgid "C7right"
+msgstr "C7 à droite"
+
+msgid "bind 2 knit"
+msgstr "rabattage de 2 mailles endroit"
+
+msgid "bind 2 purl"
+msgstr "rabattage de 2 mailles envers"
+
+msgid "bobble"
+msgstr "bobble"
+
+msgid "centered double decrease"
+msgstr "double diminution centrée"
+
+msgid "centered double increase"
+msgstr "double augmentation centrée"
+
+msgid "closed ring"
+msgstr "anneau fermé"
+
+msgid "double decrease"
+msgstr "double diminution"
+
+msgid "elongated"
+msgstr "maille allongée"
+
+msgid "elongated twice"
+msgstr "maille très allongée"
+
+msgid "k1, p1, k1 increase"
+msgstr "augmentation : end., env., end."
+
+msgid "k1, yo, k1 increase"
+msgstr "augmentation : end., jeté, end."
+
+msgid "k2tog"
+msgstr "2 mailles ensemble à l’endroit"
+
+msgid "k3tog"
+msgstr "3 mailles ensemble à l’endroit"
+
+msgid "kfb"
+msgstr "endroit devant et derrière"
+
+msgid "knit"
+msgstr "maille endroit"
+
+msgid "ktbl"
+msgstr "endroit torse"
+
+msgid "LT"
+msgstr "croisé à gauche (1 maille)"
+
+msgid "lt_yo"
+msgstr "croisé à gauche avec jeté"
+
+msgid "LTp"
+msgstr "croisé à gauche avec maille envers"
+
+msgid "M1"
+msgstr "augmentation"
+
+msgid "M1-p"
+msgstr "augmentation envers"
+
+msgid "make 1 left"
+msgstr "augmentation penchée à gauche"
+
+msgid "make 1 right"
+msgstr "augmentation penchée à droite"
+
+msgid "nostitch"
+msgstr "pas de maille"
+
+msgid "nupp"
+msgstr "nupp"
+
+msgid "p2tog"
+msgstr "2 mailles ensemble à l’envers"
+
+msgid "p2tog tbl"
+msgstr "2 mailles ensemble à l’envers par le brin arrière"
+
+msgid "ptbl"
+msgstr "envers torse"
+
+msgid "purl"
+msgstr "maille envers"
+
+msgid "RT"
+msgstr "croisé à droite (1 maille)"
+
+msgid "rt_yo"
+msgstr "croisé à droite avec jeté"
+
+msgid "RTp"
+msgstr "croisé à droite avec maille envers"
+
+msgid "sl1wyib"
+msgstr "maille glissée, fil derrière"
+
+msgid "sl1wyif"
+msgstr "maille glissée, fil devant"
+
+msgid "ssk"
+msgstr "diminution penchée à gauche (ssk)"
+
+msgid "yo"
+msgstr "jeté"
+
+msgid "slip 1 st to cn and hold in front, k2 sts from left needle, k1 st from cn"
+msgstr "glisser 1 maille sur l’aiguille à torsades et laisser devant l’ouvrage, 2 mailles à l’endroit de l’aiguille gauche, 1 maille à l’endroit de l’aiguille à torsades"
+
+msgid "slip 1 st to cn and hold in front, p2 sts from left needle, k1 st from cn"
+msgstr "glisser 1 maille sur l’aiguille à torsades et laisser devant l’ouvrage, 2 mailles à l’envers de l’aiguille gauche, 1 maille à l’endroit de l’aiguille à torsades"
+
+msgid "slip 2 sts to cn and hold in back, k1 st from left needle, k2 sts from cn"
+msgstr "glisser 2 mailles sur l’aiguille à torsades et laisser derrière l’ouvrage, 1 maille à l’endroit de l’aiguille gauche, 2 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 2 sts to cn and hold in back, k1 st from left needle, p2 sts from cn"
+msgstr "glisser 2 mailles sur l’aiguille à torsades et laisser derrière l’ouvrage, 1 maille à l’endroit de l’aiguille gauche, 2 mailles à l’envers de l’aiguille à torsades"
+
+msgid "slip 1 st to cn and hold in front, k3 sts from left needle, k1 st from cn"
+msgstr "glisser 1 maille sur l’aiguille à torsades et laisser devant l’ouvrage, 3 mailles à l’endroit de l’aiguille gauche, 1 maille à l’endroit de l’aiguille à torsades"
+
+msgid "slip 1 st to cn and hold in front, p3 sts from left needle, k1 st from cn"
+msgstr "glisser 1 maille sur l’aiguille à torsades et laisser devant l’ouvrage, 3 mailles à l’envers de l’aiguille gauche, 1 maille à l’endroit de l’aiguille à torsades"
+
+msgid "slip 3 sts to cn and hold in back, k1 st from left needle, k3 sts from cn"
+msgstr "glisser 3 mailles sur l’aiguille à torsades et laisser derrière l’ouvrage, 1 maille à l’endroit de l’aiguille gauche, 3 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 3 sts to cn and hold in back, k1 st from left needle, p3 sts from cn"
+msgstr "glisser 3 mailles sur l’aiguille à torsades et laisser derrière l’ouvrage, 1 maille à l’endroit de l’aiguille gauche, 3 mailles à l’envers de l’aiguille à torsades"
+
+msgid "slip 1 st to cn and hold in front, k1, p1, k1, then k1 from cn"
+msgstr "glisser 1 maille sur l’aiguille à torsades et laisser devant l’ouvrage, 1 maille à l’endroit, 1 maille à l’envers, 1 maille à l’endroit, puis 1 maille à l’endroit de l’aiguille à torsades"
+
+msgid "slip 3 sts to cn and hold in back, k1, then k1, p1, k1 from cn"
+msgstr "glisser 3 mailles sur l’aiguille à torsades et laisser derrière l’ouvrage, 1 maille à l’endroit, puis 1 maille à l’endroit, 1 maille à l’envers, 1 maille à l’endroit de l’aiguille à torsades"
+
+msgid "slip 1 st to cn and hold in front, p1, k1, p1, then k1 from cn"
+msgstr "glisser 1 maille sur l’aiguille à torsades et laisser devant l’ouvrage, 1 maille à l’envers, 1 maille à l’endroit, 1 maille à l’envers, puis 1 maille à l’endroit de l’aiguille à torsades"
+
+msgid "slip 3 sts to cn and hold in back, k1, then p1, k1, p1 from cn"
+msgstr "glisser 3 mailles sur l’aiguille à torsades et laisser derrière l’ouvrage, 1 maille à l’endroit, puis 1 maille à l’envers, 1 maille à l’endroit, 1 maille à l’envers de l’aiguille à torsades"
+
+msgid "slip 2 sts to cn and hold in front, k1 sts from left needle, k2 sts from cn"
+msgstr "glisser 2 mailles sur l’aiguille à torsades et laisser devant l’ouvrage, 1 maille à l’endroit de l’aiguille gauche, 2 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 2 sts to cn and hold in front, p1 sts from left needle, k2 sts from cn"
+msgstr "glisser 2 mailles sur l’aiguille à torsades et laisser devant l’ouvrage, 1 maille à l’envers de l’aiguille gauche, 2 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 1 st to cn and hold in back, k2 sts from left needle, k1 st from cn"
+msgstr "glisser 1 maille sur l’aiguille à torsades et laisser derrière l’ouvrage, 2 mailles à l’endroit de l’aiguille gauche, 1 maille à l’endroit de l’aiguille à torsades"
+
+msgid "slip 1 st to cn and hold in back, k2 sts from left needle, p1 st from cn"
+msgstr "glisser 1 maille sur l’aiguille à torsades et laisser derrière l’ouvrage, 2 mailles à l’endroit de l’aiguille gauche, 1 maille à l’envers de l’aiguille à torsades"
+
+msgid "slip 2 sts to cn and hold in front, k2 sts from left needle, k2 sts from cn"
+msgstr "glisser 2 mailles sur l’aiguille à torsades et laisser devant l’ouvrage, 2 mailles à l’endroit de l’aiguille gauche, 2 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 2 sts to cn and hold in front, p2 sts from left needle, k2 sts from cn"
+msgstr "glisser 2 mailles sur l’aiguille à torsades et laisser devant l’ouvrage, 2 mailles à l’envers de l’aiguille gauche, 2 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 2 sts to cn and hold in back, k2 sts from left needle, k2 sts from cn"
+msgstr "glisser 2 mailles sur l’aiguille à torsades et laisser derrière l’ouvrage, 2 mailles à l’endroit de l’aiguille gauche, 2 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 2 sts to cn and hold in back, k2 sts from left needle, p2 sts from cn"
+msgstr "glisser 2 mailles sur l’aiguille à torsades et laisser derrière l’ouvrage, 2 mailles à l’endroit de l’aiguille gauche, 2 mailles à l’envers de l’aiguille à torsades"
+
+msgid "slip 2 sts to cn and hold in front, k3 sts from left needle, k2 sts from cn"
+msgstr "glisser 2 mailles sur l’aiguille à torsades et laisser devant l’ouvrage, 3 mailles à l’endroit de l’aiguille gauche, 2 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 2 sts to cn and hold in front, p3 sts from left needle, k2 sts from cn"
+msgstr "glisser 2 mailles sur l’aiguille à torsades et laisser devant l’ouvrage, 3 mailles à l’envers de l’aiguille gauche, 2 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 3 sts to cn and hold in back, k2 sts from left needle, k3 sts from cn"
+msgstr "glisser 3 mailles sur l’aiguille à torsades et laisser derrière l’ouvrage, 2 mailles à l’endroit de l’aiguille gauche, 3 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 3 sts to cn and hold in back, k2 sts from left needle, p3 sts from cn"
+msgstr "glisser 3 mailles sur l’aiguille à torsades et laisser derrière l’ouvrage, 2 mailles à l’endroit de l’aiguille gauche, 3 mailles à l’envers de l’aiguille à torsades"
+
+msgid "slip 2 sts to cn and hold in front, k1, p1, k1, then k2 from cn"
+msgstr "glisser 2 mailles sur l’aiguille à torsades et laisser devant l’ouvrage, 1 maille à l’endroit, 1 maille à l’envers, 1 maille à l’endroit, puis 2 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 3 sts to cn and hold in back, k2, then k1, p1, k1 from cn"
+msgstr "glisser 3 mailles sur l’aiguille à torsades et laisser derrière l’ouvrage, 2 mailles à l’endroit, puis 1 maille à l’endroit, 1 maille à l’envers, 1 maille à l’endroit de l’aiguille à torsades"
+
+msgid "slip 3 sts to cn and hold in front, k2, slip last st from cn to needle, p1, then k2 from cn"
+msgstr "glisser 3 mailles sur l’aiguille à torsades et laisser devant l’ouvrage, 2 mailles à l’endroit, glisser la dernière maille de l’aiguille à torsades sur l’aiguille, 1 maille à l’envers, puis 2 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 3 sts to cn and hold in back, k2, slip last st from cn to needle, p1, then k2 from cn"
+msgstr "glisser 3 mailles sur l’aiguille à torsades et laisser derrière l’ouvrage, 2 mailles à l’endroit, glisser la dernière maille de l’aiguille à torsades sur l’aiguille, 1 maille à l’envers, puis 2 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 2 sts to cn and hold in front, p1, k1, p1, then k2 from cn"
+msgstr "glisser 2 mailles sur l’aiguille à torsades et laisser devant l’ouvrage, 1 maille à l’envers, 1 maille à l’endroit, 1 maille à l’envers, puis 2 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 3 sts to cn and hold in back, k2, then p1, k1, p1 from cn"
+msgstr "glisser 3 mailles sur l’aiguille à torsades et laisser derrière l’ouvrage, 2 mailles à l’endroit, puis 1 maille à l’envers, 1 maille à l’endroit, 1 maille à l’envers de l’aiguille à torsades"
+
+msgid "slip 3 sts to cn and hold in front, k1 st from left needle, k3 sts from cn"
+msgstr "glisser 3 mailles sur l’aiguille à torsades et laisser devant l’ouvrage, 1 maille à l’endroit de l’aiguille gauche, 3 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 3 sts to cn and hold in front, p1 st from left needle, k3 sts from cn"
+msgstr "glisser 3 mailles sur l’aiguille à torsades et laisser devant l’ouvrage, 1 maille à l’envers de l’aiguille gauche, 3 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 1 st to cn and hold in back, k3 sts from left needle, k1 st from cn"
+msgstr "glisser 1 maille sur l’aiguille à torsades et laisser derrière l’ouvrage, 3 mailles à l’endroit de l’aiguille gauche, 1 maille à l’endroit de l’aiguille à torsades"
+
+msgid "slip 1 st to cn and hold in back, k3 sts from left needle, p1 st from cn"
+msgstr "glisser 1 maille sur l’aiguille à torsades et laisser derrière l’ouvrage, 3 mailles à l’endroit de l’aiguille gauche, 1 maille à l’envers de l’aiguille à torsades"
+
+msgid "slip 3 sts to cn and hold in front, k2 sts from left needle, k3 sts from cn"
+msgstr "glisser 3 mailles sur l’aiguille à torsades et laisser devant l’ouvrage, 2 mailles à l’endroit de l’aiguille gauche, 3 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 3 sts to cn and hold in front, p2 sts from left needle, k3 sts from cn"
+msgstr "glisser 3 mailles sur l’aiguille à torsades et laisser devant l’ouvrage, 2 mailles à l’envers de l’aiguille gauche, 3 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 2 sts to cn and hold in back, k3 sts from left needle, k2 sts from cn"
+msgstr "glisser 2 mailles sur l’aiguille à torsades et laisser derrière l’ouvrage, 3 mailles à l’endroit de l’aiguille gauche, 2 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 2 sts to cn and hold in back, k3 sts from left needle, p2 sts from cn"
+msgstr "glisser 2 mailles sur l’aiguille à torsades et laisser derrière l’ouvrage, 3 mailles à l’endroit de l’aiguille gauche, 2 mailles à l’envers de l’aiguille à torsades"
+
+msgid "slip 3 sts to cn and hold in front, k3 sts from left needle, k3 sts from cn"
+msgstr "glisser 3 mailles sur l’aiguille à torsades et laisser devant l’ouvrage, 3 mailles à l’endroit de l’aiguille gauche, 3 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 3 sts to cn and hold in front, p3 sts from left needle, k3 sts from cn"
+msgstr "glisser 3 mailles sur l’aiguille à torsades et laisser devant l’ouvrage, 3 mailles à l’envers de l’aiguille gauche, 3 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 3 sts to cn and hold in back, k3 sts from left needle, k3 sts from cn"
+msgstr "glisser 3 mailles sur l’aiguille à torsades et laisser derrière l’ouvrage, 3 mailles à l’endroit de l’aiguille gauche, 3 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 3 sts to cn and hold in back, k3 sts from left needle, p3 sts from cn"
+msgstr "glisser 3 mailles sur l’aiguille à torsades et laisser derrière l’ouvrage, 3 mailles à l’endroit de l’aiguille gauche, 3 mailles à l’envers de l’aiguille à torsades"
+
+msgid "k1, p1, k1, p1 into same stitch"
+msgstr "1 end., 1 env., 1 end., 1 env. dans la même maille"
+
+msgid "slip 4 sts to cn and hold in front, k1 st from left needle, k4 sts from cn"
+msgstr "glisser 4 mailles sur l’aiguille à torsades et laisser devant l’ouvrage, 1 maille à l’endroit de l’aiguille gauche, 4 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 4 sts to cn and hold in front, p1 st from left needle, k4 sts from cn"
+msgstr "glisser 4 mailles sur l’aiguille à torsades et laisser devant l’ouvrage, 1 maille à l’envers de l’aiguille gauche, 4 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 1 st to cn and hold in back, k4 sts from left needle, k1 st from cn"
+msgstr "glisser 1 maille sur l’aiguille à torsades et laisser derrière l’ouvrage, 4 mailles à l’endroit de l’aiguille gauche, 1 maille à l’endroit de l’aiguille à torsades"
+
+msgid "slip 1 st to cn and hold in back, k4 sts from left needle, p1 st from cn"
+msgstr "glisser 1 maille sur l’aiguille à torsades et laisser derrière l’ouvrage, 4 mailles à l’endroit de l’aiguille gauche, 1 maille à l’envers de l’aiguille à torsades"
+
+msgid "Ssk, k2tog, then pass the ssk over the k2tog"
+msgstr "ssk, 2 mailles ensemble à l’endroit, puis passer le ssk par-dessus"
+
+msgid "k1 ,yo, k1, yo, k1 into same stitch"
+msgstr "1 end., jeté, 1 end., jeté, 1 end. dans la même maille"
+
+msgid "Sl next 3 sts to right hand needle.  *Pass 2nd st on right hand needle over 1st st, sl 1st st to left hand needle.  Then pass 2nd st on left hand needle over same 1st st, and sl 1st st back to right hand needle.*  Rep from * to * once more. Then purl 1st st."
+msgstr "Glisser les 3 mailles suivantes sur l’aiguille droite. *Passer la 2e maille de l’aiguille droite par-dessus la 1re, glisser la 1re maille sur l’aiguille gauche. Passer ensuite la 2e maille de l’aiguille gauche par-dessus cette même 1re maille, puis glisser la 1re maille sur l’aiguille droite.* Répéter de * à * une fois de plus. Tricoter ensuite la 1re maille à l’envers."
+
+msgid "slip 3 sts to cn and hold in front, k3 sts from left needle, p1, k3 sts from cn"
+msgstr "glisser 3 mailles sur l’aiguille à torsades et laisser devant l’ouvrage, 3 mailles à l’endroit de l’aiguille gauche, 1 maille à l’envers, 3 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "slip 4 sts to cn and hold in back, k3 sts from left needle, p1, k3 sts from cn"
+msgstr "glisser 4 mailles sur l’aiguille à torsades et laisser derrière l’ouvrage, 3 mailles à l’endroit de l’aiguille gauche, 1 maille à l’envers, 3 mailles à l’endroit de l’aiguille à torsades"
+
+msgid "yo, k2, pass yo over 2 knit stitches"
+msgstr "jeté, 2 mailles endroit, passer le jeté par-dessus les 2 mailles endroit"
+
+msgid "yo, p2, pass yo over 2 purl stitches"
+msgstr "jeté, 2 mailles envers, passer le jeté par-dessus les 2 mailles envers"
+
+msgid "(k1, yo, k1, yo, k1) into next st, turn, p5 sts, turn, ssk, k1, k2tog, turn, p3, turn, sl 2 sts knitwise, k1, pass 2 slipped sts over"
+msgstr "(1 end., jeté, 1 end., jeté, 1 end.) dans la maille suivante, tourner, 5 mailles envers, tourner, ssk, 1 end., 2 mailles ensemble à l’endroit, tourner, 3 envers, tourner, glisser 2 mailles comme pour tricoter à l’endroit, 1 end., passer les 2 mailles glissées par-dessus"
+
+msgid "slip 2 sts knitwise, k1 st from left needle, pass 2 slipped sts over"
+msgstr "glisser 2 mailles comme pour tricoter à l’endroit, 1 maille endroit de l’aiguille gauche, passer les 2 mailles glissées par-dessus"
+
+msgid "knit in back and front of same st, then pick up vertical strand that runs between those 2 sts and knit it through the back"
+msgstr "tricoter à l’endroit dans le brin arrière puis dans le brin avant de la même maille, puis relever le fil vertical entre ces 2 mailles et le tricoter à l’endroit par le brin arrière"
+
+msgid "Insert right needle into third st on left needle and pass this st over first 2 sts on left needle; k1, yo, k1."
+msgstr "insérer l’aiguille droite dans la 3e maille de l’aiguille gauche et la passer par-dessus les 2 premières mailles ; 1 end., jeté, 1 end."
+
+msgid "slip 1 st knitwise, k2 sts together from left needle, pass slipped stitch over"
+msgstr "glisser 1 maille comme pour tricoter à l’endroit, 2 mailles ensemble à l’endroit de l’aiguille gauche, passer la maille glissée par-dessus"
+
+msgid "Knit 1 stitch wrapping yarn twice, then on next row drop extra wrap from needle"
+msgstr "tricoter 1 maille en enroulant le fil deux fois, puis au rang suivant laisser tomber l’enroulement supplémentaire"
+
+msgid "Knit 1 stitch wrapping yarn 3 times, then on next row drop extra wraps from needle"
+msgstr "tricoter 1 maille en enroulant le fil 3 fois, puis au rang suivant laisser tomber les enroulements supplémentaires"
+
+msgid "k1, p1, k1 into same stitch"
+msgstr "1 end., 1 env., 1 end. dans la même maille"
+
+msgid "k1, leaving stitch on left hand needle, yo, k1 into same stitch"
+msgstr "1 end. sans laisser tomber la maille de l’aiguille gauche, jeté, 1 end. dans la même maille"
+
+msgid "Knit 2 together"
+msgstr "tricoter 2 mailles ensemble à l’endroit"
+
+msgid "Knit 3 together"
+msgstr "tricoter 3 mailles ensemble à l’endroit"
+
+msgid "knit front and back of same st"
+msgstr "tricoter à l’endroit devant puis derrière la même maille"
+
+msgid "knit on RS; purl on WS"
+msgstr "à l’endroit sur l’endroit de l’ouvrage ; à l’envers sur l’envers"
+
+msgid "knit through back loop"
+msgstr "tricoter à l’endroit par le brin arrière"
+
+msgid "slip 1 st to cn and hold in front, k1 from left needle, k1 st from cn"
+msgstr "glisser 1 maille sur l’aiguille à torsades et laisser devant l’ouvrage, 1 maille à l’endroit de l’aiguille gauche, 1 maille à l’endroit de l’aiguille à torsades"
+
+msgid "slip 1 st to cn and hold in front, k1 from left needle, yo, k1 st from cn"
+msgstr "glisser 1 maille sur l’aiguille à torsades et laisser devant l’ouvrage, 1 maille à l’endroit de l’aiguille gauche, jeté, 1 maille à l’endroit de l’aiguille à torsades"
+
+msgid "slip 1 st to cn and hold in front, p1 from left needle, k1 st from cn"
+msgstr "glisser 1 maille sur l’aiguille à torsades et laisser devant l’ouvrage, 1 maille à l’envers de l’aiguille gauche, 1 maille à l’endroit de l’aiguille à torsades"
+
+msgid "make 1"
+msgstr "faire 1 augmentation"
+
+msgid "make 1 purl"
+msgstr "faire 1 augmentation à l’envers"
+
+msgid "With left needle, lift strand between sts from the front and knit through the back loop"
+msgstr "avec l’aiguille gauche, relever le fil entre les mailles par l’avant et le tricoter à l’endroit par le brin arrière"
+
+msgid "With left needle, lift strand between sts from the back and knit through the front loop"
+msgstr "avec l’aiguille gauche, relever le fil entre les mailles par l’arrière et le tricoter à l’endroit par le brin avant"
+
+msgid "no stitch (ignore this space)"
+msgstr "pas de maille (ignorer cette case)"
+
+msgid "Nupp: knit into stitch, leaving it on left hand needle, * YO, knit into stitch again, rep from * until there are 7 sts from 1 st.  On next row, work 7 sts together back to 1 st."
+msgstr "Nupp : tricoter la maille à l’endroit sans la laisser tomber de l’aiguille gauche, * jeté, tricoter de nouveau la même maille à l’endroit, répéter à partir de * jusqu’à avoir 7 mailles à partir d’1 maille. Au rang suivant, tricoter ces 7 mailles ensemble pour revenir à 1 maille."
+
+msgid "Purl 2 together"
+msgstr "tricoter 2 mailles ensemble à l’envers"
+
+msgid "Purl 2 together through the back loop"
+msgstr "tricoter 2 mailles ensemble à l’envers par les brins arrière"
+
+msgid "purl through back loop"
+msgstr "tricoter à l’envers par le brin arrière"
+
+msgid "purl on RS; knit on WS"
+msgstr "à l’envers sur l’endroit de l’ouvrage ; à l’endroit sur l’envers"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, k1 st from cn"
+msgstr "glisser 1 maille sur l’aiguille à torsades et laisser derrière l’ouvrage, 1 maille à l’endroit de l’aiguille gauche, 1 maille à l’endroit de l’aiguille à torsades"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, yo, k1 st from cn"
+msgstr "glisser 1 maille sur l’aiguille à torsades et laisser derrière l’ouvrage, 1 maille à l’endroit de l’aiguille gauche, jeté, 1 maille à l’endroit de l’aiguille à torsades"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, p1 st from cn"
+msgstr "glisser 1 maille sur l’aiguille à torsades et laisser derrière l’ouvrage, 1 maille à l’endroit de l’aiguille gauche, 1 maille à l’envers de l’aiguille à torsades"
+
+msgid "Slip 1 stitch purlwise with yarn in back"
+msgstr "glisser 1 maille comme pour tricoter à l’envers, fil derrière"
+
+msgid "Slip 1 stitch purlwise with yarn in front"
+msgstr "glisser 1 maille comme pour tricoter à l’envers, fil devant"
+
+msgid "Slip, slip, knit"
+msgstr "glisser 2 mailles une à une, puis les tricoter ensemble à l’endroit"
+
+msgid "yarn over"
+msgstr "jeté"

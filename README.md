@@ -49,6 +49,19 @@ viewer instead. Menu entries use the standard icon names of the freedesktop Icon
 (`document-print`, `document-open`, ...). The page is a high-resolution raster image (about 300 dpi on
 A4); multi-page tiling of very large charts and a vector PDF are not implemented.
 
+**Languages**: the interface is available in German, Spanish, French, Hindi, Italian, Japanese, Portuguese
+(Brazilian), Russian and Simplified Chinese; the texts are in `crates/charto-app/po/` as gettext `.po` files
+and are built into the program, so nothing needs installing. Charto picks the language from `LANGUAGE`,
+`LC_ALL`, `LC_MESSAGES` or `LANG`; to try another one, start it with `CHARTO_LANG=de charto` (`CHARTO_LANG=en`
+gives English). The translations were written by Claude and have not been checked by native speakers.
+To add a language, copy `po/charto.pot` to `po/<code>.po`, translate it, and list it in `src/translations.rs`
+and in the test in `charto-core/src/i18n.rs`. After changing a text in the interface, run
+`python3 crates/charto-app/po/update-pot.py` and update the `.po` files. The symbol palette headings, the names of the symbols and their hover descriptions are translated too
+(`update-pot.py` reads `assets/symbols/*/description`). Not translated: symbols you add yourself, the buttons of
+Qt's own dialogs (OK, Cancel, ...) and error messages that come from the pattern engine.
+
+**Shortcuts**: the keyboard shortcuts (Ctrl+O, Ctrl+S, Ctrl+Z, ...) are defined as separate `Shortcut` items in `main.qml`, not on the menu actions, so the menus show no shortcut text.
+
 **File dialogs** (Open, Save As, Export as PNG / SVG): these use the freedesktop **FileChooser portal**
 (`org.freedesktop.portal.FileChooser`), so you get your desktop's own file dialog (Dolphin-style on KDE,
 GTK on GNOME) with its places, bookmarks and remembered folders. This needs `xdg-desktop-portal` plus a
@@ -60,10 +73,16 @@ falls back to Qt's own dialog; start `charto` from a terminal to see why. The co
 `cargo build -p charto-app --release`, then `packaging/install-user.sh`.
 
 **Debian / Ubuntu package**: `packaging/build-deb.sh` builds the release binary and writes
-`dist/charto_<version>-1_<arch>.deb` (needs `dpkg-dev`; set `DEBFULLNAME` and `DEBEMAIL` for the
-maintainer line). Install it with `sudo apt install ./dist/charto_*.deb`; remove it with
+`dist/charto.deb` (needs `dpkg-dev`; the maintainer line reads "Claude and Fibrely Designs", override it with `DEBFULLNAME` and `DEBEMAIL`). Install it with `sudo apt install ./dist/charto.deb`; remove it with
 `sudo apt remove charto`. The package installs the program, the symbol library, the desktop entry,
 the icon and the `.spf` file type system-wide and depends on the Qt 6 QML modules listed above.
+
+A `.deb` is tied to the exact Qt it was built against (the QML compiler leaves two private Qt calls in the
+binary), so a package built on one Ubuntu release will not install on another. To build one package per
+release, each inside a clean container of that release, run `packaging/build-deb-in-container.sh`
+(default releases 24.04, 25.10 and 26.04; needs podman or docker). Packages are written to
+`dist/ubuntu-<release>/charto.deb`. Ubuntu 24.04 ships Qt 6.4, older than anything Charto has
+been tested with (6.10.2), so that build may fail.
 
 **RPM (Fedora)**: `packaging/build-rpm.sh` on Fedora, or `packaging/build-rpm-in-container.sh` from any
 system with podman or docker (it builds inside a Fedora container). The spec is `packaging/charto.spec`;

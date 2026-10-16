@@ -164,6 +164,17 @@ pub mod qobject {
         #[cxx_name = "printTempPath"]
         fn print_temp_path(&self) -> QString;
 
+        /// The text in the user's language (see `translations`), or the text itself.
+        #[qinvokable]
+        #[cxx_name = "translate"]
+        fn translate(&self, text: &QString) -> QString;
+
+        /// The file Charto was started with (`charto pattern.spf`, or a file manager's
+        /// double-click), or an empty string.
+        #[qinvokable]
+        #[cxx_name = "startupFile"]
+        fn startup_file(&self) -> QString;
+
         /// Prints a PNG rendering of the chart through the desktop print portal.
         #[qinvokable]
         #[cxx_name = "printImage"]
@@ -452,6 +463,22 @@ impl qobject::ChartBackend {
             Err(e) => e,
         };
         self.finish(message);
+    }
+
+    pub fn translate(&self, text: &QString) -> QString {
+        QString::from(crate::translations::translate(&text.to_string()).as_str())
+    }
+
+    pub fn startup_file(&self) -> QString {
+        // the first argument that is not an option: a path, or a file:// URI from a file manager
+        let path = std::env::args()
+            .skip(1)
+            .find(|arg| !arg.starts_with('-'))
+            .map(|arg| charto_core::fileuri::path_from_arg(&arg));
+        match path {
+            Some(p) => QString::from(&*p.to_string_lossy()),
+            None => QString::default(),
+        }
     }
 
     pub fn print_temp_path(&self) -> QString {

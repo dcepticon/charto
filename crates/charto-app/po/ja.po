@@ -1,0 +1,939 @@
+# Japanese translation of the Charto interface.
+# Translated by Claude (an AI) and not yet reviewed by a native speaker: corrections are welcome.
+msgid ""
+msgstr ""
+"Project-Id-Version: Charto\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Charto pattern"
+msgstr "Charto パターン"
+
+msgid "Could not render the chart for printing"
+msgstr "印刷用に編み図を描画できませんでした"
+
+msgid "Exported %1"
+msgstr "%1 に書き出しました"
+
+msgid "Could not write %1"
+msgstr "%1 を書き込めませんでした"
+
+msgid "&File"
+msgstr "ファイル(&F)"
+
+msgid "&New…"
+msgstr "新規(&N)…"
+
+msgid "&Open…"
+msgstr "開く(&O)…"
+
+msgid "Open &Recent"
+msgstr "最近使ったファイル(&R)"
+
+msgid "&Clear list"
+msgstr "リストを消去(&C)"
+
+msgid "&Save"
+msgstr "保存(&S)"
+
+msgid "Save &As…"
+msgstr "名前を付けて保存(&A)…"
+
+msgid "Export as &PNG…"
+msgstr "PNG として書き出し(&P)…"
+
+msgid "Export as S&VG…"
+msgstr "SVG として書き出し(&V)…"
+
+msgid "&Print…"
+msgstr "印刷(&T)…"
+
+msgid "&Quit"
+msgstr "終了(&Q)"
+
+msgid "&Edit"
+msgstr "編集(&E)"
+
+msgid "&Undo %1"
+msgstr "元に戻す(&U): %1"
+
+msgid "&Undo"
+msgstr "元に戻す(&U)"
+
+msgid "&Redo %1"
+msgstr "やり直す(&R): %1"
+
+msgid "&Redo"
+msgstr "やり直す(&R)"
+
+msgid "&Copy"
+msgstr "コピー(&C)"
+
+msgid "&Paste into selection"
+msgstr "選択範囲に貼り付け(&P)"
+
+msgid "Clear &selection"
+msgstr "選択を解除(&S)"
+
+msgid "Apply colour to selection"
+msgstr "選択範囲に色を適用"
+
+msgid "&Preferences…"
+msgstr "設定(&T)…"
+
+msgid "&Chart"
+msgstr "編み図(&C)"
+
+msgid "Insert rows above…"
+msgstr "上に段を挿入…"
+
+msgid "Insert rows below…"
+msgstr "下に段を挿入…"
+
+msgid "Delete selected rows"
+msgstr "選択した段を削除"
+
+msgid "Insert stitches left…"
+msgstr "左に目を挿入…"
+
+msgid "Insert stitches right…"
+msgstr "右に目を挿入…"
+
+msgid "Delete selected stitches"
+msgstr "選択した目を削除"
+
+msgid "Make selected rows a row repeat…"
+msgstr "選択した段を繰り返しにする…"
+
+msgid "Delete row repeat"
+msgstr "段の繰り返しを削除"
+
+msgid "&View"
+msgstr "表示(&V)"
+
+msgid "Zoom &in"
+msgstr "拡大(&I)"
+
+msgid "Zoom &out"
+msgstr "縮小(&O)"
+
+msgid "&Reset zoom"
+msgstr "ズームをリセット(&R)"
+
+msgid "Open pattern"
+msgstr "パターンを開く"
+
+msgid "Charto patterns (*.spf)"
+msgstr "Charto パターン (*.spf)"
+
+msgid "All files (*)"
+msgstr "すべてのファイル (*)"
+
+msgid "Save pattern"
+msgstr "パターンを保存"
+
+msgid "Choose a colour"
+msgstr "色を選択"
+
+msgid "Export as PNG image"
+msgstr "PNG 画像として書き出し"
+
+msgid "PNG images (*.png)"
+msgstr "PNG 画像 (*.png)"
+
+msgid "Export as SVG drawing"
+msgstr "SVG 図として書き出し"
+
+msgid "SVG drawings (*.svg)"
+msgstr "SVG 図 (*.svg)"
+
+msgid "Unsaved changes"
+msgstr "未保存の変更"
+
+msgid "The pattern has unsaved changes. Save them first?"
+msgstr "パターンに未保存の変更があります。先に保存しますか？"
+
+msgid "Recovered changes"
+msgstr "復元された変更"
+
+msgid "Charto found unsaved changes to this pattern from an earlier session. Open the recovered version?"
+msgstr "このパターンには、以前のセッションからの未保存の変更があります。復元されたバージョンを開きますか？"
+
+msgid "Row label"
+msgstr "段ラベル"
+
+msgid "Stitch label"
+msgstr "目ラベル"
+
+msgid "Row highlight colour"
+msgstr "段の強調色"
+
+msgid "Preferences"
+msgstr "設定"
+
+msgid "Chart"
+msgstr "編み図"
+
+msgid "Cell width (pixels)"
+msgstr "セルの幅（ピクセル）"
+
+msgid "Cell height (pixels)"
+msgstr "セルの高さ（ピクセル）"
+
+msgid "Row labels"
+msgstr "段ラベル"
+
+msgid "Show"
+msgstr "表示"
+
+msgid "All rows"
+msgstr "すべての段"
+
+msgid "Every n-th row"
+msgstr "n 段ごと"
+
+msgid "Odd rows"
+msgstr "奇数段"
+
+msgid "Even rows"
+msgstr "偶数段"
+
+msgid "Number of the bottom row"
+msgstr "最下段の番号"
+
+msgid "Interval (n)"
+msgstr "間隔 (n)"
+
+msgid "First numbered row of the interval"
+msgstr "間隔内で最初に番号を付ける段"
+
+msgid "Odd rows are labelled on the"
+msgstr "奇数段のラベルの位置："
+
+msgid "left"
+msgstr "左"
+
+msgid "right"
+msgstr "右"
+
+msgid "Even rows are labelled on the"
+msgstr "偶数段のラベルの位置："
+
+msgid "Row labels can be edited (double-click)"
+msgstr "段ラベルは編集できます（ダブルクリック）"
+
+msgid "Stitch labels"
+msgstr "目ラベル"
+
+msgid "All stitches"
+msgstr "すべての目"
+
+msgid "Every n-th stitch"
+msgstr "n 目ごと"
+
+msgid "First numbered stitch of the interval"
+msgstr "間隔内で最初に番号を付ける目"
+
+msgid "Stitch labels can be edited (double-click)"
+msgstr "目ラベルは編集できます（ダブルクリック）"
+
+msgid "Row highlighting"
+msgstr "段の強調表示"
+
+msgid "Highlight every other row"
+msgstr "1 段おきに強調表示"
+
+msgid "Highlight"
+msgstr "強調"
+
+msgid "odd rows (1, 3, 5, …)"
+msgstr "奇数段 (1, 3, 5, …)"
+
+msgid "even rows (2, 4, 6, …)"
+msgstr "偶数段 (2, 4, 6, …)"
+
+msgid "Strength (%)"
+msgstr "強さ (%)"
+
+msgid "Colour"
+msgstr "色"
+
+msgid "Fonts"
+msgstr "フォント"
+
+msgid "Label font"
+msgstr "ラベルのフォント"
+
+msgid "Label size"
+msgstr "ラベルのサイズ"
+
+msgid "Legend font"
+msgstr "凡例のフォント"
+
+msgid "Legend size"
+msgstr "凡例のサイズ"
+
+msgid "New pattern"
+msgstr "新しいパターン"
+
+msgid "Rows"
+msgstr "段数"
+
+msgid "Stitches"
+msgstr "目数"
+
+msgid "Paste here"
+msgstr "ここに貼り付け"
+
+msgid "Select row"
+msgstr "段を選択"
+
+msgid "Select stitch column"
+msgstr "目の列を選択"
+
+msgid "Select all cells with this colour"
+msgstr "この色のセルをすべて選択"
+
+msgid "Select all cells with this symbol"
+msgstr "この記号のセルをすべて選択"
+
+msgid "Mode"
+msgstr "モード"
+
+msgid "Select"
+msgstr "選択"
+
+msgid "Hide"
+msgstr "非表示"
+
+msgid "Unhide"
+msgstr "再表示"
+
+msgid "Recently used"
+msgstr "最近使ったもの"
+
+msgid "Symbols (none active)"
+msgstr "記号（選択なし）"
+
+msgid "Symbols – active: %1"
+msgstr "記号 – 選択中：%1"
+
+msgid "%1 × %2 cells   selected: %3"
+msgstr "%1 × %2 セル   選択：%3"
+
+msgid "Open"
+msgstr "開く"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Export"
+msgstr "書き出し"
+
+msgid "paint cells"
+msgstr "記号を配置"
+
+msgid "clear selection"
+msgstr "選択を解除"
+
+msgid "color selected cells"
+msgstr "選択したセルに色を付ける"
+
+msgid "hide cells"
+msgstr "セルを非表示"
+
+msgid "unhide cells"
+msgstr "セルを再表示"
+
+msgid "copy selection"
+msgstr "選択範囲をコピー"
+
+msgid "paste cells"
+msgstr "セルを貼り付け"
+
+msgid "insert rows"
+msgstr "段を挿入"
+
+msgid "delete rows"
+msgstr "段を削除"
+
+msgid "insert stitches"
+msgstr "目を挿入"
+
+msgid "delete stitches"
+msgstr "目を削除"
+
+msgid "select cells"
+msgstr "セルを選択"
+
+msgid "edit row label"
+msgstr "段ラベルを編集"
+
+msgid "edit stitch label"
+msgstr "目ラベルを編集"
+
+msgid "add row repeat"
+msgstr "段の繰り返しを追加"
+
+msgid "delete row repeat"
+msgstr "段の繰り返しを削除"
+
+msgid "3 stitch cables"
+msgstr "3目の交差"
+
+msgid "4 stitch cables"
+msgstr "4目の交差"
+
+msgid "5 stitch cables"
+msgstr "5目の交差"
+
+msgid "6 stitch cables"
+msgstr "6目の交差"
+
+msgid "increases"
+msgstr "増し目"
+
+msgid "decreases"
+msgstr "減らし目"
+
+msgid "7 stitch cables"
+msgstr "7目の交差"
+
+msgid "special"
+msgstr "特殊"
+
+msgid "basic"
+msgstr "基本"
+
+msgid "2 stitch cables"
+msgstr "2目の交差"
+
+msgid "1 over 2 left"
+msgstr "左上1目と2目の交差"
+
+msgid "1 over 2 left-purl"
+msgstr "左上1目と2目の交差（裏目入り）"
+
+msgid "1 over 2 right"
+msgstr "右上1目と2目の交差"
+
+msgid "1 over 2 right-purl"
+msgstr "右上1目と2目の交差（裏目入り）"
+
+msgid "1 over 3 left"
+msgstr "左上1目と3目の交差"
+
+msgid "1 over 3 left-purl"
+msgstr "左上1目と3目の交差（裏目入り）"
+
+msgid "1 over 3 right"
+msgstr "右上1目と3目の交差"
+
+msgid "1 over 3 right-purl"
+msgstr "右上1目と3目の交差（裏目入り）"
+
+msgid "1overKPKleft"
+msgstr "左上1目とKPKの交差"
+
+msgid "1overKPKright"
+msgstr "右上1目とKPKの交差"
+
+msgid "1overPKPleft"
+msgstr "左上1目とPKPの交差"
+
+msgid "1overPKPright"
+msgstr "右上1目とPKPの交差"
+
+msgid "2 over 1 left"
+msgstr "左上2目と1目の交差"
+
+msgid "2 over 1 left-purl"
+msgstr "左上2目と1目の交差（裏目入り）"
+
+msgid "2 over 1 right"
+msgstr "右上2目と1目の交差"
+
+msgid "2 over 1 right-purl"
+msgstr "右上2目と1目の交差（裏目入り）"
+
+msgid "2 over 2 left"
+msgstr "左上2目と2目の交差"
+
+msgid "2 over 2 left-purl"
+msgstr "左上2目と2目の交差（裏目入り）"
+
+msgid "2 over 2 right"
+msgstr "右上2目と2目の交差"
+
+msgid "2 over 2 right-purl"
+msgstr "右上2目と2目の交差（裏目入り）"
+
+msgid "2 over 3 left"
+msgstr "左上2目と3目の交差"
+
+msgid "2 over 3 left-purl"
+msgstr "左上2目と3目の交差（裏目入り）"
+
+msgid "2 over 3 right"
+msgstr "右上2目と3目の交差"
+
+msgid "2 over 3 right-purl"
+msgstr "右上2目と3目の交差（裏目入り）"
+
+msgid "2 over KPK left"
+msgstr "左上2目とKPKの交差"
+
+msgid "2 over KPK right"
+msgstr "右上2目とKPKの交差"
+
+msgid "2overP2Kleft"
+msgstr "左上2目とP2Kの交差"
+
+msgid "2overP2Kright"
+msgstr "右上2目とP2Kの交差"
+
+msgid "2 over PKP left"
+msgstr "左上2目とPKPの交差"
+
+msgid "2 over PKP right"
+msgstr "右上2目とPKPの交差"
+
+msgid "3 over 1 left"
+msgstr "左上3目と1目の交差"
+
+msgid "3 over 1 left-purl"
+msgstr "左上3目と1目の交差（裏目入り）"
+
+msgid "3 over 1 right"
+msgstr "右上3目と1目の交差"
+
+msgid "3 over 1 right-purl"
+msgstr "右上3目と1目の交差（裏目入り）"
+
+msgid "3 over 2 left"
+msgstr "左上3目と2目の交差"
+
+msgid "3 over 2 left-purl"
+msgstr "左上3目と2目の交差（裏目入り）"
+
+msgid "3 over 2 right"
+msgstr "右上3目と2目の交差"
+
+msgid "3 over 2 right-purl"
+msgstr "右上3目と2目の交差（裏目入り）"
+
+msgid "3 over 3 left"
+msgstr "左上3目と3目の交差"
+
+msgid "3 over 3 left-purl"
+msgstr "左上3目と3目の交差（裏目入り）"
+
+msgid "3 over 3 right"
+msgstr "右上3目と3目の交差"
+
+msgid "3 over 3 right-purl"
+msgstr "右上3目と3目の交差（裏目入り）"
+
+msgid "4 increase"
+msgstr "4目の増し目"
+
+msgid "4over1left"
+msgstr "左上4目と1目の交差"
+
+msgid "4over1left-purl"
+msgstr "左上4目と1目の交差（裏目入り）"
+
+msgid "4over1right"
+msgstr "右上4目と1目の交差"
+
+msgid "4over1right-purl"
+msgstr "右上4目と1目の交差（裏目入り）"
+
+msgid "4tog decrease"
+msgstr "4目一度"
+
+msgid "5 increase"
+msgstr "5目の増し目"
+
+msgid "5tog decrease"
+msgstr "5目一度"
+
+msgid "C7left"
+msgstr "C7 左"
+
+msgid "C7right"
+msgstr "C7 右"
+
+msgid "bind 2 knit"
+msgstr "表目2目のかぶせ"
+
+msgid "bind 2 purl"
+msgstr "裏目2目のかぶせ"
+
+msgid "bobble"
+msgstr "ボッブル"
+
+msgid "centered double decrease"
+msgstr "中上3目一度"
+
+msgid "centered double increase"
+msgstr "中心の2目増し目"
+
+msgid "closed ring"
+msgstr "クローズドリング"
+
+msgid "double decrease"
+msgstr "左上3目一度"
+
+msgid "elongated"
+msgstr "2回巻き目"
+
+msgid "elongated twice"
+msgstr "3回巻き目"
+
+msgid "k1, p1, k1 increase"
+msgstr "増し目（表・裏・表）"
+
+msgid "k1, yo, k1 increase"
+msgstr "増し目（表・かけ目・表）"
+
+msgid "k2tog"
+msgstr "右上2目一度"
+
+msgid "k3tog"
+msgstr "右上3目一度"
+
+msgid "kfb"
+msgstr "表目の増し目（前後に編む）"
+
+msgid "knit"
+msgstr "表目"
+
+msgid "ktbl"
+msgstr "ねじり目（表目）"
+
+msgid "LT"
+msgstr "左上1目交差"
+
+msgid "lt_yo"
+msgstr "左上1目交差（かけ目入り）"
+
+msgid "LTp"
+msgstr "左上1目交差（裏目入り）"
+
+msgid "M1"
+msgstr "増し目"
+
+msgid "M1-p"
+msgstr "裏目の増し目"
+
+msgid "make 1 left"
+msgstr "左増し目"
+
+msgid "make 1 right"
+msgstr "右増し目"
+
+msgid "nostitch"
+msgstr "目なし"
+
+msgid "nupp"
+msgstr "ヌップ"
+
+msgid "p2tog"
+msgstr "裏目の右上2目一度"
+
+msgid "p2tog tbl"
+msgstr "裏目の左上2目一度"
+
+msgid "ptbl"
+msgstr "ねじり目（裏目）"
+
+msgid "purl"
+msgstr "裏目"
+
+msgid "RT"
+msgstr "右上1目交差"
+
+msgid "rt_yo"
+msgstr "右上1目交差（かけ目入り）"
+
+msgid "RTp"
+msgstr "右上1目交差（裏目入り）"
+
+msgid "sl1wyib"
+msgstr "すべり目（糸を向こう側に）"
+
+msgid "sl1wyif"
+msgstr "すべり目（糸を手前に）"
+
+msgid "ssk"
+msgstr "左上2目一度"
+
+msgid "yo"
+msgstr "かけ目"
+
+msgid "slip 1 st to cn and hold in front, k2 sts from left needle, k1 st from cn"
+msgstr "1目をなわ編み針に移して手前に置く、左針から表目2目、なわ編み針から表目1目"
+
+msgid "slip 1 st to cn and hold in front, p2 sts from left needle, k1 st from cn"
+msgstr "1目をなわ編み針に移して手前に置く、左針から裏目2目、なわ編み針から表目1目"
+
+msgid "slip 2 sts to cn and hold in back, k1 st from left needle, k2 sts from cn"
+msgstr "2目をなわ編み針に移して向こう側に置く、左針から表目1目、なわ編み針から表目2目"
+
+msgid "slip 2 sts to cn and hold in back, k1 st from left needle, p2 sts from cn"
+msgstr "2目をなわ編み針に移して向こう側に置く、左針から表目1目、なわ編み針から裏目2目"
+
+msgid "slip 1 st to cn and hold in front, k3 sts from left needle, k1 st from cn"
+msgstr "1目をなわ編み針に移して手前に置く、左針から表目3目、なわ編み針から表目1目"
+
+msgid "slip 1 st to cn and hold in front, p3 sts from left needle, k1 st from cn"
+msgstr "1目をなわ編み針に移して手前に置く、左針から裏目3目、なわ編み針から表目1目"
+
+msgid "slip 3 sts to cn and hold in back, k1 st from left needle, k3 sts from cn"
+msgstr "3目をなわ編み針に移して向こう側に置く、左針から表目1目、なわ編み針から表目3目"
+
+msgid "slip 3 sts to cn and hold in back, k1 st from left needle, p3 sts from cn"
+msgstr "3目をなわ編み針に移して向こう側に置く、左針から表目1目、なわ編み針から裏目3目"
+
+msgid "slip 1 st to cn and hold in front, k1, p1, k1, then k1 from cn"
+msgstr "1目をなわ編み針に移して手前に置く、表目1目、裏目1目、表目1目、次になわ編み針から表目1目"
+
+msgid "slip 3 sts to cn and hold in back, k1, then k1, p1, k1 from cn"
+msgstr "3目をなわ編み針に移して向こう側に置く、表目1目、次に表目1目、裏目1目、なわ編み針から表目1目"
+
+msgid "slip 1 st to cn and hold in front, p1, k1, p1, then k1 from cn"
+msgstr "1目をなわ編み針に移して手前に置く、裏目1目、表目1目、裏目1目、次になわ編み針から表目1目"
+
+msgid "slip 3 sts to cn and hold in back, k1, then p1, k1, p1 from cn"
+msgstr "3目をなわ編み針に移して向こう側に置く、表目1目、次に裏目1目、表目1目、なわ編み針から裏目1目"
+
+msgid "slip 2 sts to cn and hold in front, k1 sts from left needle, k2 sts from cn"
+msgstr "2目をなわ編み針に移して手前に置く、左針から表目1目、なわ編み針から表目2目"
+
+msgid "slip 2 sts to cn and hold in front, p1 sts from left needle, k2 sts from cn"
+msgstr "2目をなわ編み針に移して手前に置く、左針から裏目1目、なわ編み針から表目2目"
+
+msgid "slip 1 st to cn and hold in back, k2 sts from left needle, k1 st from cn"
+msgstr "1目をなわ編み針に移して向こう側に置く、左針から表目2目、なわ編み針から表目1目"
+
+msgid "slip 1 st to cn and hold in back, k2 sts from left needle, p1 st from cn"
+msgstr "1目をなわ編み針に移して向こう側に置く、左針から表目2目、なわ編み針から裏目1目"
+
+msgid "slip 2 sts to cn and hold in front, k2 sts from left needle, k2 sts from cn"
+msgstr "2目をなわ編み針に移して手前に置く、左針から表目2目、なわ編み針から表目2目"
+
+msgid "slip 2 sts to cn and hold in front, p2 sts from left needle, k2 sts from cn"
+msgstr "2目をなわ編み針に移して手前に置く、左針から裏目2目、なわ編み針から表目2目"
+
+msgid "slip 2 sts to cn and hold in back, k2 sts from left needle, k2 sts from cn"
+msgstr "2目をなわ編み針に移して向こう側に置く、左針から表目2目、なわ編み針から表目2目"
+
+msgid "slip 2 sts to cn and hold in back, k2 sts from left needle, p2 sts from cn"
+msgstr "2目をなわ編み針に移して向こう側に置く、左針から表目2目、なわ編み針から裏目2目"
+
+msgid "slip 2 sts to cn and hold in front, k3 sts from left needle, k2 sts from cn"
+msgstr "2目をなわ編み針に移して手前に置く、左針から表目3目、なわ編み針から表目2目"
+
+msgid "slip 2 sts to cn and hold in front, p3 sts from left needle, k2 sts from cn"
+msgstr "2目をなわ編み針に移して手前に置く、左針から裏目3目、なわ編み針から表目2目"
+
+msgid "slip 3 sts to cn and hold in back, k2 sts from left needle, k3 sts from cn"
+msgstr "3目をなわ編み針に移して向こう側に置く、左針から表目2目、なわ編み針から表目3目"
+
+msgid "slip 3 sts to cn and hold in back, k2 sts from left needle, p3 sts from cn"
+msgstr "3目をなわ編み針に移して向こう側に置く、左針から表目2目、なわ編み針から裏目3目"
+
+msgid "slip 2 sts to cn and hold in front, k1, p1, k1, then k2 from cn"
+msgstr "2目をなわ編み針に移して手前に置く、表目1目、裏目1目、表目1目、次になわ編み針から表目2目"
+
+msgid "slip 3 sts to cn and hold in back, k2, then k1, p1, k1 from cn"
+msgstr "3目をなわ編み針に移して向こう側に置く、表目2目、次に表目1目、裏目1目、なわ編み針から表目1目"
+
+msgid "slip 3 sts to cn and hold in front, k2, slip last st from cn to needle, p1, then k2 from cn"
+msgstr "3目をなわ編み針に移して手前に置く、表目2目、なわ編み針の最後の目を針に戻す、裏目1目、次になわ編み針から表目2目"
+
+msgid "slip 3 sts to cn and hold in back, k2, slip last st from cn to needle, p1, then k2 from cn"
+msgstr "3目をなわ編み針に移して向こう側に置く、表目2目、なわ編み針の最後の目を針に戻す、裏目1目、次になわ編み針から表目2目"
+
+msgid "slip 2 sts to cn and hold in front, p1, k1, p1, then k2 from cn"
+msgstr "2目をなわ編み針に移して手前に置く、裏目1目、表目1目、裏目1目、次になわ編み針から表目2目"
+
+msgid "slip 3 sts to cn and hold in back, k2, then p1, k1, p1 from cn"
+msgstr "3目をなわ編み針に移して向こう側に置く、表目2目、次に裏目1目、表目1目、なわ編み針から裏目1目"
+
+msgid "slip 3 sts to cn and hold in front, k1 st from left needle, k3 sts from cn"
+msgstr "3目をなわ編み針に移して手前に置く、左針から表目1目、なわ編み針から表目3目"
+
+msgid "slip 3 sts to cn and hold in front, p1 st from left needle, k3 sts from cn"
+msgstr "3目をなわ編み針に移して手前に置く、左針から裏目1目、なわ編み針から表目3目"
+
+msgid "slip 1 st to cn and hold in back, k3 sts from left needle, k1 st from cn"
+msgstr "1目をなわ編み針に移して向こう側に置く、左針から表目3目、なわ編み針から表目1目"
+
+msgid "slip 1 st to cn and hold in back, k3 sts from left needle, p1 st from cn"
+msgstr "1目をなわ編み針に移して向こう側に置く、左針から表目3目、なわ編み針から裏目1目"
+
+msgid "slip 3 sts to cn and hold in front, k2 sts from left needle, k3 sts from cn"
+msgstr "3目をなわ編み針に移して手前に置く、左針から表目2目、なわ編み針から表目3目"
+
+msgid "slip 3 sts to cn and hold in front, p2 sts from left needle, k3 sts from cn"
+msgstr "3目をなわ編み針に移して手前に置く、左針から裏目2目、なわ編み針から表目3目"
+
+msgid "slip 2 sts to cn and hold in back, k3 sts from left needle, k2 sts from cn"
+msgstr "2目をなわ編み針に移して向こう側に置く、左針から表目3目、なわ編み針から表目2目"
+
+msgid "slip 2 sts to cn and hold in back, k3 sts from left needle, p2 sts from cn"
+msgstr "2目をなわ編み針に移して向こう側に置く、左針から表目3目、なわ編み針から裏目2目"
+
+msgid "slip 3 sts to cn and hold in front, k3 sts from left needle, k3 sts from cn"
+msgstr "3目をなわ編み針に移して手前に置く、左針から表目3目、なわ編み針から表目3目"
+
+msgid "slip 3 sts to cn and hold in front, p3 sts from left needle, k3 sts from cn"
+msgstr "3目をなわ編み針に移して手前に置く、左針から裏目3目、なわ編み針から表目3目"
+
+msgid "slip 3 sts to cn and hold in back, k3 sts from left needle, k3 sts from cn"
+msgstr "3目をなわ編み針に移して向こう側に置く、左針から表目3目、なわ編み針から表目3目"
+
+msgid "slip 3 sts to cn and hold in back, k3 sts from left needle, p3 sts from cn"
+msgstr "3目をなわ編み針に移して向こう側に置く、左針から表目3目、なわ編み針から裏目3目"
+
+msgid "k1, p1, k1, p1 into same stitch"
+msgstr "同じ目に表目、裏目、表目、裏目を編み入れる"
+
+msgid "slip 4 sts to cn and hold in front, k1 st from left needle, k4 sts from cn"
+msgstr "4目をなわ編み針に移して手前に置く、左針から表目1目、なわ編み針から表目4目"
+
+msgid "slip 4 sts to cn and hold in front, p1 st from left needle, k4 sts from cn"
+msgstr "4目をなわ編み針に移して手前に置く、左針から裏目1目、なわ編み針から表目4目"
+
+msgid "slip 1 st to cn and hold in back, k4 sts from left needle, k1 st from cn"
+msgstr "1目をなわ編み針に移して向こう側に置く、左針から表目4目、なわ編み針から表目1目"
+
+msgid "slip 1 st to cn and hold in back, k4 sts from left needle, p1 st from cn"
+msgstr "1目をなわ編み針に移して向こう側に置く、左針から表目4目、なわ編み針から裏目1目"
+
+msgid "Ssk, k2tog, then pass the ssk over the k2tog"
+msgstr "左上2目一度、右上2目一度を編み、左上2目一度をかぶせる"
+
+msgid "k1 ,yo, k1, yo, k1 into same stitch"
+msgstr "同じ目に表目、かけ目、表目、かけ目、表目を編み入れる"
+
+msgid "Sl next 3 sts to right hand needle.  *Pass 2nd st on right hand needle over 1st st, sl 1st st to left hand needle.  Then pass 2nd st on left hand needle over same 1st st, and sl 1st st back to right hand needle.*  Rep from * to * once more. Then purl 1st st."
+msgstr "次の3目を右針に移す。*右針の2目めを1目めにかぶせ、1目めを左針に戻す。次に左針の2目めを同じ1目めにかぶせ、1目めを右針に戻す。* *から*をもう1回繰り返す。最後に1目めを裏目に編む。"
+
+msgid "slip 3 sts to cn and hold in front, k3 sts from left needle, p1, k3 sts from cn"
+msgstr "3目をなわ編み針に移して手前に置く、左針から表目3目、裏目1目、なわ編み針から表目3目"
+
+msgid "slip 4 sts to cn and hold in back, k3 sts from left needle, p1, k3 sts from cn"
+msgstr "4目をなわ編み針に移して向こう側に置く、左針から表目3目、裏目1目、なわ編み針から表目3目"
+
+msgid "yo, k2, pass yo over 2 knit stitches"
+msgstr "かけ目、表目2目を編み、かけ目を表目2目にかぶせる"
+
+msgid "yo, p2, pass yo over 2 purl stitches"
+msgstr "かけ目、裏目2目を編み、かけ目を裏目2目にかぶせる"
+
+msgid "(k1, yo, k1, yo, k1) into next st, turn, p5 sts, turn, ssk, k1, k2tog, turn, p3, turn, sl 2 sts knitwise, k1, pass 2 slipped sts over"
+msgstr "次の目に（表目、かけ目、表目、かけ目、表目）を編み入れ、編み地を返し、裏目5目、返して、左上2目一度、表目1目、右上2目一度、返して、裏目3目、返して、2目を表目を編むようにすべらせ、表目1目を編み、すべらせた2目をかぶせる"
+
+msgid "slip 2 sts knitwise, k1 st from left needle, pass 2 slipped sts over"
+msgstr "2目を表目を編むようにすべらせ、左針から表目1目を編み、すべらせた2目をかぶせる"
+
+msgid "knit in back and front of same st, then pick up vertical strand that runs between those 2 sts and knit it through the back"
+msgstr "同じ目の後ろ側と手前側に表目を編み、その2目の間の渡り糸を拾って、向こう側から表目のねじり目を編む"
+
+msgid "Insert right needle into third st on left needle and pass this st over first 2 sts on left needle; k1, yo, k1."
+msgstr "右針を左針の3目めに入れ、その目を左針の最初の2目にかぶせる。表目、かけ目、表目を編む"
+
+msgid "slip 1 st knitwise, k2 sts together from left needle, pass slipped stitch over"
+msgstr "1目を表目を編むようにすべらせ、左針から2目を一度に表目で編み、すべらせた目をかぶせる"
+
+msgid "Knit 1 stitch wrapping yarn twice, then on next row drop extra wrap from needle"
+msgstr "糸を2回巻いて1目を編み、次の段で余分な巻きを針から外す"
+
+msgid "Knit 1 stitch wrapping yarn 3 times, then on next row drop extra wraps from needle"
+msgstr "糸を3回巻いて1目を編み、次の段で余分な巻きを針から外す"
+
+msgid "k1, p1, k1 into same stitch"
+msgstr "同じ目に表目、裏目、表目を編み入れる"
+
+msgid "k1, leaving stitch on left hand needle, yo, k1 into same stitch"
+msgstr "表目を1目編み、その目を左針に残したまま、かけ目をして、同じ目にもう一度表目を編む"
+
+msgid "Knit 2 together"
+msgstr "2目を一度に表目で編む"
+
+msgid "Knit 3 together"
+msgstr "3目を一度に表目で編む"
+
+msgid "knit front and back of same st"
+msgstr "同じ目の手前側と向こう側に表目を編む"
+
+msgid "knit on RS; purl on WS"
+msgstr "表側では表目、裏側では裏目を編む"
+
+msgid "knit through back loop"
+msgstr "向こう側の糸に針を入れて表目を編む"
+
+msgid "slip 1 st to cn and hold in front, k1 from left needle, k1 st from cn"
+msgstr "1目をなわ編み針に移して手前に置く、左針から表目1目、なわ編み針から表目1目"
+
+msgid "slip 1 st to cn and hold in front, k1 from left needle, yo, k1 st from cn"
+msgstr "1目をなわ編み針に移して手前に置く、左針から表目1目、かけ目、なわ編み針から表目1目"
+
+msgid "slip 1 st to cn and hold in front, p1 from left needle, k1 st from cn"
+msgstr "1目をなわ編み針に移して手前に置く、左針から裏目1目、なわ編み針から表目1目"
+
+msgid "make 1"
+msgstr "1目増やす"
+
+msgid "make 1 purl"
+msgstr "裏目で1目増やす"
+
+msgid "With left needle, lift strand between sts from the front and knit through the back loop"
+msgstr "左針で目の間の渡り糸を手前から拾い、向こう側から表目を編む"
+
+msgid "With left needle, lift strand between sts from the back and knit through the front loop"
+msgstr "左針で目の間の渡り糸を向こう側から拾い、手前側から表目を編む"
+
+msgid "no stitch (ignore this space)"
+msgstr "目なし（このマスは無視する）"
+
+msgid "Nupp: knit into stitch, leaving it on left hand needle, * YO, knit into stitch again, rep from * until there are 7 sts from 1 st.  On next row, work 7 sts together back to 1 st."
+msgstr "ヌップ：目に表目を編み、その目を左針に残したまま、*かけ目をして同じ目にもう一度表目を編む。1目が7目になるまで*から繰り返す。次の段で、7目を一度に編んで1目に戻す。"
+
+msgid "Purl 2 together"
+msgstr "2目を一度に裏目で編む"
+
+msgid "Purl 2 together through the back loop"
+msgstr "向こう側の糸に針を入れて2目を一度に裏目で編む"
+
+msgid "purl through back loop"
+msgstr "向こう側の糸に針を入れて裏目を編む"
+
+msgid "purl on RS; knit on WS"
+msgstr "表側では裏目、裏側では表目を編む"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, k1 st from cn"
+msgstr "1目をなわ編み針に移して向こう側に置く、左針から表目1目、なわ編み針から表目1目"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, yo, k1 st from cn"
+msgstr "1目をなわ編み針に移して向こう側に置く、左針から表目1目、かけ目、なわ編み針から表目1目"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, p1 st from cn"
+msgstr "1目をなわ編み針に移して向こう側に置く、左針から表目1目、なわ編み針から裏目1目"
+
+msgid "Slip 1 stitch purlwise with yarn in back"
+msgstr "糸を向こう側に置いて、1目を裏目を編むようにすべらせる"
+
+msgid "Slip 1 stitch purlwise with yarn in front"
+msgstr "糸を手前に置いて、1目を裏目を編むようにすべらせる"
+
+msgid "Slip, slip, knit"
+msgstr "1目ずつ2目をすべらせ、その2目を一緒に表目で編む"
+
+msgid "yarn over"
+msgstr "かけ目"

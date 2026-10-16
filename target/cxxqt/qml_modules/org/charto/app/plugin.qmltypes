@@ -203,20 +203,28 @@ Module {
         }
         Method { name: "printTempPath"; type: "QString"; isMethodConstant: true; lineNumber: 99 }
         Method {
-            name: "printImage"
+            name: "translate"
+            type: "QString"
+            isMethodConstant: true
             lineNumber: 100
+            Parameter { name: "text"; type: "QString" }
+        }
+        Method { name: "startupFile"; type: "QString"; isMethodConstant: true; lineNumber: 101 }
+        Method {
+            name: "printImage"
+            lineNumber: 102
             Parameter { name: "png_path"; type: "QString" }
             Parameter { name: "title"; type: "QString" }
         }
         Method {
             name: "chooseFile"
-            lineNumber: 101
+            lineNumber: 103
             Parameter { name: "purpose"; type: "QString" }
             Parameter { name: "current"; type: "QString" }
         }
         Method {
             name: "reportStatus"
-            lineNumber: 102
+            lineNumber: 104
             Parameter { name: "message"; type: "QString" }
         }
     }

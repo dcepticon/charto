@@ -102,6 +102,8 @@ template <> constexpr inline auto ChartBackend::qt_create_metaobjectdata<qt_meta
         "json",
         "exportSvg",
         "printTempPath",
+        "translate",
+        "startupFile",
         "printImage",
         "png_path",
         "title",
@@ -254,26 +256,32 @@ template <> constexpr inline auto ChartBackend::qt_create_metaobjectdata<qt_meta
         }}),
         // Method 'printTempPath'
         QtMocHelpers::MethodData<QString() const>(63, 3, QMC::AccessPublic, QMetaType::QString),
+        // Method 'translate'
+        QtMocHelpers::MethodData<QString(QString const &) const>(64, 3, QMC::AccessPublic, QMetaType::QString, {{
+            { QMetaType::QString, 57 },
+        }}),
+        // Method 'startupFile'
+        QtMocHelpers::MethodData<QString() const>(65, 3, QMC::AccessPublic, QMetaType::QString),
         // Method 'printImage'
-        QtMocHelpers::MethodData<void(QString const &, QString const &)>(64, 3, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::QString, 65 }, { QMetaType::QString, 66 },
+        QtMocHelpers::MethodData<void(QString const &, QString const &)>(66, 3, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QString, 67 }, { QMetaType::QString, 68 },
         }}),
         // Method 'chooseFile'
-        QtMocHelpers::MethodData<void(QString const &, QString const &)>(67, 3, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::QString, 68 }, { QMetaType::QString, 69 },
+        QtMocHelpers::MethodData<void(QString const &, QString const &)>(69, 3, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QString, 70 }, { QMetaType::QString, 71 },
         }}),
         // Method 'reportStatus'
-        QtMocHelpers::MethodData<void(QString const &)>(70, 3, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::QString, 71 },
+        QtMocHelpers::MethodData<void(QString const &)>(72, 3, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QString, 73 },
         }}),
     };
     QtMocHelpers::UintData qt_properties {
         // property 'snapshot'
-        QtMocHelpers::PropertyData<QString>(72, QMetaType::QString, QMC::DefaultPropertyFlags | QMC::Writable | QMC::StdCppSet, 0),
+        QtMocHelpers::PropertyData<QString>(74, QMetaType::QString, QMC::DefaultPropertyFlags | QMC::Writable | QMC::StdCppSet, 0),
         // property 'status'
-        QtMocHelpers::PropertyData<QString>(73, QMetaType::QString, QMC::DefaultPropertyFlags | QMC::Writable | QMC::StdCppSet, 1),
+        QtMocHelpers::PropertyData<QString>(75, QMetaType::QString, QMC::DefaultPropertyFlags | QMC::Writable | QMC::StdCppSet, 1),
         // property 'picked'
-        QtMocHelpers::PropertyData<QString>(74, QMetaType::QString, QMC::DefaultPropertyFlags | QMC::Writable | QMC::StdCppSet, 2),
+        QtMocHelpers::PropertyData<QString>(76, QMetaType::QString, QMC::DefaultPropertyFlags | QMC::Writable | QMC::StdCppSet, 2),
     };
     QtMocHelpers::UintData qt_enums {
     };
@@ -346,9 +354,13 @@ void ChartBackend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         case 41: _t->exportSvg((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
         case 42: { QString _r = _t->printTempPath();
             if (_a[0]) *reinterpret_cast<QString*>(_a[0]) = std::move(_r); }  break;
-        case 43: _t->printImage((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2]))); break;
-        case 44: _t->chooseFile((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2]))); break;
-        case 45: _t->reportStatus((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
+        case 43: { QString _r = _t->translate((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])));
+            if (_a[0]) *reinterpret_cast<QString*>(_a[0]) = std::move(_r); }  break;
+        case 44: { QString _r = _t->startupFile();
+            if (_a[0]) *reinterpret_cast<QString*>(_a[0]) = std::move(_r); }  break;
+        case 45: _t->printImage((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2]))); break;
+        case 46: _t->chooseFile((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2]))); break;
+        case 47: _t->reportStatus((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
         default: ;
         }
     }
@@ -399,14 +411,14 @@ int ChartBackend::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 46)
+        if (_id < 48)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 46;
+        _id -= 48;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 46)
+        if (_id < 48)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 46;
+        _id -= 48;
     }
     if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
             || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty

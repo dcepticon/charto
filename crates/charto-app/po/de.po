@@ -1,0 +1,939 @@
+# German translation of the Charto interface.
+# Translated by Claude (an AI) and not yet reviewed by a native speaker: corrections are welcome.
+msgid ""
+msgstr ""
+"Project-Id-Version: Charto\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Charto pattern"
+msgstr "Charto-Muster"
+
+msgid "Could not render the chart for printing"
+msgstr "Die Strickschrift konnte nicht für den Druck aufbereitet werden"
+
+msgid "Exported %1"
+msgstr "Exportiert: %1"
+
+msgid "Could not write %1"
+msgstr "%1 konnte nicht geschrieben werden"
+
+msgid "&File"
+msgstr "&Datei"
+
+msgid "&New…"
+msgstr "&Neu…"
+
+msgid "&Open…"
+msgstr "&Öffnen…"
+
+msgid "Open &Recent"
+msgstr "&Zuletzt geöffnet"
+
+msgid "&Clear list"
+msgstr "Liste &leeren"
+
+msgid "&Save"
+msgstr "&Speichern"
+
+msgid "Save &As…"
+msgstr "Speichern &unter…"
+
+msgid "Export as &PNG…"
+msgstr "Als &PNG exportieren…"
+
+msgid "Export as S&VG…"
+msgstr "Als S&VG exportieren…"
+
+msgid "&Print…"
+msgstr "&Drucken…"
+
+msgid "&Quit"
+msgstr "&Beenden"
+
+msgid "&Edit"
+msgstr "&Bearbeiten"
+
+msgid "&Undo %1"
+msgstr "&Rückgängig: %1"
+
+msgid "&Undo"
+msgstr "&Rückgängig"
+
+msgid "&Redo %1"
+msgstr "&Wiederholen: %1"
+
+msgid "&Redo"
+msgstr "&Wiederholen"
+
+msgid "&Copy"
+msgstr "&Kopieren"
+
+msgid "&Paste into selection"
+msgstr "In Auswahl &einfügen"
+
+msgid "Clear &selection"
+msgstr "Auswahl a&ufheben"
+
+msgid "Apply colour to selection"
+msgstr "Farbe auf Auswahl anwenden"
+
+msgid "&Preferences…"
+msgstr "E&instellungen…"
+
+msgid "&Chart"
+msgstr "&Strickschrift"
+
+msgid "Insert rows above…"
+msgstr "Reihen oberhalb einfügen…"
+
+msgid "Insert rows below…"
+msgstr "Reihen unterhalb einfügen…"
+
+msgid "Delete selected rows"
+msgstr "Ausgewählte Reihen löschen"
+
+msgid "Insert stitches left…"
+msgstr "Maschen links einfügen…"
+
+msgid "Insert stitches right…"
+msgstr "Maschen rechts einfügen…"
+
+msgid "Delete selected stitches"
+msgstr "Ausgewählte Maschen löschen"
+
+msgid "Make selected rows a row repeat…"
+msgstr "Ausgewählte Reihen zur Reihenwiederholung machen…"
+
+msgid "Delete row repeat"
+msgstr "Reihenwiederholung löschen"
+
+msgid "&View"
+msgstr "&Ansicht"
+
+msgid "Zoom &in"
+msgstr "&Vergrößern"
+
+msgid "Zoom &out"
+msgstr "&Verkleinern"
+
+msgid "&Reset zoom"
+msgstr "Zoom &zurücksetzen"
+
+msgid "Open pattern"
+msgstr "Muster öffnen"
+
+msgid "Charto patterns (*.spf)"
+msgstr "Charto-Muster (*.spf)"
+
+msgid "All files (*)"
+msgstr "Alle Dateien (*)"
+
+msgid "Save pattern"
+msgstr "Muster speichern"
+
+msgid "Choose a colour"
+msgstr "Farbe wählen"
+
+msgid "Export as PNG image"
+msgstr "Als PNG-Bild exportieren"
+
+msgid "PNG images (*.png)"
+msgstr "PNG-Bilder (*.png)"
+
+msgid "Export as SVG drawing"
+msgstr "Als SVG-Zeichnung exportieren"
+
+msgid "SVG drawings (*.svg)"
+msgstr "SVG-Zeichnungen (*.svg)"
+
+msgid "Unsaved changes"
+msgstr "Ungespeicherte Änderungen"
+
+msgid "The pattern has unsaved changes. Save them first?"
+msgstr "Das Muster hat ungespeicherte Änderungen. Zuerst speichern?"
+
+msgid "Recovered changes"
+msgstr "Wiederhergestellte Änderungen"
+
+msgid "Charto found unsaved changes to this pattern from an earlier session. Open the recovered version?"
+msgstr "Charto hat ungespeicherte Änderungen an diesem Muster aus einer früheren Sitzung gefunden. Die wiederhergestellte Version öffnen?"
+
+msgid "Row label"
+msgstr "Reihenbeschriftung"
+
+msgid "Stitch label"
+msgstr "Maschenbeschriftung"
+
+msgid "Row highlight colour"
+msgstr "Hervorhebungsfarbe der Reihen"
+
+msgid "Preferences"
+msgstr "Einstellungen"
+
+msgid "Chart"
+msgstr "Strickschrift"
+
+msgid "Cell width (pixels)"
+msgstr "Zellbreite (Pixel)"
+
+msgid "Cell height (pixels)"
+msgstr "Zellhöhe (Pixel)"
+
+msgid "Row labels"
+msgstr "Reihenbeschriftungen"
+
+msgid "Show"
+msgstr "Anzeigen"
+
+msgid "All rows"
+msgstr "Alle Reihen"
+
+msgid "Every n-th row"
+msgstr "Jede n-te Reihe"
+
+msgid "Odd rows"
+msgstr "Ungerade Reihen"
+
+msgid "Even rows"
+msgstr "Gerade Reihen"
+
+msgid "Number of the bottom row"
+msgstr "Nummer der untersten Reihe"
+
+msgid "Interval (n)"
+msgstr "Intervall (n)"
+
+msgid "First numbered row of the interval"
+msgstr "Erste nummerierte Reihe des Intervalls"
+
+msgid "Odd rows are labelled on the"
+msgstr "Ungerade Reihen beschriften:"
+
+msgid "left"
+msgstr "links"
+
+msgid "right"
+msgstr "rechts"
+
+msgid "Even rows are labelled on the"
+msgstr "Gerade Reihen beschriften:"
+
+msgid "Row labels can be edited (double-click)"
+msgstr "Reihenbeschriftungen lassen sich bearbeiten (Doppelklick)"
+
+msgid "Stitch labels"
+msgstr "Maschenbeschriftungen"
+
+msgid "All stitches"
+msgstr "Alle Maschen"
+
+msgid "Every n-th stitch"
+msgstr "Jede n-te Masche"
+
+msgid "First numbered stitch of the interval"
+msgstr "Erste nummerierte Masche des Intervalls"
+
+msgid "Stitch labels can be edited (double-click)"
+msgstr "Maschenbeschriftungen lassen sich bearbeiten (Doppelklick)"
+
+msgid "Row highlighting"
+msgstr "Reihenhervorhebung"
+
+msgid "Highlight every other row"
+msgstr "Jede zweite Reihe hervorheben"
+
+msgid "Highlight"
+msgstr "Hervorheben"
+
+msgid "odd rows (1, 3, 5, …)"
+msgstr "ungerade Reihen (1, 3, 5, …)"
+
+msgid "even rows (2, 4, 6, …)"
+msgstr "gerade Reihen (2, 4, 6, …)"
+
+msgid "Strength (%)"
+msgstr "Stärke (%)"
+
+msgid "Colour"
+msgstr "Farbe"
+
+msgid "Fonts"
+msgstr "Schriftarten"
+
+msgid "Label font"
+msgstr "Beschriftungsschrift"
+
+msgid "Label size"
+msgstr "Beschriftungsgröße"
+
+msgid "Legend font"
+msgstr "Legendenschrift"
+
+msgid "Legend size"
+msgstr "Legendengröße"
+
+msgid "New pattern"
+msgstr "Neues Muster"
+
+msgid "Rows"
+msgstr "Reihen"
+
+msgid "Stitches"
+msgstr "Maschen"
+
+msgid "Paste here"
+msgstr "Hier einfügen"
+
+msgid "Select row"
+msgstr "Reihe auswählen"
+
+msgid "Select stitch column"
+msgstr "Maschenspalte auswählen"
+
+msgid "Select all cells with this colour"
+msgstr "Alle Zellen dieser Farbe auswählen"
+
+msgid "Select all cells with this symbol"
+msgstr "Alle Zellen mit diesem Symbol auswählen"
+
+msgid "Mode"
+msgstr "Modus"
+
+msgid "Select"
+msgstr "Auswählen"
+
+msgid "Hide"
+msgstr "Ausblenden"
+
+msgid "Unhide"
+msgstr "Einblenden"
+
+msgid "Recently used"
+msgstr "Zuletzt verwendet"
+
+msgid "Symbols (none active)"
+msgstr "Symbole (keines aktiv)"
+
+msgid "Symbols – active: %1"
+msgstr "Symbole – aktiv: %1"
+
+msgid "%1 × %2 cells   selected: %3"
+msgstr "%1 × %2 Zellen   ausgewählt: %3"
+
+msgid "Open"
+msgstr "Öffnen"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Export"
+msgstr "Exportieren"
+
+msgid "paint cells"
+msgstr "Symbole setzen"
+
+msgid "clear selection"
+msgstr "Auswahl aufheben"
+
+msgid "color selected cells"
+msgstr "Ausgewählte Zellen färben"
+
+msgid "hide cells"
+msgstr "Zellen ausblenden"
+
+msgid "unhide cells"
+msgstr "Zellen einblenden"
+
+msgid "copy selection"
+msgstr "Auswahl kopieren"
+
+msgid "paste cells"
+msgstr "Zellen einfügen"
+
+msgid "insert rows"
+msgstr "Reihen einfügen"
+
+msgid "delete rows"
+msgstr "Reihen löschen"
+
+msgid "insert stitches"
+msgstr "Maschen einfügen"
+
+msgid "delete stitches"
+msgstr "Maschen löschen"
+
+msgid "select cells"
+msgstr "Zellen auswählen"
+
+msgid "edit row label"
+msgstr "Reihenbeschriftung bearbeiten"
+
+msgid "edit stitch label"
+msgstr "Maschenbeschriftung bearbeiten"
+
+msgid "add row repeat"
+msgstr "Reihenwiederholung hinzufügen"
+
+msgid "delete row repeat"
+msgstr "Reihenwiederholung löschen"
+
+msgid "3 stitch cables"
+msgstr "Zöpfe mit 3 Maschen"
+
+msgid "4 stitch cables"
+msgstr "Zöpfe mit 4 Maschen"
+
+msgid "5 stitch cables"
+msgstr "Zöpfe mit 5 Maschen"
+
+msgid "6 stitch cables"
+msgstr "Zöpfe mit 6 Maschen"
+
+msgid "increases"
+msgstr "Zunahmen"
+
+msgid "decreases"
+msgstr "Abnahmen"
+
+msgid "7 stitch cables"
+msgstr "Zöpfe mit 7 Maschen"
+
+msgid "special"
+msgstr "Spezial"
+
+msgid "basic"
+msgstr "Grundlagen"
+
+msgid "2 stitch cables"
+msgstr "Zöpfe mit 2 Maschen"
+
+msgid "1 over 2 left"
+msgstr "1 über 2 nach links"
+
+msgid "1 over 2 left-purl"
+msgstr "1 über 2 nach links (links gestrickt)"
+
+msgid "1 over 2 right"
+msgstr "1 über 2 nach rechts"
+
+msgid "1 over 2 right-purl"
+msgstr "1 über 2 nach rechts (links gestrickt)"
+
+msgid "1 over 3 left"
+msgstr "1 über 3 nach links"
+
+msgid "1 over 3 left-purl"
+msgstr "1 über 3 nach links (links gestrickt)"
+
+msgid "1 over 3 right"
+msgstr "1 über 3 nach rechts"
+
+msgid "1 over 3 right-purl"
+msgstr "1 über 3 nach rechts (links gestrickt)"
+
+msgid "1overKPKleft"
+msgstr "1 über KPK nach links"
+
+msgid "1overKPKright"
+msgstr "1 über KPK nach rechts"
+
+msgid "1overPKPleft"
+msgstr "1 über PKP nach links"
+
+msgid "1overPKPright"
+msgstr "1 über PKP nach rechts"
+
+msgid "2 over 1 left"
+msgstr "2 über 1 nach links"
+
+msgid "2 over 1 left-purl"
+msgstr "2 über 1 nach links (links gestrickt)"
+
+msgid "2 over 1 right"
+msgstr "2 über 1 nach rechts"
+
+msgid "2 over 1 right-purl"
+msgstr "2 über 1 nach rechts (links gestrickt)"
+
+msgid "2 over 2 left"
+msgstr "2 über 2 nach links"
+
+msgid "2 over 2 left-purl"
+msgstr "2 über 2 nach links (links gestrickt)"
+
+msgid "2 over 2 right"
+msgstr "2 über 2 nach rechts"
+
+msgid "2 over 2 right-purl"
+msgstr "2 über 2 nach rechts (links gestrickt)"
+
+msgid "2 over 3 left"
+msgstr "2 über 3 nach links"
+
+msgid "2 over 3 left-purl"
+msgstr "2 über 3 nach links (links gestrickt)"
+
+msgid "2 over 3 right"
+msgstr "2 über 3 nach rechts"
+
+msgid "2 over 3 right-purl"
+msgstr "2 über 3 nach rechts (links gestrickt)"
+
+msgid "2 over KPK left"
+msgstr "2 über KPK nach links"
+
+msgid "2 over KPK right"
+msgstr "2 über KPK nach rechts"
+
+msgid "2overP2Kleft"
+msgstr "2 über P2K nach links"
+
+msgid "2overP2Kright"
+msgstr "2 über P2K nach rechts"
+
+msgid "2 over PKP left"
+msgstr "2 über PKP nach links"
+
+msgid "2 over PKP right"
+msgstr "2 über PKP nach rechts"
+
+msgid "3 over 1 left"
+msgstr "3 über 1 nach links"
+
+msgid "3 over 1 left-purl"
+msgstr "3 über 1 nach links (links gestrickt)"
+
+msgid "3 over 1 right"
+msgstr "3 über 1 nach rechts"
+
+msgid "3 over 1 right-purl"
+msgstr "3 über 1 nach rechts (links gestrickt)"
+
+msgid "3 over 2 left"
+msgstr "3 über 2 nach links"
+
+msgid "3 over 2 left-purl"
+msgstr "3 über 2 nach links (links gestrickt)"
+
+msgid "3 over 2 right"
+msgstr "3 über 2 nach rechts"
+
+msgid "3 over 2 right-purl"
+msgstr "3 über 2 nach rechts (links gestrickt)"
+
+msgid "3 over 3 left"
+msgstr "3 über 3 nach links"
+
+msgid "3 over 3 left-purl"
+msgstr "3 über 3 nach links (links gestrickt)"
+
+msgid "3 over 3 right"
+msgstr "3 über 3 nach rechts"
+
+msgid "3 over 3 right-purl"
+msgstr "3 über 3 nach rechts (links gestrickt)"
+
+msgid "4 increase"
+msgstr "Zunahme auf 4 Maschen"
+
+msgid "4over1left"
+msgstr "4 über 1 nach links"
+
+msgid "4over1left-purl"
+msgstr "4 über 1 nach links (links gestrickt)"
+
+msgid "4over1right"
+msgstr "4 über 1 nach rechts"
+
+msgid "4over1right-purl"
+msgstr "4 über 1 nach rechts (links gestrickt)"
+
+msgid "4tog decrease"
+msgstr "4 Maschen zusammenstricken"
+
+msgid "5 increase"
+msgstr "Zunahme auf 5 Maschen"
+
+msgid "5tog decrease"
+msgstr "5 Maschen zusammenstricken"
+
+msgid "C7left"
+msgstr "C7 nach links"
+
+msgid "C7right"
+msgstr "C7 nach rechts"
+
+msgid "bind 2 knit"
+msgstr "2 rechte Maschen überziehen"
+
+msgid "bind 2 purl"
+msgstr "2 linke Maschen überziehen"
+
+msgid "bobble"
+msgstr "Noppe"
+
+msgid "centered double decrease"
+msgstr "doppelte Abnahme zur Mitte"
+
+msgid "centered double increase"
+msgstr "doppelte Zunahme zur Mitte"
+
+msgid "closed ring"
+msgstr "geschlossener Ring"
+
+msgid "double decrease"
+msgstr "doppelte Abnahme"
+
+msgid "elongated"
+msgstr "langgezogene Masche"
+
+msgid "elongated twice"
+msgstr "doppelt langgezogene Masche"
+
+msgid "k1, p1, k1 increase"
+msgstr "Zunahme: rechts, links, rechts"
+
+msgid "k1, yo, k1 increase"
+msgstr "Zunahme: rechts, Umschlag, rechts"
+
+msgid "k2tog"
+msgstr "2 Maschen rechts zusammenstricken"
+
+msgid "k3tog"
+msgstr "3 Maschen rechts zusammenstricken"
+
+msgid "kfb"
+msgstr "rechts vorn und hinten abstricken"
+
+msgid "knit"
+msgstr "rechte Masche"
+
+msgid "ktbl"
+msgstr "rechts verschränkt"
+
+msgid "LT"
+msgstr "Kreuzung nach links (1 Masche)"
+
+msgid "lt_yo"
+msgstr "Kreuzung nach links mit Umschlag"
+
+msgid "LTp"
+msgstr "Kreuzung nach links mit linker Masche"
+
+msgid "M1"
+msgstr "Zunahme"
+
+msgid "M1-p"
+msgstr "Zunahme links"
+
+msgid "make 1 left"
+msgstr "Zunahme nach links geneigt"
+
+msgid "make 1 right"
+msgstr "Zunahme nach rechts geneigt"
+
+msgid "nostitch"
+msgstr "keine Masche"
+
+msgid "nupp"
+msgstr "Nupp"
+
+msgid "p2tog"
+msgstr "2 Maschen links zusammenstricken"
+
+msgid "p2tog tbl"
+msgstr "2 Maschen links verschränkt zusammenstricken"
+
+msgid "ptbl"
+msgstr "links verschränkt"
+
+msgid "purl"
+msgstr "linke Masche"
+
+msgid "RT"
+msgstr "Kreuzung nach rechts (1 Masche)"
+
+msgid "rt_yo"
+msgstr "Kreuzung nach rechts mit Umschlag"
+
+msgid "RTp"
+msgstr "Kreuzung nach rechts mit linker Masche"
+
+msgid "sl1wyib"
+msgstr "Masche abheben, Faden hinten"
+
+msgid "sl1wyif"
+msgstr "Masche abheben, Faden vorn"
+
+msgid "ssk"
+msgstr "Abnahme nach links (ssk)"
+
+msgid "yo"
+msgstr "Umschlag"
+
+msgid "slip 1 st to cn and hold in front, k2 sts from left needle, k1 st from cn"
+msgstr "1 Masche auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 2 Maschen rechts von der linken Nadel, 1 Masche rechts von der Zopfnadel"
+
+msgid "slip 1 st to cn and hold in front, p2 sts from left needle, k1 st from cn"
+msgstr "1 Masche auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 2 Maschen links von der linken Nadel, 1 Masche rechts von der Zopfnadel"
+
+msgid "slip 2 sts to cn and hold in back, k1 st from left needle, k2 sts from cn"
+msgstr "2 Maschen auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 1 Masche rechts von der linken Nadel, 2 Maschen rechts von der Zopfnadel"
+
+msgid "slip 2 sts to cn and hold in back, k1 st from left needle, p2 sts from cn"
+msgstr "2 Maschen auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 1 Masche rechts von der linken Nadel, 2 Maschen links von der Zopfnadel"
+
+msgid "slip 1 st to cn and hold in front, k3 sts from left needle, k1 st from cn"
+msgstr "1 Masche auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 3 Maschen rechts von der linken Nadel, 1 Masche rechts von der Zopfnadel"
+
+msgid "slip 1 st to cn and hold in front, p3 sts from left needle, k1 st from cn"
+msgstr "1 Masche auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 3 Maschen links von der linken Nadel, 1 Masche rechts von der Zopfnadel"
+
+msgid "slip 3 sts to cn and hold in back, k1 st from left needle, k3 sts from cn"
+msgstr "3 Maschen auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 1 Masche rechts von der linken Nadel, 3 Maschen rechts von der Zopfnadel"
+
+msgid "slip 3 sts to cn and hold in back, k1 st from left needle, p3 sts from cn"
+msgstr "3 Maschen auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 1 Masche rechts von der linken Nadel, 3 Maschen links von der Zopfnadel"
+
+msgid "slip 1 st to cn and hold in front, k1, p1, k1, then k1 from cn"
+msgstr "1 Masche auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 1 Masche rechts, 1 Masche links, 1 Masche rechts, dann 1 Masche rechts von der Zopfnadel"
+
+msgid "slip 3 sts to cn and hold in back, k1, then k1, p1, k1 from cn"
+msgstr "3 Maschen auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 1 Masche rechts, dann 1 Masche rechts, 1 Masche links, 1 Masche rechts von der Zopfnadel"
+
+msgid "slip 1 st to cn and hold in front, p1, k1, p1, then k1 from cn"
+msgstr "1 Masche auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 1 Masche links, 1 Masche rechts, 1 Masche links, dann 1 Masche rechts von der Zopfnadel"
+
+msgid "slip 3 sts to cn and hold in back, k1, then p1, k1, p1 from cn"
+msgstr "3 Maschen auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 1 Masche rechts, dann 1 Masche links, 1 Masche rechts, 1 Masche links von der Zopfnadel"
+
+msgid "slip 2 sts to cn and hold in front, k1 sts from left needle, k2 sts from cn"
+msgstr "2 Maschen auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 1 Masche rechts von der linken Nadel, 2 Maschen rechts von der Zopfnadel"
+
+msgid "slip 2 sts to cn and hold in front, p1 sts from left needle, k2 sts from cn"
+msgstr "2 Maschen auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 1 Masche links von der linken Nadel, 2 Maschen rechts von der Zopfnadel"
+
+msgid "slip 1 st to cn and hold in back, k2 sts from left needle, k1 st from cn"
+msgstr "1 Masche auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 2 Maschen rechts von der linken Nadel, 1 Masche rechts von der Zopfnadel"
+
+msgid "slip 1 st to cn and hold in back, k2 sts from left needle, p1 st from cn"
+msgstr "1 Masche auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 2 Maschen rechts von der linken Nadel, 1 Masche links von der Zopfnadel"
+
+msgid "slip 2 sts to cn and hold in front, k2 sts from left needle, k2 sts from cn"
+msgstr "2 Maschen auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 2 Maschen rechts von der linken Nadel, 2 Maschen rechts von der Zopfnadel"
+
+msgid "slip 2 sts to cn and hold in front, p2 sts from left needle, k2 sts from cn"
+msgstr "2 Maschen auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 2 Maschen links von der linken Nadel, 2 Maschen rechts von der Zopfnadel"
+
+msgid "slip 2 sts to cn and hold in back, k2 sts from left needle, k2 sts from cn"
+msgstr "2 Maschen auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 2 Maschen rechts von der linken Nadel, 2 Maschen rechts von der Zopfnadel"
+
+msgid "slip 2 sts to cn and hold in back, k2 sts from left needle, p2 sts from cn"
+msgstr "2 Maschen auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 2 Maschen rechts von der linken Nadel, 2 Maschen links von der Zopfnadel"
+
+msgid "slip 2 sts to cn and hold in front, k3 sts from left needle, k2 sts from cn"
+msgstr "2 Maschen auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 3 Maschen rechts von der linken Nadel, 2 Maschen rechts von der Zopfnadel"
+
+msgid "slip 2 sts to cn and hold in front, p3 sts from left needle, k2 sts from cn"
+msgstr "2 Maschen auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 3 Maschen links von der linken Nadel, 2 Maschen rechts von der Zopfnadel"
+
+msgid "slip 3 sts to cn and hold in back, k2 sts from left needle, k3 sts from cn"
+msgstr "3 Maschen auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 2 Maschen rechts von der linken Nadel, 3 Maschen rechts von der Zopfnadel"
+
+msgid "slip 3 sts to cn and hold in back, k2 sts from left needle, p3 sts from cn"
+msgstr "3 Maschen auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 2 Maschen rechts von der linken Nadel, 3 Maschen links von der Zopfnadel"
+
+msgid "slip 2 sts to cn and hold in front, k1, p1, k1, then k2 from cn"
+msgstr "2 Maschen auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 1 Masche rechts, 1 Masche links, 1 Masche rechts, dann 2 Maschen rechts von der Zopfnadel"
+
+msgid "slip 3 sts to cn and hold in back, k2, then k1, p1, k1 from cn"
+msgstr "3 Maschen auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 2 Maschen rechts, dann 1 Masche rechts, 1 Masche links, 1 Masche rechts von der Zopfnadel"
+
+msgid "slip 3 sts to cn and hold in front, k2, slip last st from cn to needle, p1, then k2 from cn"
+msgstr "3 Maschen auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 2 Maschen rechts, letzte Masche von der Zopfnadel auf die Nadel legen, 1 Masche links, dann 2 Maschen rechts von der Zopfnadel"
+
+msgid "slip 3 sts to cn and hold in back, k2, slip last st from cn to needle, p1, then k2 from cn"
+msgstr "3 Maschen auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 2 Maschen rechts, letzte Masche von der Zopfnadel auf die Nadel legen, 1 Masche links, dann 2 Maschen rechts von der Zopfnadel"
+
+msgid "slip 2 sts to cn and hold in front, p1, k1, p1, then k2 from cn"
+msgstr "2 Maschen auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 1 Masche links, 1 Masche rechts, 1 Masche links, dann 2 Maschen rechts von der Zopfnadel"
+
+msgid "slip 3 sts to cn and hold in back, k2, then p1, k1, p1 from cn"
+msgstr "3 Maschen auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 2 Maschen rechts, dann 1 Masche links, 1 Masche rechts, 1 Masche links von der Zopfnadel"
+
+msgid "slip 3 sts to cn and hold in front, k1 st from left needle, k3 sts from cn"
+msgstr "3 Maschen auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 1 Masche rechts von der linken Nadel, 3 Maschen rechts von der Zopfnadel"
+
+msgid "slip 3 sts to cn and hold in front, p1 st from left needle, k3 sts from cn"
+msgstr "3 Maschen auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 1 Masche links von der linken Nadel, 3 Maschen rechts von der Zopfnadel"
+
+msgid "slip 1 st to cn and hold in back, k3 sts from left needle, k1 st from cn"
+msgstr "1 Masche auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 3 Maschen rechts von der linken Nadel, 1 Masche rechts von der Zopfnadel"
+
+msgid "slip 1 st to cn and hold in back, k3 sts from left needle, p1 st from cn"
+msgstr "1 Masche auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 3 Maschen rechts von der linken Nadel, 1 Masche links von der Zopfnadel"
+
+msgid "slip 3 sts to cn and hold in front, k2 sts from left needle, k3 sts from cn"
+msgstr "3 Maschen auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 2 Maschen rechts von der linken Nadel, 3 Maschen rechts von der Zopfnadel"
+
+msgid "slip 3 sts to cn and hold in front, p2 sts from left needle, k3 sts from cn"
+msgstr "3 Maschen auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 2 Maschen links von der linken Nadel, 3 Maschen rechts von der Zopfnadel"
+
+msgid "slip 2 sts to cn and hold in back, k3 sts from left needle, k2 sts from cn"
+msgstr "2 Maschen auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 3 Maschen rechts von der linken Nadel, 2 Maschen rechts von der Zopfnadel"
+
+msgid "slip 2 sts to cn and hold in back, k3 sts from left needle, p2 sts from cn"
+msgstr "2 Maschen auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 3 Maschen rechts von der linken Nadel, 2 Maschen links von der Zopfnadel"
+
+msgid "slip 3 sts to cn and hold in front, k3 sts from left needle, k3 sts from cn"
+msgstr "3 Maschen auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 3 Maschen rechts von der linken Nadel, 3 Maschen rechts von der Zopfnadel"
+
+msgid "slip 3 sts to cn and hold in front, p3 sts from left needle, k3 sts from cn"
+msgstr "3 Maschen auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 3 Maschen links von der linken Nadel, 3 Maschen rechts von der Zopfnadel"
+
+msgid "slip 3 sts to cn and hold in back, k3 sts from left needle, k3 sts from cn"
+msgstr "3 Maschen auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 3 Maschen rechts von der linken Nadel, 3 Maschen rechts von der Zopfnadel"
+
+msgid "slip 3 sts to cn and hold in back, k3 sts from left needle, p3 sts from cn"
+msgstr "3 Maschen auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 3 Maschen rechts von der linken Nadel, 3 Maschen links von der Zopfnadel"
+
+msgid "k1, p1, k1, p1 into same stitch"
+msgstr "1 re, 1 li, 1 re, 1 li in dieselbe Masche"
+
+msgid "slip 4 sts to cn and hold in front, k1 st from left needle, k4 sts from cn"
+msgstr "4 Maschen auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 1 Masche rechts von der linken Nadel, 4 Maschen rechts von der Zopfnadel"
+
+msgid "slip 4 sts to cn and hold in front, p1 st from left needle, k4 sts from cn"
+msgstr "4 Maschen auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 1 Masche links von der linken Nadel, 4 Maschen rechts von der Zopfnadel"
+
+msgid "slip 1 st to cn and hold in back, k4 sts from left needle, k1 st from cn"
+msgstr "1 Masche auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 4 Maschen rechts von der linken Nadel, 1 Masche rechts von der Zopfnadel"
+
+msgid "slip 1 st to cn and hold in back, k4 sts from left needle, p1 st from cn"
+msgstr "1 Masche auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 4 Maschen rechts von der linken Nadel, 1 Masche links von der Zopfnadel"
+
+msgid "Ssk, k2tog, then pass the ssk over the k2tog"
+msgstr "ssk, 2 Maschen rechts zusammenstricken, dann das ssk darüberziehen"
+
+msgid "k1 ,yo, k1, yo, k1 into same stitch"
+msgstr "1 re, Umschlag, 1 re, Umschlag, 1 re in dieselbe Masche"
+
+msgid "Sl next 3 sts to right hand needle.  *Pass 2nd st on right hand needle over 1st st, sl 1st st to left hand needle.  Then pass 2nd st on left hand needle over same 1st st, and sl 1st st back to right hand needle.*  Rep from * to * once more. Then purl 1st st."
+msgstr "Die nächsten 3 Maschen auf die rechte Nadel abheben. *Die 2. Masche auf der rechten Nadel über die 1. ziehen, die 1. Masche auf die linke Nadel zurückheben. Dann die 2. Masche auf der linken Nadel über dieselbe 1. Masche ziehen und die 1. Masche zurück auf die rechte Nadel heben.* Von * bis * noch einmal wiederholen. Dann die 1. Masche links stricken."
+
+msgid "slip 3 sts to cn and hold in front, k3 sts from left needle, p1, k3 sts from cn"
+msgstr "3 Maschen auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 3 Maschen rechts von der linken Nadel, 1 Masche links, 3 Maschen rechts von der Zopfnadel"
+
+msgid "slip 4 sts to cn and hold in back, k3 sts from left needle, p1, k3 sts from cn"
+msgstr "4 Maschen auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 3 Maschen rechts von der linken Nadel, 1 Masche links, 3 Maschen rechts von der Zopfnadel"
+
+msgid "yo, k2, pass yo over 2 knit stitches"
+msgstr "Umschlag, 2 rechts, den Umschlag über die 2 rechten Maschen ziehen"
+
+msgid "yo, p2, pass yo over 2 purl stitches"
+msgstr "Umschlag, 2 links, den Umschlag über die 2 linken Maschen ziehen"
+
+msgid "(k1, yo, k1, yo, k1) into next st, turn, p5 sts, turn, ssk, k1, k2tog, turn, p3, turn, sl 2 sts knitwise, k1, pass 2 slipped sts over"
+msgstr "(1 re, Umschlag, 1 re, Umschlag, 1 re) in die nächste Masche, wenden, 5 Maschen links, wenden, ssk, 1 re, 2 re zusammenstricken, wenden, 3 links, wenden, 2 Maschen wie zum Rechtsstricken abheben, 1 re, die 2 abgehobenen Maschen darüberziehen"
+
+msgid "slip 2 sts knitwise, k1 st from left needle, pass 2 slipped sts over"
+msgstr "2 Maschen wie zum Rechtsstricken abheben, 1 Masche rechts von der linken Nadel stricken, die 2 abgehobenen Maschen darüberziehen"
+
+msgid "knit in back and front of same st, then pick up vertical strand that runs between those 2 sts and knit it through the back"
+msgstr "in dieselbe Masche hinten und vorn rechts einstechen und stricken, dann den senkrechten Querfaden zwischen diesen 2 Maschen aufnehmen und rechts verschränkt stricken"
+
+msgid "Insert right needle into third st on left needle and pass this st over first 2 sts on left needle; k1, yo, k1."
+msgstr "mit der rechten Nadel in die 3. Masche auf der linken Nadel einstechen und sie über die ersten 2 Maschen ziehen; 1 re, Umschlag, 1 re"
+
+msgid "slip 1 st knitwise, k2 sts together from left needle, pass slipped stitch over"
+msgstr "1 Masche wie zum Rechtsstricken abheben, 2 Maschen von der linken Nadel rechts zusammenstricken, die abgehobene Masche darüberziehen"
+
+msgid "Knit 1 stitch wrapping yarn twice, then on next row drop extra wrap from needle"
+msgstr "1 Masche stricken und den Faden zweimal umwickeln, in der nächsten Reihe die zusätzliche Umwicklung von der Nadel fallen lassen"
+
+msgid "Knit 1 stitch wrapping yarn 3 times, then on next row drop extra wraps from needle"
+msgstr "1 Masche stricken und den Faden dreimal umwickeln, in der nächsten Reihe die zusätzlichen Umwicklungen von der Nadel fallen lassen"
+
+msgid "k1, p1, k1 into same stitch"
+msgstr "1 re, 1 li, 1 re in dieselbe Masche"
+
+msgid "k1, leaving stitch on left hand needle, yo, k1 into same stitch"
+msgstr "1 re, die Masche auf der linken Nadel lassen, Umschlag, 1 re in dieselbe Masche"
+
+msgid "Knit 2 together"
+msgstr "2 Maschen rechts zusammenstricken"
+
+msgid "Knit 3 together"
+msgstr "3 Maschen rechts zusammenstricken"
+
+msgid "knit front and back of same st"
+msgstr "dieselbe Masche vorn und hinten rechts stricken"
+
+msgid "knit on RS; purl on WS"
+msgstr "auf der rechten Seite rechts, auf der linken Seite links stricken"
+
+msgid "knit through back loop"
+msgstr "rechts verschränkt stricken"
+
+msgid "slip 1 st to cn and hold in front, k1 from left needle, k1 st from cn"
+msgstr "1 Masche auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 1 Masche rechts von der linken Nadel, 1 Masche rechts von der Zopfnadel"
+
+msgid "slip 1 st to cn and hold in front, k1 from left needle, yo, k1 st from cn"
+msgstr "1 Masche auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 1 Masche rechts von der linken Nadel, Umschlag, 1 Masche rechts von der Zopfnadel"
+
+msgid "slip 1 st to cn and hold in front, p1 from left needle, k1 st from cn"
+msgstr "1 Masche auf eine Zopfnadel legen und vor der Arbeit liegen lassen, 1 Masche links von der linken Nadel, 1 Masche rechts von der Zopfnadel"
+
+msgid "make 1"
+msgstr "1 Masche zunehmen"
+
+msgid "make 1 purl"
+msgstr "1 Masche links zunehmen"
+
+msgid "With left needle, lift strand between sts from the front and knit through the back loop"
+msgstr "mit der linken Nadel den Querfaden zwischen den Maschen von vorn aufnehmen und rechts verschränkt stricken"
+
+msgid "With left needle, lift strand between sts from the back and knit through the front loop"
+msgstr "mit der linken Nadel den Querfaden zwischen den Maschen von hinten aufnehmen und rechts stricken (vorderes Maschenglied)"
+
+msgid "no stitch (ignore this space)"
+msgstr "keine Masche (dieses Feld überspringen)"
+
+msgid "Nupp: knit into stitch, leaving it on left hand needle, * YO, knit into stitch again, rep from * until there are 7 sts from 1 st.  On next row, work 7 sts together back to 1 st."
+msgstr "Nupp: die Masche rechts stricken, aber auf der linken Nadel lassen, * Umschlag, dieselbe Masche erneut rechts stricken, ab * wiederholen, bis aus 1 Masche 7 Maschen geworden sind. In der nächsten Reihe die 7 Maschen wieder zu 1 Masche zusammenstricken."
+
+msgid "Purl 2 together"
+msgstr "2 Maschen links zusammenstricken"
+
+msgid "Purl 2 together through the back loop"
+msgstr "2 Maschen links verschränkt zusammenstricken"
+
+msgid "purl through back loop"
+msgstr "links verschränkt stricken"
+
+msgid "purl on RS; knit on WS"
+msgstr "auf der rechten Seite links, auf der linken Seite rechts stricken"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, k1 st from cn"
+msgstr "1 Masche auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 1 Masche rechts von der linken Nadel, 1 Masche rechts von der Zopfnadel"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, yo, k1 st from cn"
+msgstr "1 Masche auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 1 Masche rechts von der linken Nadel, Umschlag, 1 Masche rechts von der Zopfnadel"
+
+msgid "slip 1 st to cn and hold in back, k1 from left needle, p1 st from cn"
+msgstr "1 Masche auf eine Zopfnadel legen und hinter der Arbeit liegen lassen, 1 Masche rechts von der linken Nadel, 1 Masche links von der Zopfnadel"
+
+msgid "Slip 1 stitch purlwise with yarn in back"
+msgstr "1 Masche wie zum Linksstricken abheben, Faden hinter der Arbeit"
+
+msgid "Slip 1 stitch purlwise with yarn in front"
+msgstr "1 Masche wie zum Linksstricken abheben, Faden vor der Arbeit"
+
+msgid "Slip, slip, knit"
+msgstr "2 Maschen einzeln abheben, dann zusammen rechts stricken"
+
+msgid "yarn over"
+msgstr "Umschlag"

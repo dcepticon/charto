@@ -250,23 +250,11 @@ cargo::rerun-if-changed=src/qml/qqmlengine.cpp
 cargo::rerun-if-changed=src/qml/qqmlimageproviderbase.cpp
 cargo::rerun-if-changed=src/core/qdatetime.cpp
 cargo::rerun-if-changed=src/core/qtimezone.cpp
-cxx-qt-build: Discovered dependency `cxx-qt` at: /home/fibrely/charto-testing/charto/target/release/build/cxx-qt-339a44c637ef68f5/out/cxxqtbuild/manifest.json
-cargo::warning=Neither mold, lld, nor gold linkers were found. Linking with GNU ld.bfd will likely fail.
+cxx-qt-build: Discovered dependency `cxx-qt` at: /home/fibrely/charto/target/release/build/cxx-qt-339a44c637ef68f5/out/cxxqtbuild/manifest.json
+cargo::rustc-link-arg=-fuse-ld=lld
 cargo::rerun-if-env-changed=QMAKE
 cargo::rerun-if-env-changed=QT_VERSION_MAJOR
 cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
-cargo::rustc-link-lib=Qt6Qml
-cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
-cargo::rustc-link-lib=Qt6Network
-cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
-cargo::rustc-link-lib=Qt6Core
-cargo::rustc-link-lib=Qt6Gui
-cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
-cargo::rustc-link-lib=Qt6Core
-cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
-cargo::rustc-link-lib=GLX
-cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
-cargo::rustc-link-lib=OpenGL
 cargo::rustc-link-lib=Qt6Core
 cargo::rustc-link-lib=Qt6QuickControls2
 cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
@@ -280,6 +268,18 @@ cargo::rustc-link-lib=GLX
 cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
 cargo::rustc-link-lib=OpenGL
 cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
+cargo::rustc-link-lib=Qt6Qml
+cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
+cargo::rustc-link-lib=Qt6Network
+cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
+cargo::rustc-link-lib=Qt6Core
+cargo::rustc-link-lib=Qt6Gui
+cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
+cargo::rustc-link-lib=Qt6Core
+cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
+cargo::rustc-link-lib=GLX
+cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
+cargo::rustc-link-lib=OpenGL
 cargo::rustc-link-lib=Qt6Qml
 cargo::rustc-link-search=/usr/lib/x86_64-linux-gnu
 cargo::rustc-link-lib=Qt6Network
@@ -1116,7 +1116,7 @@ ARFLAGS_x86_64_unknown_linux_gnu = None
 cargo:rerun-if-env-changed=ARFLAGS_x86_64-unknown-linux-gnu
 ARFLAGS_x86_64-unknown-linux-gnu = None
 cargo:rustc-link-lib=static:+whole-archive=cxx-qt-call-init-crate_cxx_qt_lib
-cargo:rustc-link-search=native=/home/fibrely/charto-testing/charto/target/release/build/cxx-qt-lib-147da1dd2515d659/out
+cargo:rustc-link-search=native=/home/fibrely/charto/target/release/build/cxx-qt-lib-147da1dd2515d659/out
 cargo:rerun-if-env-changed=CXXSTDLIB_x86_64-unknown-linux-gnu
 CXXSTDLIB_x86_64-unknown-linux-gnu = None
 cargo:rerun-if-env-changed=CXXSTDLIB_x86_64_unknown_linux_gnu
@@ -1604,24 +1604,8 @@ cargo:rerun-if-env-changed=ARFLAGS_x86_64_unknown_linux_gnu
 ARFLAGS_x86_64_unknown_linux_gnu = None
 cargo:rerun-if-env-changed=ARFLAGS_x86_64-unknown-linux-gnu
 ARFLAGS_x86_64-unknown-linux-gnu = None
-cargo:rerun-if-env-changed=AR_x86_64-unknown-linux-gnu
-AR_x86_64-unknown-linux-gnu = None
-cargo:rerun-if-env-changed=AR_x86_64_unknown_linux_gnu
-AR_x86_64_unknown_linux_gnu = None
-cargo:rerun-if-env-changed=HOST_AR
-HOST_AR = None
-cargo:rerun-if-env-changed=AR
-AR = None
-cargo:rerun-if-env-changed=ARFLAGS
-ARFLAGS = None
-cargo:rerun-if-env-changed=HOST_ARFLAGS
-HOST_ARFLAGS = None
-cargo:rerun-if-env-changed=ARFLAGS_x86_64_unknown_linux_gnu
-ARFLAGS_x86_64_unknown_linux_gnu = None
-cargo:rerun-if-env-changed=ARFLAGS_x86_64-unknown-linux-gnu
-ARFLAGS_x86_64-unknown-linux-gnu = None
 cargo:rustc-link-lib=static=cxx-qt-lib-cxxqt-generated
-cargo:rustc-link-search=native=/home/fibrely/charto-testing/charto/target/release/build/cxx-qt-lib-147da1dd2515d659/out
+cargo:rustc-link-search=native=/home/fibrely/charto/target/release/build/cxx-qt-lib-147da1dd2515d659/out
 cargo:rerun-if-env-changed=CXXSTDLIB_x86_64-unknown-linux-gnu
 CXXSTDLIB_x86_64-unknown-linux-gnu = None
 cargo:rerun-if-env-changed=CXXSTDLIB_x86_64_unknown_linux_gnu
@@ -1639,4 +1623,4 @@ HOST_CXXSTDLIB_STATIC = None
 cargo:rerun-if-env-changed=CXXSTDLIB_STATIC
 CXXSTDLIB_STATIC = None
 cargo:rustc-link-lib=stdc++
-cargo::metadata=CXX_QT_MANIFEST_PATH=/home/fibrely/charto-testing/charto/target/release/build/cxx-qt-lib-147da1dd2515d659/out/cxxqtbuild/manifest.json
+cargo::metadata=CXX_QT_MANIFEST_PATH=/home/fibrely/charto/target/release/build/cxx-qt-lib-147da1dd2515d659/out/cxxqtbuild/manifest.json

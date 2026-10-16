@@ -161,11 +161,11 @@ impl Document {
     }
 
     pub fn insert_columns(&mut self, num: i32, location: ColumnLocation) -> Result<(), EditError> {
-        self.apply("insert columns", |c| c.insert_columns(num, location))
+        self.apply("insert stitches", |c| c.insert_columns(num, location))
     }
 
     pub fn delete_columns(&mut self) -> Result<(), EditError> {
-        self.apply("delete columns", |c| c.delete_columns())
+        self.apply("delete stitches", |c| c.delete_columns())
     }
 
     /// Select all cells with the same colour/symbol as the cell `key`.
@@ -181,7 +181,7 @@ impl Document {
     }
 
     pub fn set_column_label(&mut self, column: i32, text: &str) -> Result<(), EditError> {
-        self.apply("edit column label", |c| c.set_column_label(column, text))
+        self.apply("edit stitch label", |c| c.set_column_label(column, text))
     }
 
     pub fn add_row_repeat(&mut self, multiplicity: i32) -> Result<(), EditError> {

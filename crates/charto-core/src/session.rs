@@ -340,7 +340,7 @@ impl Session {
 
     pub fn new_chart(&mut self, rows: i32, columns: i32) -> Result<(), String> {
         if !(1..=MAX_DIMENSION).contains(&rows) || !(1..=MAX_DIMENSION).contains(&columns) {
-            return Err(format!("rows and columns must be between 1 and {MAX_DIMENSION}"));
+            return Err(format!("rows and stitches must be between 1 and {MAX_DIMENSION}"));
         }
         self.clear_recovery();
         let chart = Chart::new(rows, columns, default_symbol(&self.library), Color::WHITE);
