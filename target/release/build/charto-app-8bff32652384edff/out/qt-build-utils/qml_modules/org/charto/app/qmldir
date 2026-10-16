@@ -1,5 +1,0 @@
-module org.charto.app
-optional plugin org_charto_app
-classname org_charto_app_plugin
-typeinfo plugin.qmltypes
-prefer :/qt/qml/org/charto/app/
