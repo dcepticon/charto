@@ -102,7 +102,11 @@ footer p { max-width: 46rem; }
     <details open>
       <summary>Ubuntu</summary>
       <p>Each Ubuntu release needs its own file, because Charto is built against that release's Qt. Pick the one that names your version.</p>
+<<<<<<< HEAD
       <pre>sudo apt install ./charto*.deb</pre>
+=======
+      <pre>sudo apt install ./charto_*.deb</pre>
+>>>>>>> 74d7b41732faae8c28c40b1c8e48e3421a484a62
     </details>
     <details>
       <summary>Fedora</summary>
@@ -122,10 +126,16 @@ flatpak run org.charto.Charto</pre>
     <ul class="features">
       <li>88 stitch symbols, including cables, grouped by kind, with a row of recently used ones.</li>
       <li>Colour any cell, select by rubber band, row or column, and hide cells you do not need.</li>
+<<<<<<< HEAD
       <li>Row and stitch numbers, row repeats, and tinted alternate rows.</li>
       <li>Unlimited undo and redo, copy and paste, insert and delete rows and stitches.</li>
       <li>Print through your desktop's own print dialog, or export as a PNG image or an SVG drawing.</li>
       <li>Available in English, German, Spanish, French, Hindi, Italian, Japanese, Portuguese, Russian and Simplified Chinese.</li>
+=======
+      <li>Row and column numbers, row repeats, and tinted alternate rows.</li>
+      <li>Unlimited undo and redo, copy and paste, insert and delete rows and columns.</li>
+      <li>Print through your desktop's own print dialog, or export as a PNG image or an SVG drawing.</li>
+>>>>>>> 74d7b41732faae8c28c40b1c8e48e3421a484a62
       <li>Opens and saves sconcho <code>.spf</code> pattern files, so your old patterns keep working.</li>
     </ul>
   </section></div></div>
@@ -167,7 +177,11 @@ flatpak run org.charto.Charto</pre>
   var fallback = document.getElementById("fallback");
   function fail() { status.textContent = ""; fallback.hidden = false; }
   function describe(name) {
+<<<<<<< HEAD
     var ubuntu = name.match(/ubuntu[-_~]?(\d+\.\d+)/i);
+=======
+    var ubuntu = name.match(/~ubuntu(\d+\.\d+)/);
+>>>>>>> 74d7b41732faae8c28c40b1c8e48e3421a484a62
     if (/\.deb$/.test(name)) return ubuntu ? "Ubuntu " + ubuntu[1] : "Debian and Ubuntu";
     if (/\.rpm$/.test(name)) return "Fedora";
     if (/\.flatpak$/.test(name)) return "Any Linux (Flatpak)";
