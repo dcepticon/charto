@@ -6,7 +6,7 @@ Charto is a knitting-chart designer written in Rust with Qt 6. It is a port of
 work and is therefore licensed GPL-3.0-or-later (see `COPYING`). The 88 bundled symbols in
 `assets/symbols` come from the original project (their `description` files keep sconcho's
 `<sconcho>` XML format).
-
+![Charto](docs/charto.png)
 ## Status
 
 Version 3.1.0. The Qt-free core (file formats, chart editing, undo/redo) and the first Qt 6 app were
